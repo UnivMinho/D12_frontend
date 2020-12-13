@@ -37,17 +37,6 @@
     border-radius: 50%;
 }
 
-.iconArquivos {
-    width: 90px;
-    height: 88px;
-    background: url(../images/v165_1111.png);
-    opacity: 1;
-    position: absolute;
-    top: 43px;
-    left: 161px;
-    border-radius: 50%;
-}
-
 .textoArquivos {
     width: 204px;
     color: rgba(36, 47, 65, 1);

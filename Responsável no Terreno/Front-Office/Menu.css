@@ -23,6 +23,20 @@
   top: 18px;
   left: 0px;
 }
+.Menu{
+    width: 167px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 57px;
+    left: 132px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 26px;
+    opacity: 1;
+    text-align: left;
+    text-shadow:  4px 4px  #000000 25%;
+;
+}
 
 .fotografia {
   width: 85px;
@@ -117,164 +131,6 @@
   opacity: 1;
   text-align: left;
 }
-/*
-.v165_2368 {
-  width: 111px;
-  height: 48px;
-  background: url("../images/v165_2368.png");
-  opacity: 1;
-  position: absolute;
-  top: 785px;
-  left: 238px;
-  box-shadow: 0px 10px 10px rgba(1, 0.22083336114883423, 0.28858697414398193, 0.15000000596046448);
-}
-.v165_2369 {
-  width: 375px;
-  height: 92px;
-  background: rgba(250,249,249,1);
-  opacity: 1;
-  position: absolute;
-  top: 797px;
-  left: 1px;
-  box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.v165_2371 {
-  width: 60px;
-  height: 58px;
-  background: rgba(244,244,244,1);
-  opacity: 1;
-  position: absolute;
-  top: 811px;
-  left: 12px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-  overflow: hidden;
-}
-.v165_2372 {
-  width: 60px;
-  height: 58px;
-  background: rgba(244,244,244,1);
-  opacity: 1;
-  position: absolute;
-  top: 811px;
-  left: 85px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-  overflow: hidden;
-}
-.v165_2373 {
-  width: 60px;
-  height: 58px;
-  background: rgba(244,244,244,1);
-  opacity: 1;
-  position: absolute;
-  top: 811px;
-  left: 230px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-  overflow: hidden;
-}
-.v165_2374 {
-  width: 60px;
-  height: 58px;
-  background: rgba(244,244,244,1);
-  opacity: 1;
-  position: absolute;
-  top: 811px;
-  left: 304px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-  overflow: hidden;
-}
-.v165_2375 {
-  width: 28px;
-  height: 35px;
-  background: rgba(193,193,193,1);
-  opacity: 1;
-  position: absolute;
-  top: 821px;
-  left: 27px;
-}
-.v165_2376 {
-  width: 265px;
-  height: 54px;
-  background: url("../images/v165_2376.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 813px;
-  left: 86px;
-  overflow: hidden;
-}
-.v165_2377 {
-  width: 40px;
-  height: 54px;
-  background: url("../images/v165_2377.png");
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.v165_2378 {
-  width: 30px;
-  height: 30px;
-  background: rgba(193,193,193,1);
-  opacity: 1;
-  position: absolute;
-  top: 10px;
-  left: 15px;
-}
-.v165_2379 {
-  width: 33px;
-  height: 33px;
-  background: rgba(193,193,193,1);
-  opacity: 1;
-  position: absolute;
-  top: 9px;
-  left: 158px;
-}
-.v165_2380 {
-  width: 33px;
-  height: 33px;
-  background: rgba(193,193,193,1);
-  opacity: 1;
-  position: absolute;
-  top: 8px;
-  left: 232px;
-}
-.v165_2381 {
-  width: 60px;
-  height: 58px;
-  background: rgba(244,244,244,1);
-  opacity: 1;
-  position: absolute;
-  top: 810px;
-  left: 157px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-  overflow: hidden;
-}*/
 
 .caixaDefiePriv {
   width: 340px;
@@ -487,4 +343,212 @@
 }
 .name {
   color: #fff;
+}
+.bottombar {
+    width: 423px;
+    height: 92px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 1px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.firstsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 33px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.secondsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 105px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fourthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 252px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fifthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 324px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 178px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 784px;
+    left: 177px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+#iconfirstsquareMenu {
+    top: 108.5%;
+    left: 12%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconsecondsquareMenu {
+    top: 108.5%;
+    left: 29%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconthirdsquareMenu {
+    top: 108.5%;
+    left: 46%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfourthsquareMenu {
+    top: 108.5%;
+    left: 64%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfifthsquareMenu {
+    top: 108.5%;
+    left: 81%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+
+#iconeTerminarSessao{
+   color: red;
+    position: absolute;
+    top: 731px;
+    left: 48px;
+    font-size: x-large ;
+}
+#iconedefinicoes{
+   color: black;
+    position: absolute;
+    top: 547px;
+    left: 46px;
+    font-size: x-large ;
+}
+#iconeAjuda{
+   color: black;
+    position: absolute;
+    top: 311px;
+    left: 46px;
+    font-size: x-large ;
+}
+#iconeUsers{
+   color: black;
+    position: absolute;
+    top: 240px;
+    left: 46px;
+    font-size: x-large ;
+}
+#iconeSeta{
+   color: gray;
+    position: absolute;
+    top: 65px;
+    left: 34px;
+    font-size: x-large ;
+}
+#iconeComment{
+   color: gray;
+    position: absolute;
+    top: 65px;
+    left: 34px;
+    font-size: x-large ;
+}
+#iconeShield{
+   color: gray;
+    position: absolute;
+    top: 65px;
+    left: 34px;
+    font-size: x-large ;
 }
