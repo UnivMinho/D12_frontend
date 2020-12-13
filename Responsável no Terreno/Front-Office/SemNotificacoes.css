@@ -1,0 +1,225 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.screen {
+  width: 414px;
+  height: 736px;
+  background: rgba(250, 249, 249, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.rectangle {
+  width: 335px;
+  height: 94px;
+  background: rgba(245, 245, 245, 1);
+  opacity: 1;
+  position: absolute;
+  top: 13%;
+  left: 10%;
+  overflow: hidden;
+}
+
+.circle {
+  width: 124px;
+  height: 117px;
+  background: rgba(245, 245, 245, 1);
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 35%;
+  border-radius: 50%;
+}
+
+.circleicon {
+  width: 90px;
+  height: 88px;
+  background: url("../images/v160_204.png");
+  opacity: 1;
+  position: absolute;
+  top: 44px;
+  left: 150px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #fff;
+}
+
+.v160_208 {
+  width: 220px;
+  color: rgba(36, 47, 65, 1);
+  position: absolute;
+  top: 19%;
+  left: 23%;
+  font-family: Mulish;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.v162_887 {
+  width: 230px;
+  color: rgba(150, 147, 147, 1);
+  position: absolute;
+  top: 207px;
+  left: 56px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.bottombar {
+  width: 423px;
+  height: 92px;
+  background: rgba(250, 249, 249, 1);
+  opacity: 1;
+  position: absolute;
+  top: 658px;
+  left: 1px;
+  box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+
+.firstsquare {
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 667px;
+  left: 33px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
+}
+
+.secondsquare {
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 666px;
+  left: 105px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
+}
+
+.fourthsquare {
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 668px;
+  left: 252px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
+}
+
+.fifthsquare {
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 669px;
+  left: 324px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
+}
+
+.iconfirstsquare {
+  width: 28px;
+  height: 35px;
+  background: rgba(193, 193, 193, 1);
+  opacity: 1;
+  position: absolute;
+  top: 679px;
+  left: 50px;
+}
+
+.icons {
+  width: 265px;
+  height: 54px;
+  background: url(../images/v165_1057.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 670px;
+  left: 106px;
+  overflow: hidden;
+}
+
+.iconsecondsquare {
+  width: 30px;
+  height: 30px;
+  background: rgba(193, 193, 193, 1);
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.iconfourthsqaure {
+  width: 33px;
+  height: 33px;
+  background: rgba(193, 193, 193, 1);
+  opacity: 1;
+  position: absolute;
+  top: 9px;
+  left: 158px;
+}
+
+.iconfifthsqaure {
+  width: 33px;
+  height: 33px;
+  background: rgba(193, 193, 193, 1);
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  left: 232px;
+}
+
+.thirdsquare {
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 667px;
+  left: 178px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
+}

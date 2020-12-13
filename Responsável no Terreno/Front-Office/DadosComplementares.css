@@ -1,0 +1,290 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.DadosComplementares {
+    width: 316px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 20px;
+    left: 72px;
+    font-family: Mulish;
+    font-weight: Light;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputNotas {
+    width: 325px;
+    height: 173px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 130px;
+    left: 27px;
+    border: 1px solid rgba(229, 229, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+
+.botaoAdicionar {
+    position: absolute;
+    width: 129px;
+    height: 26px;
+    left: 220px;
+    top: 585px;
+    background: #EBEBEB;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+    border-radius: 32px;
+}
+
+.textoAdicionar {
+    width: 106px;
+    color: rgba(90, 93, 89, 1);
+    position: absolute;
+    top: 2px;
+    left: 14px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.textoNotas {
+    width: 45px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 114px;
+    left: 27px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoRegistarTestemunhas {
+       width: 169px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 321px;
+    left: 27px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+
+}
+
+.textoEscreva {
+     width: 295px;
+    color: rgba(150, 147, 147, 1);
+    position: absolute;
+    top: 142px;
+    left: 42px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 11px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoNome {
+    width: 49px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 347px;
+    left: 27px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputNome {
+    width: 264px;
+    height: 36px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 341px;
+    left: 88px;
+    border: 1px solid rgba(229, 229, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.textoEmail {
+    width: 46px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 393px;
+    left: 27px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputEmail {
+    width: 264px;
+    height: 36px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 387px;
+    left: 88px;
+    border: 1px solid rgba(229, 229, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.textoLocalidade {
+    width: 89px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 439px;
+    left: 27px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputLocalidade {
+    width: 224px;
+    height: 36px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 433px;
+    left: 128px;
+    border: 1px solid rgba(229, 229, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.textoProfissao {
+    width: 75px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 485px;
+    left: 27px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoTelemovel {
+    width: 103px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 532px;
+    left: 26px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputProfissao {
+    width: 236px;
+    height: 36px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 479px;
+    left: 116px;
+    border: 1px solid rgba(229, 229, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.inputTelemovel {
+    width: 210px;
+    height: 36px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 524px;
+    left: 142px;
+    border: 1px solid rgba(229, 229, 234, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.botaoCheck {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 286px;
+    top: 645px;
+    background: #EBEBEB;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+    border-radius: 32px;
+}
+
+#iconCheck {
+    position: absolute;
+    top: 661px;
+    left: 302px;
+    color: #28A820;
+}
+
+.fa-check:before {
+    font-size: 30px;
+}
+
+#iconBack {
+    position: absolute;
+    top: 22px;
+    left: 27px;
+    color: #ACA6A6;
+}
+
+.fa-long-arrow-left:before {
+    font-size: 25px;
+}

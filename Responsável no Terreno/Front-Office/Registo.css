@@ -1,0 +1,461 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.Registo {
+    width: 292px;
+    color: rgba(94, 94, 94, 1);
+    position: absolute;
+    top: 20px;
+    left: 32%;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 45px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.termos {
+    width: 333px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 618px;
+    left: 58px;
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.inputNome {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+
+.inputDataNascimento {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 174px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+.dataNascimento {
+    width: 158px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 179px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.inputCedulaProfissional {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 248px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+
+.textoCedula {
+    width: 53px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.cedulaProfissional {
+    width: 150px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 254px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputEmail {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 322px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+
+}
+
+.textoEmail {
+    width: 184px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 24px;
+    left: 23px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.email {
+    width: 42px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 327px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+
+}
+
+.inputPassword {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 396px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+
+}
+
+.password {
+    width: 74px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 401px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoPassword {
+    width: 88px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 30px;
+    left: 23px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputConfirmarPassword {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 470px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+.confirmarPassword {
+    width: 150px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 476px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoConfirmarPassword {
+    width: 88px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 30px;
+    left: 23px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputTelemovel {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 544px;
+    left: 45px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+
+}
+
+.textoTelemovel {
+    width: 148px;
+    color: rgba(38, 50, 56, 1);
+    position: absolute;
+    top: 26px;
+    left: 24px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.telemovel {
+    width: 142px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 550px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoNome {
+    width: 198px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.nome {
+    width: 45px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 105px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.buttonRegistar {
+    width: 328px;
+    height: 46px;
+    background: rgba(9, 26, 68, 1);
+    opacity: 1;
+    position: absolute;
+    top: 665px;
+    left: 45px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 5px 5px 20px rgba(1, 1, 1, 1);
+    overflow: hidden;
+}
+
+.Registar {
+    width: 204px;
+    color: rgba(234, 234, 234, 1);
+    position: absolute;
+    top: 12px;
+    left: 62px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+#iconPasswordRegisto {
+    position: absolute;
+    top: 423px;
+    left: 328px;
+    color: gray;
+}
+
+#iconPasswordConfRegisto {
+    position: absolute;
+    top: 497px;
+    left: 328px;
+    color: gray;
+}
+
+#buttonbackRegisto {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
+}
+
+.bgmodal {
+  width: 86%;
+  height: 25%;
+  background-color: rgba(235, 235, 235, 94);
+  position: absolute;
+  top: 273px;
+  left: 30px;
+  display: flex;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.buttonLoginRegisto {
+  width: 149px;
+  height: 46px;
+  background: rgb(225, 225, 225, 88);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 8%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 18px;
+  border: none;
+  font-family: 'Poppins';
+}
+
+.buttonInicioRegisto {
+  width: 149px;
+  height: 45px;
+  background: rgb(225, 225, 225, 88);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 52%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 18px;
+  font-family: 'Poppins';
+  border: none;
+}
+
+.welcome {
+  width: 191px;
+  height: 103px;
+  color: rgba(110, 113, 145, 1);
+  position: absolute;
+  top: 19%;
+  left: 25%;
+  font-family: Poppins;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+
+.hidden {
+  display:none;
+}
+
+.close {
+  width: 61px;
+  height: 53px;
+  position: absolute;
+  left: 294px;
+  border: none;
+  color: black;
+  background: rgba(235, 235, 235, 94);
+}

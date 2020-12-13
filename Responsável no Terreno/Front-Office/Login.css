@@ -1,0 +1,407 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.screen {
+  width: 414px;
+  height: 736px;
+  background: rgba(250, 249, 249, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.esquecerpassword {
+  width: 292px;
+  color: rgba(194, 186, 186, 1);
+  position: absolute;
+  top: 378px;
+  left: 109px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+
+.Login {
+  width: 292px;
+  color: rgba(94, 94, 94, 1);
+  position: absolute;
+  top: 56px;
+  left: 38%;
+  font-family: Mulish;
+  font-weight: Regular;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+
+.inputemail {
+  width: 325px;
+  height: 64px;
+  background: rgba(239, 240, 246, 1);
+  opacity: 1;
+  position: absolute;
+  top: 145px;
+  left: 10%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+  border: none;
+}
+
+.v34_642 {
+  width: 60px;
+  height: 56px;
+  background: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FCarta&psig=AOvVaw1wTg3HSiTBFAd8Hpr-WhlK&ust=1605361307993000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCUv4XT_-wCFQAAAAAdAAAAABAI");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 22px 24px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 265px;
+  overflow: hidden;
+}
+
+.v34_643 {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  overflow: hidden;
+}
+
+.v34_645 {
+  height: 16px;
+  background: url("../images/v34_645.png");
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 0px;
+  border: 2px solid rgba(160, 163, 189, 1);
+  transform: rotate(-135deg);
+}
+
+.v34_646 {
+  width: 184px;
+  height: 40px;
+  background: url("../images/v34_646.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 6px 0px;
+  opacity: 1;
+  position: absolute;
+  top: 12px;
+  left: 64px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+
+.v34_648 {
+  width: 184px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 24px;
+  left: 21px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.emailtext {
+  width: 42px;
+  color: rgba(110, 113, 145, 1);
+  position: absolute;
+  top: 20.5%;
+  left: 14%;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v34_649 {
+  width: 72px;
+  height: 68px;
+  background: url("../images/v34_649.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 22px 24px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 247px;
+  overflow: hidden;
+}
+
+.v34_654 {
+  width: 24px;
+  height: 17px;
+  background: url("../images/v34_654.png");
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  border: 2px solid rgba(160, 163, 189, 1);
+}
+
+.v34_655 {
+  width: 24px;
+  height: 11px;
+  background: url("../images/v34_655.png");
+  opacity: 1;
+  position: absolute;
+  top: 4px;
+  left: 0px;
+  border: 2px solid rgba(160, 163, 189, 1);
+}
+
+.inputpassword {
+  width: 325px;
+  height: 64px;
+  background: rgba(239, 240, 246, 1);
+  opacity: 1;
+  position: absolute;
+  top: 220px;
+  left: 10%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+  border: none;
+}
+
+.v34_593 {
+  width: 77px;
+  height: 112px;
+  background: url("../images/v34_593.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 22px 24px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 24px;
+  left: 248px;
+  overflow: hidden;
+}
+
+.v34_600 {
+  width: 79px;
+  height: 68px;
+  background: url("../images/v34_600.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 22px 24px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 1px;
+  overflow: hidden;
+}
+
+.v34_604 {
+  width: 24px;
+  height: 24px;
+  background: url("../images/v34_604.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 85px;
+  overflow: hidden;
+}
+
+.v34_606 {
+  width: 6px;
+  height: 6px;
+  background: url("../images/v34_606.png");
+  opacity: 1;
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  border-radius: 50%;
+}
+
+.v34_597 {
+  width: 88px;
+  height: 64px;
+  background: url("../images/v34_597.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 6px 0px;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 23px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+
+.passwordtext {
+  width: 74px;
+  color: rgba(110, 113, 145, 1);
+  position: absolute;
+  top: 31%;
+  left: 14%;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 14px;
+  opacity: 1;
+  text-align: left;
+}
+
+.buttonlogin {
+  width: 319px;
+  height: 46px;
+  background: rgba(9, 26, 68, 1);
+  opacity: 1;
+  position: absolute;
+  top: 306px;
+  left: 11%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: -10px -10px 20px rgba(235, 235, 235);
+  overflow: hidden;
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: rgba(250, 249, 249, 1);
+}
+
+.guardarpassword {
+  width: 250px;
+  color: rgba(94, 94, 94, 1);
+  position: absolute;
+  top: 394px;
+  left: 85px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+
+.bgmodal {
+  width: 86%;
+  height: 25%;
+  background-color: rgba(235, 235, 235, 94);
+  position: absolute;
+  top: 273px;
+  left: 30px;
+  display: flex;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.buttonNaoLogin {
+  width: 149px;
+  height: 46px;
+  background: rgb(225, 225, 225, 88);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 8%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 18px;
+  border: none;
+  font-family: 'Poppins';
+}
+
+.buttonSimLogin {
+  width: 149px;
+  height: 45px;
+  background: rgb(225, 225, 225, 88);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 52%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 18px;
+  font-family: 'Poppins';
+  border: none;
+}
+
+.savePassword {
+  width: 191px;
+  height: 103px;
+  color: rgba(110, 113, 145, 1);
+  position: absolute;
+  top: 19%;
+  left: 25%;
+  font-family: Poppins;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+
+#iconEmailLogin {
+  position: absolute;
+  top: 168px;
+  left: 324px;
+  color: lightgray;
+  font-size: large;
+}
+
+#iconPasswordLogin {
+  position: absolute;
+  top: 243px;
+  left: 324px;
+  color: lightgray;
+  font-size: large;
+}
+
+#buttonbackLogin {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
+}
+
+.hidden {
+  display:none;
+}

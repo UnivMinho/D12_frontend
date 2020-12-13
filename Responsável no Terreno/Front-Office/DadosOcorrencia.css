@@ -1,0 +1,360 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 375px;
+    height: 951px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+
+}
+
+.operacionais {
+    width: 208px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 335px;
+    left: 35px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.numeroOcorrencia {
+    width: 269px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 35px;
+    left: 72px;
+    font-family: Mulish;
+    font-weight: Light;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+
+}
+
+.levantamentoMaterial {
+    width: 201px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 100px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.presencasOperacionais {
+    width: 194px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 313px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.partidaTerreno {
+    width: 173px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 431px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.chegadaTerreno {
+    width: 132px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 464px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.dadosComplementares {
+    width: 176px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 502px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2514 {
+    width: 142px;
+    color: rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 708px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 13px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2485 {
+    width: 47px;
+    color: rgba(168, 168, 170, 1);
+    position: absolute;
+    top: 187px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2486 {
+    width: 95px;
+    height: 21px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 148px;
+    left: 117px;
+    border: 1px solid rgba(230, 230, 233, 1);
+}
+
+.v165_2487 {
+    width: 60px;
+    height: 19px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    left: 91px;
+    border: 1px solid rgba(230, 230, 233, 1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+}
+
+.v165_2488 {
+    width: 60px;
+    color: rgba(73, 72, 72, 1);
+    position: absolute;
+    top: 190px;
+    left: 91px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 12px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v165_2489 {
+    width: 95px;
+    color: rgba(73, 72, 72, 1);
+    position: absolute;
+    top: 149px;
+    left: 117px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 12px;
+    opacity: 1;
+    text-align: center;
+}
+
+.v165_2492 {
+    width: 57px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 127px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2493 {
+    width: 73px;
+    color: rgba(168, 168, 170, 1);
+    position: absolute;
+    top: 146px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 10px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2494 {
+    width: 68px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 213px;
+    left: 34px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2511 {
+    width: 262px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 570px;
+    left: 62px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2495 {
+    width: 42px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 170px;
+    left: 34px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2496 {
+    width: 67px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 240px;
+    left: 34px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2500 {
+    width: 78px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 267px;
+    left: 34px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2510 {
+    width: 211px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 523px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2507 {
+    width: 48px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 426px;
+    left: 219px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2508 {
+    width: 48px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 460px;
+    left: 178px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.v165_2515 {
+    width: 117px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 731px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+
+.v165_2544 {
+    width: 239px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 864px;
+    left: 97px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}

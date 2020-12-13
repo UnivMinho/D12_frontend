@@ -1,0 +1,430 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen{
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v53_704 {
+    width: 375px;
+    height: 812px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+.fotografia{
+    width: 85px;
+    height: 85px;
+    background: url("../images/v56_525.png");
+    opacity: 1;
+    position: absolute;
+    top: 98px;
+    left: 29px;
+    border-radius: 50%;
+}
+
+.textoVerPerfil {
+    width: 114px;
+    color: rgba(145, 144, 151, 1);
+    position: absolute;
+    top: 127px;
+    left: 135px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+    border: none;
+}
+
+.nomeAgente{
+    width: 198px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 106px;
+    left: 135px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.caixaVerAgentesProx {
+    width: 340px;
+    height: 60px;
+    background: rgba(233, 234, 238, 1);
+    opacity: 1;
+    position: absolute;
+    top: 210px;
+    left: 18px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+    overflow: hidden;
+    border: none;
+}
+
+.caixaAjudaeSuporte{
+    width: 340px;
+    height: 60px;
+    background: rgba(233, 234, 238, 1);
+    opacity: 1;
+    position: absolute;
+    top: 297px;
+    left: 18px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+    overflow: hidden;
+    border: none;
+}
+
+.name {
+    color: #fff;
+}
+
+.caixaDefiePriv {
+    width: 338px;
+    height: 60px;
+    background: rgba(233, 234, 238, 1);
+    opacity: 1;
+    position: absolute;
+    top: 384px;
+    left: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+    overflow: hidden;
+    border: none;
+}
+
+.caixaTerminarSessao {
+    width: 340px;
+    height: 60px;
+    background: rgba(233, 234, 238, 1);
+    opacity: 1;
+    position: absolute;
+    top: 471px;
+    left: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow:0px 4px 20px rgba(104, 109, 224, 0.5);
+    overflow: hidden;
+    border: none;
+}
+
+#iconeTerminarSessao{
+   color: red;
+    position: absolute;
+    top: 489px;
+    left: 48px;
+    font-size: x-large ;
+}
+.Menu{
+    width: 167px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 57px;
+    left: 132px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 26px;
+    opacity: 1;
+    text-align: left;
+    text-shadow:  4px 4px  #000000 25%;
+;
+}
+
+.textoAjudaeSuporte {
+    width: 182px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 315px;
+    left: 90px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoDefiePriv{
+    width: 223px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 400px;
+    left: 90px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoTerminarSessao {
+    width: 223px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top:490px;
+    left: 90px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+
+.textoVerAgenteProx {
+    width: 270px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 228px;
+    left: 90px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 15px;
+    opacity: 1;
+    text-align: left;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+
+.name {
+    color: #fff;
+}
+.bottombar {
+    width: 423px;
+    height: 92px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 658px;
+    left: 1px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.firstsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 667px;
+    left: 33px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.secondsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 105px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fourthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 252px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fifthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 324px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 178px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 177px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+#iconfirstsquarePaginaInicialMenu {
+    top: 92.5%;
+    left: 12%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconsecondsquarePaginaInicialMenu {
+    top: 92.5%;
+    left: 29%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconthirdsquarePaginaInicialMenu {
+    top: 92.5%;
+    left: 46%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfourthsquarePaginaInicialMenu {
+    top: 92.5%;
+    left: 64%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfifthsquarePaginaInicialMenu {
+    top: 92.5%;
+    left: 81%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+#iconedefinicoes{
+   color: black;
+    position: absolute;
+    top: 401px;
+    left: 46px;
+    font-size: x-large ;
+}
+#iconeAjuda{
+   color: black;
+    position: absolute;
+    top: 315px;
+    left: 46px;
+    font-size: x-large ;
+}
+#iconeUsers{
+   color: black;
+    position: absolute;
+    top: 230px;
+    left: 46px;
+    font-size: x-large ;
+}
+#iconeSeta{
+   color: gray;
+    position: absolute;
+    top: 65px;
+    left: 34px;
+    font-size: x-large ;
+}
+#iconeSetaBaixo{
+   color: gray;
+    position: absolute;
+    top: 315px;
+    left: 294px;
+    font-size: large ;
+}
+#iconeSetaBaixo1{
+   color: gray;
+    position: absolute;
+    top: 401px;
+    left: 294px;
+    font-size: large ;
+}

@@ -1,0 +1,40 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.v130_794 {
+    width: 185px;
+    color: rgba(9, 26, 68, 1);
+    position: absolute;
+    top: 51px;
+    left: 100px;
+    font-family: Open Sans;
+    font-weight: Bold;
+    font-size: 21px;
+    opacity: 1;
+    text-align: center;
+}
+
+.icon {
+    width: 132px;
+    height: 132px;
+    background: url("../images/v130_822.png");
+    opacity: 1;
+    position: absolute;
+    top: 122px;
+    left: 122px;
+    border-radius: 50%;
+}

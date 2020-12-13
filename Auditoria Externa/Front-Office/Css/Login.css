@@ -1,0 +1,38 @@
+body {
+    background-color: #091A44;
+    }
+    
+h1 {
+    color: #FFFFFF;
+    font: 200%/200% "Arial Black", cursive;
+}
+
+h2 {
+    color: #000000;
+    font: 150%/150% "Arial Black ", cursive;
+}
+
+label {
+    color:#000000;
+    font: light 75%/125% "Mulish", cursive;
+}
+
+button {
+    font: 75%/125% "Arial Black", cursive;
+}
+
+form {
+  border-top: 5px solid #FFFFFF; 
+  background-color: #FFFFFF;   
+  color: #FFFFFF; 
+  border-radius: 40px;
+  width:300px;
+  height:230px;
+  left: 63.5%; 
+  margin: -130px 0 0 -210px; 
+  padding:10px;
+  position: absolute; 
+  top: 50%;
+
+
+  }

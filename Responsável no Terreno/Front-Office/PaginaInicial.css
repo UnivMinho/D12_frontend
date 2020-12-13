@@ -1,0 +1,302 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.circleone {
+    width: 207px;
+    height: 191px;
+    background: rgba(160, 157, 157, 0.05000000074505806);
+    opacity: 1;
+    position: absolute;
+    top: -64px;
+    left: -19px;
+    border-radius: 50%;
+}
+
+.circletwo {
+    width: 179px;
+    height: 183px;
+    background: rgba(186, 185, 198, 0.1899999976158142);
+    opacity: 1;
+    position: absolute;
+    top: 27px;
+    left: -24px;
+    border-radius: 50%;
+}
+
+.profilepicture {
+    width: 108px;
+    height: 104px;
+    opacity: 1;
+    position: absolute;
+    top: 77px;
+    left: 80px;
+    border-radius: 50%;
+    background: gray;
+}
+
+.bottombar {
+    width: 423px;
+    height: 92px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 658px;
+    left: 1px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.firstsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 667px;
+    left: 33px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.numbernotifications {
+    width: 17px;
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 666px;
+    left: 74px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 14px;
+    opacity: 1;
+    text-align: center;
+}
+
+.circlenotification {
+    width: 25px;
+    height: 25px;
+    background: rgba(8, 25, 68, 0.6399999856948853);
+    opacity: 1;
+    position: absolute;
+    top: 664px;
+    left: 70px;
+    border-radius: 50%;
+}
+
+
+.secondsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 105px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fourthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 252px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fifthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 324px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 178px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 177px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+#iconfirstsquarePaginaInicial {
+    top: 92.5%;
+    left: 12%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconsecondsquarePaginaInicial {
+    top: 92.5%;
+    left: 29%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconthirdsquarePaginaInicial {
+    top: 92.5%;
+    left: 46%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfourthsquarePaginaInicial {
+    top: 92.5%;
+    left: 64%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfifthsquarePaginaInicial {
+    top: 92.5%;
+    left: 81%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconmenuPaginaInicial {
+    top: 56px;
+    left: 343px;
+    border: none;
+    position: absolute;
+    font-size: x-large;
+    background: none;
+    color: gray;
+}
+
+#iconsearchPaginaInicial {
+    top: 221px;
+    left: 341px;
+    border: none;
+    position: absolute;
+    font-size: x-large;
+    background: none;
+    color: lightgray;
+}
+
+.retangulo {
+    width: 335px;
+    height: 94px;
+    background: rgba(228, 228, 228, 97);
+    opacity: 1;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    overflow: hidden;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+#iconalertPaginaInicial {
+    top: 290px;
+    left: 71px;
+    border: none;
+    position: absolute;
+    font-size: x-large;
+    background: none;
+    color: darkred;
+}
+
+.name {
+    top: 106px;
+    left: 228px;
+    font-family: 'Poppins';
+    position: absolute;
+    color: black;
+    font-size: x-large;
+}
+
+.announcement {
+    top: 264px;
+    left: 121px;
+    font-family: 'Poppins';
+    position: absolute;
+}
+
+.data {
+    top: 267px;
+    left: 273px;
+    font-family: 'Poppins';
+    position: absolute;
+    font-size: small;
+    color: gray;
+}

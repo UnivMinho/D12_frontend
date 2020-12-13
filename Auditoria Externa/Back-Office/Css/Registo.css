@@ -1,0 +1,69 @@
+ div {
+     width: 100%;
+     height: 8vh;
+ }
+
+ .titulo {
+     background-color: #091A44;
+     width: 100%;
+     height: 5vh;
+     color: white;
+     font:10px;
+     text-align: center;
+ }
+
+ .conteudo {
+     background: #FBFAFA;
+     width: 100%;
+     height: 95vh;
+
+ }
+
+.formregistar{
+  width: 375px;
+  height: 652px;
+}
+ 
+ h4 {
+     color: #E9EAEE;
+     background-color: #E9EAEE;
+     height: 50px;
+     text-align: center;
+     font-size:10px;
+ }
+
+ label {
+     font: light 75%/125% "Mulish", cursive;
+ }
+
+ body {
+     position: fixed;
+     margin: 50%;
+     background-color: #FBFAFA;
+     text-align: center;
+ }
+
+ .botaoregistar {
+    background-color: #E9EAEE;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
+    width: 140px;
+    margin-right: auto;
+    transition-duration: 0.4s;
+  }
+ 
+  .botaoregistar:hover {
+  background-color: #091A44 ;
+  color: white;
+}
+
+ p {
+     max-width: 50%;
+ }
+ 

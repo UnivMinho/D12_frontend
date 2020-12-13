@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="./Registo.css" rel="stylesheet" />
+    <title>Registo</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+        <div class="screen">
+             <span class="Registo">Registo</span>
+        </div>
+        <span class="termos">Ao se registar, concorda com os Termos de Serviço e Política de Privacidade.</span>
+        <input id="inputDataNascimento" class="inputDataNascimento"></input>
+            </div>
+            <span class="dataNascimento">Data de Nascimento</span></div>
+        <input id="inputCedulaProfissional" class="inputCedulaProfissional"></input>
+            </div>
+            <span class="cedulaProfissional">Cedula Profissional</span></div>
+        <input id="inputEmail" class="inputEmail"></input>
+            </div>
+            <span class="email">Email</span>
+        </div>
+        <input id="inputPassword" class="inputPassword" type="password">
+           <i id="iconPasswordRegisto" class="far fa-eye-slash"></i> <!--icon para visualizar a password-->
+           <span class="password">Password</span>
+        </input>
+        <input id="inputConfirmarPassword" class="inputConfirmarPassword" type="password">
+          <i id="iconPasswordConfRegisto" class="far fa-eye-slash"></i> <!--icon para visualizar a confirmação da password-->
+          <span class="confirmarPassword">Confirme Password</span>
+        </input>
+        <input id="inputTelemovel" class="inputTelemovel">
+            <span class="telemovel">Numero telemovel</span>
+        </div>
+        <input id="inputNome" class="inputNome"></input>
+            <span class="nome">Nome</span>
+            </div>
+        </div>
+        <button id="buttonRegistar" class="buttonRegistar" onclick="buttonRegistar">
+            <span class="Registar">REGISTAR</span></button>
+    </div>
+    
+    <!-- Modal Section-->
+    <div id="bgmodalRegisto" class="hidden">
+        
+        <span class="welcome"><!--caixa de texto a dizer bem-vindo por se ter registado-->Bem vindo, inicie já a sua sessão!</span>
+        <button id="buttonClose" class="close" onclick="close">X</button>
+        <button id="buttonLoginRegisto" class="buttonLoginRegisto">Iniciar Sessão</button>
+        <button id="buttonInicioRegisto" class="buttonInicioRegisto">Mais tarde</button>
+    </div>
+
+        <button id="buttonbackRegisto" class="fas fa-chevron-left" onclick="goBack()"></button> <!--botão e icon para voltar para a página anterior-->
+        <script type="text/javascript" src="Registo.js"></script>
+</body>
+
+</html>

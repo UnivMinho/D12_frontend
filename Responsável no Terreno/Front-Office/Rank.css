@@ -1,0 +1,196 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.circle {
+    width: 124px;
+    height: 117px;
+    background: rgba(245, 245, 245, 1);
+    opacity: 1;
+    position: absolute;
+    top: 32px;
+    left: 150px;
+    border-radius: 50%;
+}
+
+.rectangle {
+    width: 335px;
+    height: 94px;
+    background: rgba(245, 245, 245, 1);
+    opacity: 1;
+    position: absolute;
+    top: 98px;
+    left: 43px;
+    overflow: hidden;
+}
+
+.textRank {
+    width: 83px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 148px;
+    left: 175px;
+    font-family: Mulish;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.bigrectangle {
+    width: 335px;
+    height: 260px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 207px;
+    left: 42px;
+    overflow: hidden;
+}
+
+.smallrectangle1 {
+    width: 30px;
+    height: 32px;
+    background: gray;
+    opacity: 1;
+    position: absolute;
+    top: 233px;
+    left: 324px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.smallrectangle2 {
+    width: 30px;
+    height: 32px;
+    background: gray;
+    opacity: 1;
+    position: absolute;
+    top: 318px;
+    left: 324px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.smallrectangle3 {
+    width: 30px;
+    height: 32px;
+    background: gray;
+    opacity: 1;
+    position: absolute;
+    top: 405px;
+    left: 324px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.smallrectangle4 {
+    width: 30px;
+    height: 32px;
+    background: lightgray;
+    opacity: 1;
+    position: absolute;
+    top: 486px;
+    left: 324px;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.textCreditos {
+    width: 211px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 490px;
+    left: 109px;
+    font-family: 'Mulish';
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+    font-size: 18px;
+}
+
+.textOne {
+    width: 83px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 231px;
+    left: 39px;
+    font-family: Mulish;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.textTwo {
+    width: 83px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 317px;
+    left: 39px;
+    font-family: Mulish;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.textThree {
+    width: 83px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 401px;
+    left: 39px;
+    font-family: Mulish;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.CreditosPorOcorrencia {
+    width: 294px;
+    height: 41px;
+    background: rgb (222, 222, 222, 87);
+    opacity: 1;
+    position: absolute;
+    top: 79%;
+    left: 19%;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    font-size: 18px;
+    font-family: 'Mulish';
+    color: black;
+    border: none;
+}
+
+#arrowCreditosPorOcorrencia {
+    position: absolute;
+    top: 81%;
+    left: 82%;
+}

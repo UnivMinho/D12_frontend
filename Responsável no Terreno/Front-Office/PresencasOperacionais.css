@@ -1,0 +1,138 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.screen {
+  width: 414px;
+  height: 736px;
+  background: rgba(250,249,249,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v121_70 {
+  width: 316px;
+  color: rgba(36,47,65,1);
+  position: absolute;
+  top: 86px;
+  left: 50px;
+  font-family: Mulish;
+  font-weight: Light;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+
+.v121_72 {
+  width: 65px;
+  height: 65px;
+  background: url("../images/v121_72.png");
+  opacity: 1;
+  position: absolute;
+  top: 194px;
+  left: 59px;
+  border-radius: 50%;
+}
+.name {
+  color: #fff;
+}
+.v121_74 {
+  width: 65px;
+  height: 65px;
+  background: url("../images/v121_74.png");
+  opacity: 1;
+  position: absolute;
+  top: 288px;
+  left: 59px;
+  border-radius: 50%;
+}
+.v121_75 {
+  width: 218px;
+  height: 65px;
+  background: rgba(226,226,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 382px;
+  left: 80px;
+  border: 1px solid rgba(212,214,220,1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.v121_76 {
+  width: 218px;
+  height: 65px;
+  background: rgba(226,226,236,1);
+  opacity: 1;
+  position: absolute;
+  top: 382px;
+  left: 80px;
+  border: 1px solid rgba(212,214,220,1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.v121_77 {
+  width: 95px;
+  height: 95px;
+  background: url("../images/v121_77.png");
+  opacity: 1;
+  position: absolute;
+  top: 382px;
+  left: 40px;
+}
+.v121_78 {
+  width: 65px;
+  height: 65px;
+  background: url("../images/v121_78.png");
+  opacity: 1;
+  position: absolute;
+  top: 382px;
+  left: 60px;
+  border-radius: 50%;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v121_166 {
+  width: 60px;
+  height: 60px;
+  background: rgba(234,234,234,1);
+  opacity: 1;
+  position: absolute;
+  top: 471px;
+  left: 298px;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: -10px -10px 20px rgba(1, 1, 1, 1);
+  overflow: hidden;
+}
+.v121_167 {
+  width: 27px;
+  height: 19px;
+  background: rgba(40,168,32,1);
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 16px;
+  border: 1px solid rgba(40,168,32,1);
+}
+.name {
+  color: #fff;
+}

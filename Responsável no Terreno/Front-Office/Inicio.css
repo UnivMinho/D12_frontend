@@ -1,0 +1,97 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.screen {
+  width: 414px;
+  height: 736px;
+  background: rgba(10, 23, 56, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.barrasuperior {
+  width: 375px;
+  height: 44px;
+  background: rgba(10, 23, 56, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.policiamunicipal {
+  width: 304px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 45%;
+  left: 12%;
+  font-family: Comfortaa;
+  font-weight: Regular;
+  font-size: 37px;
+  opacity: 1;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  background: url("../images/v10_634.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 25%;
+  overflow: hidden;
+}
+
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.login {
+  width: 134px;
+  height: 53px;
+  background: rgba(250, 249, 249, 1);
+  opacity: 1;
+  position: absolute;
+  top: 59%;
+  left: 15%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  color: rgba(9, 26, 68, 1);
+}
+
+.registo {
+  width: 134px;
+  height: 53px;
+  background: rgba(9, 26, 68, 1);
+  opacity: 1;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  font-size: 22px;
+  font-family: 'Comfortaa';
+  color: rgba(250, 249, 249, 1);
+}
