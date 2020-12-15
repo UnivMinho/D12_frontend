@@ -1,0 +1,635 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 1068px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.textoMudarPassword {
+    width: 147px;
+    color: rgba(81, 81, 85, 1);
+    position: absolute;
+    top: 574px;
+    left: 194px;
+    font-family: Poppins;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.retangulo {
+    width: 335px;
+    height: 94px;
+    background: rgba(245, 245, 245, 1);
+    opacity: 1;
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    overflow: hidden;
+}
+
+.circulo {
+    width: 124px;
+    height: 117px;
+    background: rgba(245, 245, 245, 1);
+    opacity: 1;
+    position: absolute;
+    top: 28px;
+    left: 35%;
+    border-radius: 50%;
+}
+
+.textoDadosPessoais {
+    width: 334px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 147px;
+    left: 44px;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+.bolinhaAdd {
+    width: 24px;
+    height: 23px;
+    background: rgba(199, 199, 199, 1);
+    opacity: 1;
+    position: absolute;
+    top: 35px;
+    left: 235px;
+    border-radius: 50%;
+}
+
+.sinalAdd {
+    width: 14px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 23px;
+    left: 240px;
+    font-family: PT Sans Narrow;
+    font-weight: Regular;
+    font-size: 34px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxNome {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 201px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.inputNome {
+    width: 198px;
+    background: rgba(239, 240, 246, 1);
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    border: none;
+    text-align: left;
+}
+
+.textoNome {
+    width: 45px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxDataNascimento {
+    width: 325px;
+    height: 64px;
+    background: rgba(222, 223, 230, 1);
+    opacity: 1;
+    position: absolute;
+    top: 274px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.inputDataNascimento {
+    width: 189px;
+    background: #DFE0E7;
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    border: none;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoDataNascimento {
+    width: 158px;
+    color: rgba(141, 141, 149, 1);
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxCedulaProfissional {
+    width: 325px;
+    height: 64px;
+    background: rgba(223, 224, 231, 1);
+    opacity: 1;
+    position: absolute;
+    top: 348px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.inputCedulaProfissional {
+    width: 65px;
+    background: #DFE0E7;
+    position: absolute;
+    top: 24px;
+    left: 22px;
+    border: none;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoCedulaProfissional {
+    width: 150px;
+    color: rgba(141, 142, 150, 1);
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxEmail {
+    width: 325px;
+    height: 64px;
+    background: rgba(223, 224, 231, 1);
+    opacity: 1;
+    position: absolute;
+    top: 422px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.inputEmail {
+    width: 184px;
+    background: #DFE0E7;
+    position: absolute;
+    top: 24px;
+    left: 21px;
+    border: none;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoEmail {
+    width: 42px;
+    color: rgba(141, 142, 150, 1);
+    position: absolute;
+    top: 5px;
+    left: 21px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxPassword {
+    width: 323px;
+    height: 64px;
+    background: rgba(223, 224, 231, 1);
+    opacity: 1;
+    position: absolute;
+    top: 607px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.textoPassword {
+    width: 74px;
+    color: rgba(141, 142, 150, 1);
+    position: absolute;
+    top: 6px;
+    left: 21px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.inputPassword {
+    width: 88px;
+    background: #DFE0E7;
+    position: absolute;
+    top: 30px;
+    left: 21px;
+    border: none;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.buttonGravarAlteracoes {
+    position: absolute;
+    width: 256px;
+    height: 46px;
+    left: 80px;
+    top: 915px;
+    background: #091A44;
+    border: none;
+    box-shadow: 0px 4px 20px rgb(125 122 122 / 50%);
+    border-radius: 32px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto';
+}
+
+.textoGravarAlteracoes {
+    width: 204px;
+    color: rgba(234, 234, 234, 1);
+    position: absolute;
+    top: 12px;
+    left: 26px;
+    font-family: Roboto;
+    font-weight: Black;
+    font-size: 18px;
+    opacity: 1;
+    text-align: center;
+}
+
+.boxTelemovel {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 497px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.inputTelemovel {
+    width: 148px;
+    color: rgba(38, 50, 56, 1);
+    position: absolute;
+    top: 26px;
+    left: 22px;
+    font-family: Inter;
+    font-weight: Regular;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoTelemovel {
+    width: 142px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 5px;
+    left: 22px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+#buttonbackDadosPessoais {
+    position: absolute;
+    top: 46px;
+    left: 28px;
+    border: none;
+    font-size: x-large;
+    color: lightgray;
+    background-color: #FFFFFF;
+}
+
+.bottombar {
+    width: 423px;
+    height: 92px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 993px;
+    left: 1px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.firstsquare {
+width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1002px;
+    left: 33px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.secondsquare {
+width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1002px;
+    left: 105px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fourthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1002px;
+    left: 252px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fifthsquare {
+width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1002px;
+    left: 324px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 1002px;
+    left: 178px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+#iconfirstsquareDadosPessoais {
+    top: 95%;
+    left: 12%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconsecondsquareDadosPessoais {
+    top: 95%;
+    left: 29%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconthirdsquareDadosPessoais {
+    top: 95%;
+    left: 46%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfourthsquareDadosPessoais {
+    top: 95%;
+    left: 64%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfifthsquareDadosPessoais {
+    top: 95%;
+    left: 81%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+.checkboxLevantamentoMaterial {
+    height: 28px;
+    width: 88px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 570px;
+    left: 305px;
+    font-family: Poppins;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+#buttonbackDadosPessoais {
+    position: absolute;
+    top: 46px;
+    left: 28px;
+    border: none;
+    font-size: x-large;
+    color: lightgray;
+    background-color: rgba(250, 249, 249, 1);
+}
+
+#iconDadosPessoais {
+    top: 67px;
+    left: 187px;
+    border: none;
+    position: absolute;
+    font-size: xxx-large;
+    background: none;
+    color: black;
+}
+
+.boxConfirmarPassword {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 682px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+.textoConfirmarPassword {
+    width: 156px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 686px;
+    left: 66px;
+    font-family: Poppins;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxNovaPassword {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 758px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+.textoNovaPassword {
+    width: 119px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 764px;
+    left: 66px;
+    font-family: Poppins;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.boxConfirmarNovaPassword {
+    width: 325px;
+    height: 64px;
+    background: rgba(239, 240, 246, 1);
+    opacity: 1;
+    position: absolute;
+    top: 835px;
+    left: 46px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    border: none;
+}
+
+.textoConfirmarNovaPassword {
+    width: 194px;
+    color: rgba(110, 113, 145, 1);
+    position: absolute;
+    top: 839px;
+    left: 66px;
+    font-family: Poppins;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}

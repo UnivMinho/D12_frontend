@@ -15,60 +15,38 @@
   overflow: hidden;
 }
 
-.v129_153 {
+.textComunicarProblemas {
   width: 254px;
   color: rgba(9, 26, 68, 1);
   position: absolute;
   top: 51px;
-  left: 65px;
+  left: 75px;
   font-family: Open Sans;
   font-weight: Bold;
   font-size: 21px;
   opacity: 1;
   text-align: center;
+
 }
 
-.searchbar {
-  width: 375px;
-  height: 36px;
-  background: rgba(255, 255, 255, 1);
-  opacity: 1;
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  overflow: hidden;
-}
-
-.icon {
-  width: 132px;
-  height: 131px;
-  background: url("../images/v129_189.png");
-  opacity: 1;
-  position: absolute;
-  top: 18px;
-  left: 122px;
-  border-radius: 50%;
-}
-
-.v129_190 {
+.textExpliciteComunicarProblemas {
   width: 332px;
   color: rgba(125, 125, 130, 1);
   position: absolute;
-  top: 317px;
-  left: 22px;
+  top: 288px;
+  left: 40px;
   font-family: Poppins;
-  font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: center;
 }
 
-.v129_191 {
+.textProblemaComunicarProblemas {
   width: 258px;
   color: rgba(73, 72, 76, 1);
   position: absolute;
-  top: 280px;
-  left: 59px;
+  top: 251px;
+  left: 76px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 16px;
@@ -76,14 +54,14 @@
   text-align: center;
 }
 
-.v130_785 {
+.caixaTextoComunicarProblemas {
   width: 300px;
-  height: 98px;
+  height: 184px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 455px;
-  left: 44px;
+  top: 428px;
+  left: 57px;
   border: 1px solid rgba(229, 229, 234, 1);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -92,15 +70,27 @@
   overflow: hidden;
 }
 
-.v130_786 {
-  width: 286px;
-  color: rgba(150, 147, 147, 1);
+.EscrevaAquiComunicarProblemas {
+  top: 55%;
+  left: 63px;
   position: absolute;
-  top: 460px;
-  left: 51px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 11px;
-  opacity: 1;
-  text-align: left;
+  color: lightgray;
+}
+
+#iconComunicarProblemas {
+  position: absolute;
+  top: 114px;
+  left: 151px;
+  font-size: 97px;
+  color: #e0e0e0;
+}
+
+#buttonbackComunicarProblemas {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
 }

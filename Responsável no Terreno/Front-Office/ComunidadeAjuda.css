@@ -3,54 +3,31 @@
   padding: 0px !important;
   margin: 0px !important;
 }
-.v101_0 {
+
+.screen {
   width: 414px;
   height: 736px;
-  background: rgba(255,255,255,1);
+  background: rgba(250, 249, 249, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
   left: 0px;
   overflow: hidden;
 }
-.v129_4 {
-  width: 414px;
-  height: 736px;
-  background: rgba(250,249,249,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v129_5 {
-  width: 414px;
-  height: 736px;
-  background: rgba(250,249,249,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
+
 .textoComunidade_de_Ajuda {
   width: 225px;
-  color: rgba(9,26,68,1);
+  color: rgba(9, 26, 68, 1);
   position: absolute;
   top: 51px;
-  left: 83px;
+  left: 87px;
   font-family: Open Sans;
   font-weight: Bold;
   font-size: 21px;
   opacity: 1;
   text-align: center;
 }
+
 .iconeMensagens {
   width: 110px;
   height: 98px;
@@ -64,6 +41,7 @@
   left: 133px;
   overflow: hidden;
 }
+
 .iconePolicia2 {
   width: 40px;
   height: 40px;
@@ -74,9 +52,10 @@
   left: 24px;
   border-radius: 50%;
 }
+
 .textoPerguntas {
   width: 125px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 548px;
   left: 13px;
@@ -86,6 +65,7 @@
   opacity: 1;
   text-align: center;
 }
+
 .iconePolicia3 {
   width: 25px;
   height: 25px;
@@ -96,57 +76,61 @@
   left: 78px;
   border-radius: 50%;
 }
+
 .textoFinal {
   width: 249px;
-  color: rgba(0,0,0,1);
+  color: gray;
   position: absolute;
-  top: 637px;
+  top: 617px;
   left: 112px;
   font-family: Poppins;
-  font-weight: Regular;
   font-size: 11px;
   opacity: 1;
   text-align: left;
 }
+
 .textoBemVindo {
   width: 258px;
-  color: rgba(73,72,76,1);
+  color: rgba(73, 72, 76, 1);
   position: absolute;
-  top: 269px;
-  left: 59px;
+  top: 246px;
+  left: 79px;
   font-family: Poppins;
   font-weight: Bold;
   font-size: 16px;
   opacity: 1;
   text-align: center;
 }
+
 .textoCentral {
   width: 332px;
-  color: rgba(125,125,130,1);
+  color: rgba(125, 125, 130, 1);
   position: absolute;
-  top: 335px;
-  left: 22px;
+  top: 308px;
+  left: 39px;
   font-family: Poppins;
   font-weight: Regular;
   font-size: 16px;
   opacity: 1;
   text-align: center;
 }
-.caixaEscrevaAqui{
-  width: 257px;
-  height: 60px;
-  background: rgba(255,255,255,1);
+
+.caixaEscrevaAqui {
+  width: 323px;
+  height: 86px;
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 463px;
-  left: 97px;
-  border: 1px solid rgba(229,229,234,1);
+  top: 444px;
+  left: 43px;
+  border: 1px solid rgba(229, 229, 234, 1);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
+
 .iconePolicia1 {
   width: 55px;
   height: 55px;
@@ -157,71 +141,46 @@
   left: 28px;
   border-radius: 50%;
 }
+
 .textoCaixa {
   width: 230px;
-  color: rgba(150,147,147,1);
   position: absolute;
-  top: 468px;
-  left: 107px;
+  top: 424px;
+  left: 52px;
   font-family: Roboto;
-  font-weight: Regular;
-  font-size: 11px;
+  font-size: 13px;
   opacity: 1;
   text-align: left;
+  color: lightgray;
 }
-.v129_124 {
-  width: 375px;
-  height: 36px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  overflow: hidden;
-}
-.caixaPesquisa {
-  width: 377px;
-  height: 36px;
-  background: rgba(118,118,128,0.11999999731779099);
-  opacity: 1;
-  position: absolute;
-  top: 100px;
-  left: 16px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  overflow: hidden;
-}
-#iconePesquisa {
-    color: gray;
-    position: absolute;
-    top: 108px;
-    left: 27px;
-    font-size: large ;
 
-}
-.textoCaixaSuperior {
-  width: 201px;
-  color: rgba(150,147,147,1);
-  position: absolute;
-  top: 105px;
-  left: 69px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
 .textoPergunta {
   width: 258px;
-  color: rgba(73,73,77,1);
+  color: rgba(73, 73, 77, 1);
   position: absolute;
   top: 574px;
-  left: 78px;
+  left: 35px;
   font-family: Poppins;
   font-weight: Regular;
   font-size: 12px;
   opacity: 1;
   text-align: left;
+}
+
+#iconComunidadeAjuda {
+  position: absolute;
+  top: 114px;
+  left: 151px;
+  font-size: 97px;
+  color: #e0e0e0;
+}
+
+#buttonbackComunidadeAjuda {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
 }

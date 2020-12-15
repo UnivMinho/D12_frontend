@@ -1,62 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link href="./DadosOcorrencia.css" rel="stylesheet" />
-    <title>Ocorrência</title>
-
+    <title>Dados Ocorrencia</title>
+  
 </head>
 
 <body>
     <div class="screen">
-        <span class="operacionais">
-            Agente Mota (56452) <br>
-            Agente Fernandes (35464) <br>
-            Agente Barros (54646)</span>
-            <span class="numeroOcorrencia">OCORRENCIA 495</span>
-        <span class="levantamentoMaterial">Levantamento do material</span>
-        <span class="presencasOperacionais">Presença de operacionais</span>
-        <span class="partidaTerreno">Partida para o terreno</span>
-        <span class="chegadaTerreno">Chegada ao terreno</span>
-        <span class="dadosComplementares">Dados complementares</span>
-        <span
-            class="v165_2514">Material utilizado</span>
-            <span class="v165_2485">Série nº:</span>
-            <div class="v165_2486"></div>
-            <div class="v165_2487"></div>
-            <span class="v165_2488">24</span>
-            <span class="v165_2489">46 96 PM</span>
-            <span class="v165_2492">Veículo</span>
-            <span class="v165_2493">Matrícula nº:</span>
-            <span class="v165_2494">Algemas</span>
-            <span class="v165_2511">Nome: Alfredo Ferreira <br>
-                                    Email: alfredoferreira@gmail.com <br>
-                                    Localidade: Trofa <br>
-                                    Profissão: Desempregado <br>
-                                    Nº telemóvel: 956******</span>
-        <span class="v165_2495">Arma</span>
-        <span class="v165_2496">Máscara</span>
-        <span class="v165_2500">Cassetete</span>
-        <span class="v165_2510">Notas: nada a acrescentar.
-Testemunhas:</span>
-<span class="v165_2507">08:12h</span>
-<span class="v165_2508">08:18h</span>
-<span class="v165_2515">Veículo: Sim
-Arma: Não <br>
-Algemas: Não <br>
-Máscara: Sim <br>
-Cassetete: Não</span>
-            <div class="name"></div>
-            <div class="name"></div>
-            <span class="v165_2544">Adicionar testemunhas e notas</span>
-            <div class="name"></div>
-            <div class="name"></div>
-    </div>
+</span><span class="textoOcorrencia">OCORRÊNCIA 495</span>
+        <b><span class="textoLevantamentoMaterial">Levantamento do material</span></b>
+        <b><span class="textoPresencaOperacionais">Presença de operacionais</span></b>
+        <b><span class="textoPartida">Partida para o terreno</span></b>
+        <b><span class="textoChegada">Chegada ao local</span></b> 
+        <b><span class="textoDadosComplementares">Dados complementares</span></b>
+        <b><span class="textoMaterial">Material utilizado</span></b>
+
+            <button id="buttonAddTestemunhasNotas" class="buttonAddTestemunhasNotas">Adicionar testemunhas e notas</button>
+
+            <button id="buttonbackDadosOcorrencia" class="fas fa-chevron-left" onclick="goBack()"></button> <!--botão e icon para voltar para a página anterior-->
+    
+        <script type="text/javascript" src="DadosOcorrencia.js"></script>
+                
+      
 </body>
 
 </html>

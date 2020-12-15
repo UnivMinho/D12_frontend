@@ -26,17 +26,24 @@
   opacity: 1;
   text-align: left;
 }
-.v112_529 {
-  width: 95px;
+
+.inputMatricula {
+  width: 60px;
   height: 19px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
-  top: 213px;
-  left: 117px;
+  top: 207px;
+  left: 109px;
   border: 1px solid rgba(230,230,233,1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
 }
-.v111_535 {
+
+.inputSerie {
   width: 60px;
   height: 19px;
   background: rgba(255,255,255,1);
@@ -51,34 +58,8 @@
   border-bottom-right-radius: 10px;
   overflow: hidden;
 }
-.v111_536 {
-  width: 60px;
-  color: rgba(73,72,72,1);
-  position: absolute;
-  top: 268px;
-  left: 92px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 12px;
-  opacity: 1;
-  text-align: center;
-}
-.v111_531 {
-  width: 95px;
-  color: rgba(73,72,72,1);
-  position: absolute;
-  top: 213px;
-  left: 117px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 12px;
-  opacity: 1;
-  text-align: center;
-}
-.name {
-  color: #fff;
-}
-.v101_172 {
+
+.textoLevantamentoMaterial {
   width: 316px;
   color: rgba(36,47,65,1);
   position: absolute;
@@ -90,7 +71,8 @@
   opacity: 1;
   text-align: left;
 }
-.v104_528 {
+
+.textoVeiculo {
   width: 57px;
   color: rgba(65,65,69,1);
   position: absolute;
@@ -102,7 +84,7 @@
   opacity: 1;
   text-align: left;
 }
-.v107_1 {
+.textoMatricula {
   width: 73px;
   color: rgba(168,168,170,1);
   position: absolute;
@@ -114,7 +96,7 @@
   opacity: 1;
   text-align: left;
 }
-.v104_529 {
+.textoAlgemas {
   width: 68px;
   color: rgba(65,65,69,1);
   position: absolute;
@@ -126,7 +108,7 @@
   opacity: 1;
   text-align: left;
 }
-.v105_0 {
+.textoArma {
   width: 42px;
   color: rgba(65,65,69,1);
   position: absolute;
@@ -138,7 +120,9 @@
   opacity: 1;
   text-align: left;
 }
-.v105_1 {
+
+
+.textoMascara {
   width: 67px;
   color: rgba(65,65,69,1);
   position: absolute;
@@ -150,32 +134,60 @@
   opacity: 1;
   text-align: left;
 }
-.v112_535 {
-  width: 60px;
-  height: 60px;
-  background: rgba(234,234,234,1);
-  opacity: 1;
+
+
+.textoCassetete {
+  width: 80px;
+  color: rgba(65,65,69,1);
   position: absolute;
-  top: 457px;
-  left: 287px;
-  border-top-left-radius: 32px;
-  border-top-right-radius: 32px;
-  border-bottom-left-radius: 32px;
-  border-bottom-right-radius: 32px;
-  box-shadow: -10px -10px 20px rgba(1, 1, 1, 1);
-  overflow: hidden;
-}
-.v112_538 {
-  width: 27px;
-  height: 19px;
-  background: rgba(40,168,32,1);
+  top: 394px;
+  left: 36px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 14px;
   opacity: 1;
-  position: absolute;
-  top: 20px;
-  left: 16px;
-  border: 1px solid rgba(40,168,32,1);
+  text-align: left;
 }
 
+
+.checkboxAlgemas {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 296px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxMascara {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 343px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxCassetete {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 394px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
 
 #buttonbackLevantamentoMaterial {
   position: absolute;
@@ -187,3 +199,25 @@
   background-color: rgba(250, 249, 249, 1);
 }
 
+.botaoCheck {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 302px;
+    top: 457px;
+    background: #EBEBEB;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+    border-radius: 32px;
+}
+
+#iconCheck {
+    position: absolute;
+    top: 473px;
+    left: 316px;
+    color: #28A820;
+}
+
+.fa-check:before {
+    font-size: 30px;
+}

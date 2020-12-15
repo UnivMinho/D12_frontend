@@ -1,0 +1,547 @@
+* {
+    overflow-x: hidden;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+.textoMaterialUtilizado {
+    width: 316px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 86px;
+    left: 50px;
+    font-family: Mulish;
+    font-weight: Light;
+    font-size: 30px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoVeiculo {
+    width: 72px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 156px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 18px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoAlgemas {
+    width: 77px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 320px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoArma {
+    width: 48px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 238px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoMascara {
+    width: 76px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 402px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.textoCassetete {
+    width: 88px;
+    color: rgba(65, 65, 69, 1);
+    position: absolute;
+    top: 484px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoUtilizadoVeiculo {
+    width: 68px;
+    position: absolute;
+    top: 187px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+
+.textoNaoUtilizadoVeiculo {
+    width: 103px;
+    position: absolute;
+    top: 189px;
+    left: 187px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.textoUtilizadoMascara {
+    width: 68px;
+    position: absolute;
+    top: 433px;
+    left: 37px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoNaoUtilizadoMascara {
+    width: 103px;
+    position: absolute;
+    top: 433px;
+    left: 188px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+
+.textoUtilizadoArma {
+    width: 68px;
+    position: absolute;
+    top: 269px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoNaoUtilizadoArma {
+    width: 103px;
+    position: absolute;
+    top: 269px;
+    left: 187px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.textoUtilizadoAlgemas {
+    width: 68px;
+    position: absolute;
+    top: 351px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+
+.textoNaoUtilizadoAlgemas {
+    width: 103px;
+    position: absolute;
+    top: 351px;
+    left: 187px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+
+.textoUtilizadoCassetete {
+    width: 68px;
+    position: absolute;
+    top: 515px;
+    left: 36px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.textoNaoUtilizadoCassetete {
+    width: 103px;
+    position: absolute;
+    top: 515px;
+    left: 187px;
+    font-family: Poppins;
+    font-weight: Medium;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.checkboxUtilizadoVeiculo {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 185px;
+  left: 108px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxNaoUtilizadoVeiculo {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 185px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxUtilizadoAlgemas {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 345px;
+  left: 109px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxNaoUtilizadoAlgemas {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 345px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxUtilizadoArma {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 265px;
+  left: 109px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxNaoUtilizadoArma {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 265px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxUtilizadoMascara {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 429px;
+  left: 109px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxNaoUtilizadoMascara {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 429px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxUtilizadoCassetete {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 512px;
+  left: 109px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.checkboxNaoUtilizadoCassetete {
+  height: 30px;
+  width: 88px;
+  color: rgba(20, 19, 42, 1);
+  position: absolute;
+  top: 512px;
+  left: 302px;
+  font-family: Poppins;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.botaoCheck {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 317px;
+    top: 574px;
+    background: #EBEBEB;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+    border-radius: 32px;
+}
+
+#iconCheck {
+    position: absolute;
+    top: 589px;
+    left: 333px;
+    color: #28A820;
+}
+
+.fa-check:before {
+    font-size: 30px;
+}
+
+#iconBack {
+    position: absolute;
+    top: 22px;
+    left: 27px;
+    color: #ACA6A6;
+}
+
+.fa-long-arrow-left:before {
+    font-size: 25px;
+}
+
+.bottombar {
+    width: 423px;
+    height: 92px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 658px;
+    left: 1px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.firstsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 667px;
+    left: 33px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.secondsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 105px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fourthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 252px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fifthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 324px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 178px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 177px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+#iconfirstsquareMaterialUtilizado {
+    top: 92.5%;
+    left: 12%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconsecondsquareMaterialUtilizado {
+    top: 92.5%;
+    left: 29%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconthirdsquareMaterialUtilizado {
+    top: 92.5%;
+    left: 46%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfourthsquareMaterialUtilizado {
+    top: 92.5%;
+    left: 64%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfifthsquareMaterialUtilizado {
+    top: 92.5%;
+    left: 81%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}

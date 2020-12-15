@@ -3,6 +3,9 @@
 
 <head>
 
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,7 +20,6 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-    <link href="bs-stepper.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -30,7 +32,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                 <img src="apple-icon-60x60.png"></img>
+                 <img src="favicon-32x32.png"></img>
                 <div class="sidebar-brand-text mx-3">Policia Municipal</div>
             </a>
 
@@ -225,158 +227,94 @@
                     <div class="card shadow mb-4">
 
                         <div class="card-body">
+                            <a class="btn btn-lg float-right">
+                                <i class="fas fa-edit float-right" style="color:#091A44"></i>
+                            </a>
                             <div id="main">
                                 <div class="row">
                                     <div class="col-md-12">
                                         <form>
                                             <h5>1. Anonimato</h5>
                                             <div id="anonymity"></div>
-                                            <h5>2. Data</h5>
-                                            <div class="form group ">
-                                                <input type="date" id="dateOcurrence" class="form-control" name="dateOcurrence">
-                                                <label></label>
+                                            <h5>2. Data e Hora</h5>
+                                            <div class="form group">
+                                                <div id="date">
+                                                </div>
+                                                <h5>3. Identificaçao do Queixoso</h5>
+                                                <div class="form-group">
+                                                    <div id="complainer"></div>
+                                                </div>
+                                                <h5>4. Local</h5>
+                                                <div id="local">
+                                                    <div class="form-row"> </div>
+                                                </div>
+
+
                                             </div>
-                                            <h5>3. Identificaçao do Queixoso</h5>
+                                            <h5>5. Descrição</h5>
                                             <div class="form-group">
-                                                <label for="inputCC">nº CC</label>
-                                                <input type="text" class="form-control" id="inputCC">
+                                                <div id="description"></div>
                                             </div>
-                                            <div class="form-group ">
-                                                <label for="inputName">Nome</label>
-                                                <input type="text" class="form-control" id="inputName">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="inputAddress">Morada</label>
-                                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                                            </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-md-6">
-                                                    <label for="inputContact">Contacto</label>
-                                                    <input type="text" class="form-control" id="inputContact">
-                                                </div>
-                                                <div class="form-group col-md-4">
-                                                    <label for="inputState">Data de Nascimento</label>
-                                                    <input type="date" class="form-control" id="dateOcurrence" name="dateOcurrence">
-                                                </div>
-                                                <div class="form-group col-md-2">
-                                                    <label for="inputZip">Código Postal</label>
-                                                    <input type="text" class="form-control" id="inputZip">
-                                                </div>
-                                            </div>
-                                            <div class="form-group col-md-2">
-                                                <label for="genero">Género<p>
-                                                <div id="genero" >
-                                                  <input type="radio" id="male" name="gender" value="male">
-                                                  <label for="male">Masculino</label><br>
-                                                <input type="radio" id="female" name="gender" value="female">
-                                                <label for="female">Feminino</label><br>
-                                            </div>
+                                        </form>
                                     </div>
-                                    <h5>4. Local</h5>
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                            <label for="inputOptionLocal">Local</label>
-                                            <select id="inputOptionLocal" class="form-control">
-                                                        <option>Via Pública</option>
-                                                        <option>Edificio Comercial</option>
-                                                        <option>Edificio Industrial</option>
-                                                        <option>Residência</option>
-                                                      </select>
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="inputEntity">Entidade</label>
-                                            <input type="text" class="form-control" id="inputEntity" placeholder="nome entidade envolvida">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="inputLocality">Localidade</label>
-                                            <input type="text" class="form-control" id="inputLocality">
-                                        </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="inputAdress">Morada</label>
-                                            <input type="text" class="form-control" id="inputAdress" placeholder="1234 Main St">
-                                        </div>
-                                    </div>
-                                    <h5>5. Descrição</h5>
-                                    <div class="form-group">
-                                        <div class="form-group col-md-6">
-                                            <label for="type">Tipo<p>
-                                                <div id="type" >
-                                                  <input type="radio" id="roubo" name="type" value="roubo">
-                                                  <label for="male">Roubo</label><br>
-                                            <input type="radio" id="furto" name="type" value="furto">
-                                            <label for="female">Furto</label><br>
-                                        </div>
-                                    </div>
-                                    <label for="TextareaDescription">Breve decrição da queixa (informações sobre o incidente que considere importante referir) 
-                                                   </label>
-                                    <textarea class="form-control" id="TextareaDescription" rows="10"></textarea>
                                 </div>
-                                </form>
                             </div>
                         </div>
                     </div>
+                    <!-- /.container-fluid -->
                 </div>
+                <!-- End of Main Content -->
 
-                <div>
-
-                </div>
+                <!-- Footer -->
+                <footer class="sticky-footer bg-white">
+                    <div class="container my-auto">
+                        <div class="copyright text-center text-white my-auto">
+                            <span>Copyright &copy; Your Website 2020</span>
+                        </div>
+                    </div>
+                </footer>
+                <!-- End of Footer -->
 
             </div>
-    </div>
-    <!-- /.container-fluid -->
-    </div>
-    <!-- End of Main Content -->
+            <!-- End of Content Wrapper -->
 
-    <!-- Footer -->
-    <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-            <div class="copyright text-center text-white my-auto">
-                <span>Copyright &copy; Your Website 2020</span>
-            </div>
         </div>
-    </footer>
-    <!-- End of Footer -->
+        <!-- End of Page Wrapper -->
 
-    </div>
-    <!-- End of Content Wrapper -->
-
-    </div>
-    <!-- End of Page Wrapper -->
-
-    <!-- Scroll to Top Button-->
-    <a class="scroll-to-top rounded" href="#page-top">
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+        <!-- Logout Modal-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Deseja mesmo sair?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
+                    <div class="modal-body">Carregue em Logout se quiseres mesmo sair.</div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-primary" href="login.html">Logout</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap core JavaScript-->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Core plugin JavaScript-->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
-    <script src="controller/requests.form.controller.js"></script>
+        <!-- Custom scripts for all pages-->
+        <script src="js/sb-admin-2.min.js"></script>
+        <script src="controller/requests.form.controller.js"></script>
 
 </body>
 

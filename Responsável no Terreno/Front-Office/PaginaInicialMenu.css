@@ -4,7 +4,7 @@
     margin: 0px !important;
 }
 
-.screen{
+.screen {
     width: 414px;
     height: 736px;
     background: rgba(250, 249, 249, 1);
@@ -15,220 +15,125 @@
     overflow: hidden;
 }
 
-.v53_704 {
-    width: 375px;
-    height: 812px;
-    background: rgba(250, 249, 249, 1);
+.circleone {
+    width: 207px;
+    height: 191px;
+    background: rgba(160, 157, 157, 0.05000000074505806);
     opacity: 1;
     position: absolute;
-    top: 0px;
-    left: 0px;
-}
-
-
-.fotografia{
-    width: 85px;
-    height: 85px;
-    background: url("../images/v56_525.png");
-    opacity: 1;
-    position: absolute;
-    top: 98px;
-    left: 29px;
+    top: -64px;
+    left: -19px;
     border-radius: 50%;
 }
 
-.textoVerPerfil {
-    width: 114px;
-    color: rgba(145, 144, 151, 1);
-    position: absolute;
-    top: 127px;
-    left: 135px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 14px;
+.circletwo {
+    width: 179px;
+    height: 183px;
+    background: rgba(186, 185, 198, 0.1899999976158142);
     opacity: 1;
-    text-align: left;
-    border: none;
+    position: absolute;
+    top: 27px;
+    left: -24px;
+    border-radius: 50%;
 }
 
-.nomeAgente{
-    width: 198px;
-    color: rgba(20, 19, 42, 1);
+.fotografia {
+    width: 108px;
+    height: 104px;
+    opacity: 1;
     position: absolute;
-    top: 106px;
-    left: 135px;
-    font-family: Poppins;
-    font-weight: Regular;
+    top: 77px;
+    left: 80px;
+    border-radius: 50%;
+    background: gray;
+}
+
+.nomeAgente {
+    top: 140px;
+    left: 227px;
+    font-family: 'Poppins';
+    position: absolute;
+    color: gray;
+    font-size: 17px;
+}
+
+.caixaAjudaeSuporte {
+    width: 340px;
+    height: 53px;
+    background: rgb(239 239 239);
+    opacity: 1;
+    position: absolute;
+    top: 254px;
+    left: 36px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0px 4px 20px rgb(125 122 122 / 50%);
+    overflow: hidden;
+    border: none;
+    font-family: 'Poppins';
     font-size: 16px;
-    opacity: 1;
-    text-align: left;
-}
-
-.caixaVerAgentesProx {
-    width: 340px;
-    height: 60px;
-    background: rgba(233, 234, 238, 1);
-    opacity: 1;
-    position: absolute;
-    top: 210px;
-    left: 18px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
-    overflow: hidden;
-    border: none;
-}
-
-.caixaAjudaeSuporte{
-    width: 340px;
-    height: 60px;
-    background: rgba(233, 234, 238, 1);
-    opacity: 1;
-    position: absolute;
-    top: 297px;
-    left: 18px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
-    overflow: hidden;
-    border: none;
-}
-
-.name {
-    color: #fff;
 }
 
 .caixaDefiePriv {
-    width: 338px;
-    height: 60px;
-    background: rgba(233, 234, 238, 1);
+    width: 340px;
+    height: 53px;
+    background: rgb(239 239 239);
     opacity: 1;
     position: absolute;
-    top: 384px;
-    left: 20px;
+    top: 337px;
+    left: 36px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+    box-shadow: 0px 4px 20px rgb(125 122 122 / 50%);
     overflow: hidden;
     border: none;
+    font-family: 'Poppins';
+    font-size: 16px;
 }
 
 .caixaTerminarSessao {
     width: 340px;
-    height: 60px;
-    background: rgba(233, 234, 238, 1);
+    height: 53px;
+    background: rgb(239 239 239);
     opacity: 1;
     position: absolute;
-    top: 471px;
-    left: 20px;
+    top: 421px;
+    left: 36px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    box-shadow:0px 4px 20px rgba(104, 109, 224, 0.5);
+    box-shadow: 0px 4px 20px rgb(125 122 122 / 50%);
     overflow: hidden;
     border: none;
+    font-family: 'Poppins';
+    font-size: 16px;
 }
 
-#iconeTerminarSessao{
-   color: red;
+#iconeTerminarSessaoPaginaInicialMenu {
+    color: red;
     position: absolute;
-    top: 489px;
-    left: 48px;
-    font-size: x-large ;
+    top: 434px;
+    left: 66px;
+    font-size: x-large;
 }
-.Menu{
+
+.Menu {
     width: 167px;
     color: rgba(20, 19, 42, 1);
     position: absolute;
-    top: 57px;
-    left: 132px;
+    top: 106px;
+    left: 227px;
     font-family: Poppins;
-    font-weight: Regular;
     font-size: 26px;
     opacity: 1;
     text-align: left;
-    text-shadow:  4px 4px  #000000 25%;
-
 }
 
-.textoAjudaeSuporte {
-    width: 182px;
-    color: rgba(20, 19, 42, 1);
-    position: absolute;
-    top: 315px;
-    left: 90px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 15px;
-    opacity: 1;
-    text-align: left;
-}
-
-.textoDefiePriv{
-    width: 223px;
-    color: rgba(20, 19, 42, 1);
-    position: absolute;
-    top: 400px;
-    left: 90px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 15px;
-    opacity: 1;
-    text-align: left;
-}
-
-.textoTerminarSessao {
-    width: 223px;
-    color: rgba(20, 19, 42, 1);
-    position: absolute;
-    top:490px;
-    left: 90px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 15px;
-    opacity: 1;
-    text-align: left;
-}
-
-.name {
-    color: #fff;
-}
-
-.name {
-    color: #fff;
-}
-
-.textoVerAgenteProx {
-    width: 270px;
-    color: rgba(20, 19, 42, 1);
-    position: absolute;
-    top: 228px;
-    left: 90px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 15px;
-    opacity: 1;
-    text-align: left;
-}
-
-.name {
-    color: #fff;
-}
-
-.name {
-    color: #fff;
-}
-
-.name {
-    color: #fff;
-}
 .bottombar {
     width: 423px;
     height: 92px;
@@ -386,45 +291,45 @@
     background: none;
     color: lightgray;
 }
-#iconedefinicoes{
-   color: black;
+
+#iconedefinicoesPaginaInicialMenu {
+    color: black;
     position: absolute;
-    top: 401px;
-    left: 46px;
-    font-size: x-large ;
+    top: 351px;
+    left: 66px;
+    font-size: x-large;
 }
-#iconeAjuda{
-   color: black;
+
+#iconeAjudaPaginaInicialMenu {
+    color: black;
     position: absolute;
-    top: 315px;
-    left: 46px;
-    font-size: x-large ;
+    top: 268px;
+    left: 66px;
+    font-size: X-large;
 }
-#iconeUsers{
-   color: black;
+
+#iconeSetaBaixoPaginaInicialMenu {
+    color: gray;
     position: absolute;
-    top: 230px;
-    left: 46px;
-    font-size: x-large ;
+    top: 272px;
+    left: 330px;
+    font-size: large;
 }
-#iconeSeta{
-   color: gray;
+
+#iconeSetaBaixo1PaginaInicialMenu {
+    color: gray;
     position: absolute;
-    top: 65px;
-    left: 34px;
-    font-size: x-large ;
+    top: 354px;
+    left: 330px;
+    font-size: large;
 }
-#iconeSetaBaixo{
-   color: gray;
-    position: absolute;
-    top: 315px;
-    left: 294px;
-    font-size: large ;
-}
-#iconeSetaBaixo1{
-   color: gray;
-    position: absolute;
-    top: 401px;
-    left: 294px;
-    font-size: large ;
+
+#buttonbackPaginaInicialMenu {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgb(232 231 231);
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="./DadosPessoais.css" rel="stylesheet" />
+    <title>Dados Pessoais</title>
+ 
+</head>
+
+<body>
+    <div class="screen">
+        
+         <div class="bottombar"></div> <!-- barra inferrior-->
+        <div class="firstsquare"></div> <!--primeiro quadrado-->
+        <div class="secondsquare"></div> <!--segundo quadrado-->
+        <div class="thirdsquare"></div> <!--terceiro quadrado-->
+        <div class="fourthsquare"></div> <!--quarto quadrado-->
+        <div class="fifthsquare"></div> <!--quinto quadrado-->
+        <button id="iconfirstsquareDadosPessoais" class="far fa-bell"></button> <!--icon primeiro quadrado-->
+        <button id="iconsecondsquareDadosPessoais" class="fas fa-paste"></button> <!--icon segundo quadrado-->
+        <button id="iconthirdsquareDadosPessoais" class="fas fa-folder-open"></button> <!--icon terceiro quadrado-->
+        <button id="iconfourthsquareDadosPessoais" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
+        <button id="iconfifthsquareDadosPessoais" class="fas fa-star"></button> <!--icon quinto quadrado-->
+	</div>
+
+        <input id="checkboxDadosPessoais" class="checkboxLevantamentoMaterial" type="checkbox">
+
+        <span class="textoMudarPassword">Mudar a Password</span>
+        <div class="retangulo"></div>
+        <div class="circulo"></div>
+        <span class="textoDadosPessoais">DADOS PESSOAIS</span>
+        <div class="bolinhaAdd"></div>
+        <span class="sinalAdd">+</span>
+        
+        <div class="boxNome">
+            <input id="inputNome" class="inputNome"></input>
+            <span class="textoNome">Nome</span></div>
+            
+        <div class="boxDataNascimento">
+            <input id="inputDataNascimento" class="inputDataNascimento"></input>
+            <span class="textoDataNascimento">Data de Nascimento</span></div>
+        
+        <div class="boxCedulaProfissional">
+            <input id="inputCedulaProfissional" class="inputCedulaProfissional"></input>
+            <span class="textoCedulaProfissional">Cédula Profissional</span></div>
+        
+        <div class="boxEmail">
+            <input id="inputEmail" class="inputEmail"></input>
+            <span class="textoEmail">Email</span></div>
+            
+        <div class="boxPassword">
+            <span class="textoPassword">Password</span> 
+            <input id="inputPassword" class="inputPassword" type="password"></div>
+            
+        <button class="buttonGravarAlteracoes">GRAVAR ALTERAÇÕES</button>
+        
+        <div class="boxTelemovel">
+            <span class="inputTelemovel">+351 (· · · ) · · · · · · ·</span>
+            <span class="textoTelemovel">Número telemóvel</span></div>
+            
+        <input class="boxConfirmarPassword">
+            <span class="textoConfirmarPassword">Confirmar Password</span></input>
+            
+        <input class="boxNovaPassword">
+            <span class="textoNovaPassword">Nova Password</span></input>
+            
+        <input class="boxConfirmarNovaPassword">
+            <span class="textoConfirmarNovaPassword">Confirmar Nova Password</span></input>
+    
+        <button id="buttonbackDadosPessoais" class="fas fa-chevron-left" onclick="goBack()"></button> <!--botão e icon para voltar para a página anterior-->
+        <i id="iconDadosPessoais" class="fas fa-user"></i>
+    </div>
+    
+    <script type="text/javascript" src="DadosPessoais.js"></script>
+    
+</body>
+
+</html>

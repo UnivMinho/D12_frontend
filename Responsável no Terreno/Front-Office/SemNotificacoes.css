@@ -37,21 +37,6 @@
   border-radius: 50%;
 }
 
-.circleicon {
-  width: 90px;
-  height: 88px;
-  background: url("../images/v160_204.png");
-  opacity: 1;
-  position: absolute;
-  top: 44px;
-  left: 150px;
-  border-radius: 50%;
-}
-
-.name {
-  color: #fff;
-}
-
 .v160_208 {
   width: 220px;
   color: rgba(36, 47, 65, 1);
@@ -154,7 +139,7 @@
   overflow: hidden;
 }
 
-.iconfirstsquare {
+.iconfirstsquareSemNotificacoes {
   width: 28px;
   height: 35px;
   background: rgba(193, 193, 193, 1);
@@ -164,21 +149,7 @@
   left: 50px;
 }
 
-.icons {
-  width: 265px;
-  height: 54px;
-  background: url(../images/v165_1057.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 670px;
-  left: 106px;
-  overflow: hidden;
-}
-
-.iconsecondsquare {
+.iconsecondsquareSemNotificacoes {
   width: 30px;
   height: 30px;
   background: rgba(193, 193, 193, 1);
@@ -188,7 +159,7 @@
   left: 15px;
 }
 
-.iconfourthsqaure {
+.iconfourthsqaureSemNotificacoes {
   width: 33px;
   height: 33px;
   background: rgba(193, 193, 193, 1);
@@ -198,7 +169,7 @@
   left: 158px;
 }
 
-.iconfifthsqaure {
+.iconfifthsqaureSemNotificacoes {
   width: 33px;
   height: 33px;
   background: rgba(193, 193, 193, 1);
@@ -208,7 +179,7 @@
   left: 232px;
 }
 
-.thirdsquare {
+.thirdsquareSemNotificacoes {
   width: 60px;
   height: 58px;
   background: rgba(244, 244, 244, 1);

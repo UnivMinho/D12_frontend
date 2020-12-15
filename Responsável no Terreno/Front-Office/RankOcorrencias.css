@@ -1,0 +1,408 @@
+* {
+  overflow-x: hidden;
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.screen {
+    width: 414px;
+    height: 736px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+
+
+
+.textoOcorrencia {
+    width: 250px;
+    color: rgba(36, 47, 65, 1);
+    position: absolute;
+    top: 13%;
+    left: 9%;
+    font-family: Mulish;
+    font-weight: Regular;
+    font-size: 30px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+
+.textoOcorrencia1 {
+    width: 108px;
+    color: rgba(28, 24, 24, 1);
+    position: absolute;
+    top: 183px;
+    left: 54px;
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.dataOcorrencia1 {
+    width: 80px;
+    color: rgba(92, 88, 88, 1);
+    position: absolute;
+    top: 186px;
+    left: 146px;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 9px;
+    opacity: 1;
+    text-align: right;
+}
+
+.textoOcorrencia4 {
+    width: 108px;
+    color: rgba(28, 24, 24, 1);
+    position: absolute;
+    top: 360px;
+    left: 55px;
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.dataOcorrencia4 {
+    width: 80px;
+    color: rgba(92, 88, 88, 1);
+    position: absolute;
+    top: 363px;
+    left: 147px;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 9px;
+    opacity: 1;
+    text-align: right;
+}
+
+.textoOcorrencia3 {
+    width: 108px;
+    color: rgba(28, 24, 24, 1);
+    position: absolute;
+    top: 300px;
+    left: 54px;
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.dataOcorrencia3 {
+    width: 80px;
+    color: rgba(92, 88, 88, 1);
+    position: absolute;
+    top: 303px;
+    left: 146px;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 9px;
+    opacity: 1;
+    text-align: right;
+}
+
+.primeiroQuadradoOcorrencias {
+    width: 311px;
+    height: 43px;
+    background: rgba(226, 226, 236, 1);
+    opacity: 1;
+    position: absolute;
+    top: 172px;
+    left: 41px;
+    border: 1px solid rgba(212, 214, 220, 1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.textoOcorrencia2 {
+    width: 108px;
+    color: rgba(28, 24, 24, 1);
+    position: absolute;
+    top: 244px;
+    left: 53px;
+    font-family: Open Sans;
+    font-weight: SemiBold;
+    font-size: 14px;
+    opacity: 1;
+    text-align: left;
+}
+
+.dataOcorrencia2 {
+    width: 80px;
+    color: rgba(92, 88, 88, 1);
+    position: absolute;
+    top: 247px;
+    left: 146px;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 9px;
+    opacity: 1;
+    text-align: right;
+}
+
+.segundoQuadradoOcorrencias {
+    width: 311px;
+    height: 43px;
+    background: rgba(226, 226, 236, 1);
+    opacity: 1;
+    position: absolute;
+    top: 228px;
+    left: 41px;
+    border: 1px solid rgba(212, 214, 220, 1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.terceiroQuadradoOcorrencias {
+    width: 311px;
+    height: 43px;
+    background: rgba(226, 226, 236, 1);
+    opacity: 1;
+    position: absolute;
+    top: 284px;
+    left: 41px;
+    border: 1px solid rgba(212, 214, 220, 1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.quartoQuadradoOcorrencias {
+    width: 311px;
+    height: 43px;
+    background: rgba(226, 226, 236, 1);
+    opacity: 1;
+    position: absolute;
+    top: 343px;
+    left: 41px;
+    border: 1px solid rgba(212, 214, 220, 1);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+}
+
+.bottombar {
+    width: 423px;
+    height: 92px;
+    background: rgba(250, 249, 249, 1);
+    opacity: 1;
+    position: absolute;
+    top: 658px;
+    left: 1px;
+    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+    overflow: hidden;
+}
+
+.firstsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 667px;
+    left: 33px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.secondsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 105px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fourthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 252px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.fifthsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 668px;
+    left: 324px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 178px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+.thirdsquare {
+    width: 60px;
+    height: 58px;
+    background: rgba(244, 244, 244, 1);
+    opacity: 1;
+    position: absolute;
+    top: 666px;
+    left: 177px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+    overflow: hidden;
+}
+
+#iconfirstsquareArquivos {
+    top: 92.5%;
+    left: 12%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconsecondsquareArquivos {
+    top: 92.5%;
+    left: 29%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconthirdsquareArquivos {
+    top: 92.5%;
+    left: 46%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfourthsquareArquivos {
+    top: 92.5%;
+    left: 64%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#iconfifthsquareArquivos {
+    top: 92.5%;
+    left: 81%;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+    background: none;
+    color: lightgray;
+}
+
+#buttonbackArquivos {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
+}
+#iconeOcorrencia1 {
+  position: absolute;
+  top: 180px;
+  left: 325px;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+#iconeOcorrencia2 {
+  position: absolute;
+  top: 236px;
+  left: 325px;
+  border: none;
+  font-size: x-large;
+  color: black;
+ 
+}
+
+#iconeOcorrencia3 {
+  position: absolute;
+  top: 293px;
+  left: 325px;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+ 
+#iconeOcorrencia4 {
+  position: absolute;
+  top: 352px;
+  left: 325px;
+  border: none;
+  font-size: x-large;
+  color: black;
+  
+}
+
+
+
+

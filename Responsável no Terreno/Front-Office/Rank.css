@@ -125,12 +125,8 @@
     color: rgba(36, 47, 65, 1);
     position: absolute;
     top: 490px;
-    left: 109px;
+    left: 130px;
     font-family: 'Mulish';
-    font-size: 30px;
-    opacity: 1;
-    text-align: center;
-    font-size: 18px;
 }
 
 .textOne {
@@ -172,7 +168,6 @@
 .CreditosPorOcorrencia {
     width: 294px;
     height: 41px;
-    background: rgb (222, 222, 222, 87);
     opacity: 1;
     position: absolute;
     top: 79%;
@@ -184,15 +179,16 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     overflow: hidden;
     font-size: 18px;
-    font-family: 'Mulish';
-    color: black;
     border: none;
+    font-family: 'Mulish';
+    color: rgba(60, 60, 60, 1);
 }
 
 #arrowRank {
     position: absolute;
     top: 81%;
     left: 82%;
+    color: rgba(88, 88, 88, 1)
 }
 
 .bottombar {
@@ -354,13 +350,13 @@
 }
 
 #buttonbackRank {
-  position: absolute;
-  top: 46px;
-  left: 28px;
-  border: none;
-  font-size: x-large;
-  color: lightgray;
-  background-color: rgba(250, 249, 249, 1);
+    position: absolute;
+    top: 46px;
+    left: 28px;
+    border: none;
+    font-size: x-large;
+    color: lightgray;
+    background-color: rgba(250, 249, 249, 1);
 }
 
 #iconRank {

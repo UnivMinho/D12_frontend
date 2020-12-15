@@ -14,13 +14,33 @@
 
 <body>
     <div class="screen">
-       <span class="textoSerieNumero">Série nº:</span>
-            <div class="v112_529"></div>
-            <div class="v111_535"></div><span class="v111_536">24</span><span class="v111_531">46 96 PM</span>
-            <div class="name"></div>
-        </div><span class="v101_172">LEVANTAMENTO MATERIAL</span><span class="v104_528">Veículo</span><span class="v107_1">Matrícula nº:</span><span class="v104_529">Algemas</span><span class="v105_0">Arma</span><span class="v105_1">Máscara</span>
-        <div class="v112_535">
+        
+        <span class="textoLevantamentoMaterial">LEVANTAMENTO MATERIAL</span>
 
+        
+            <input id="inputMatricula" class="inputMatricula"></input>
+                <span class="textoVeiculo">Veículo</span>
+                <span class="textoMatricula">Matrícula nº:</span>
+
+
+            <input id="inputSerie" class="inputSerie"></input>
+                <span class="textoSerieNumero">Série nº:</span>
+                <span class="textoArma">Arma</span>
+
+
+        <span class="textoAlgemas">Algemas</span>
+            <input id="checkboxAlgemas" class="checkboxAlgemas" type="checkbox">
+
+        
+        <span class="textoMascara">Máscara</span>
+            <input id="checkboxMascara" class="checkboxMascara" type="checkbox">
+            
+        
+         <span class="textoCassetete">Cassetete</span>
+            <input id="checkboxCassetete" class="checkboxCassetete" type="checkbox">
+
+     <button id="botaoCheck" class="botaoCheck"></button>
+                <i id="iconCheck" class="fas fa-check"></i>
  
      <button id="buttonbackLevantamentoMaterial" class="fas fa-chevron-left" onclick="goBack()"></button>
 

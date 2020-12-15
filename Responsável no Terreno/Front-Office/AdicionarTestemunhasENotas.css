@@ -264,3 +264,13 @@
 .fa-check:before {
     font-size: 30px;
 }
+
+#buttonbackAdicionarTestemunhasENotas {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
+}

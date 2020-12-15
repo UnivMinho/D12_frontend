@@ -6,27 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="./Menu.css" rel="stylesheet" />
+    <title>Document</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <title>Document</title>
-    <link href="./Menu.css" rel="stylesheet" />
-    <title>Document</title>
-    <link href="./Menu.css" rel="stylesheet" />
-    <title>Document</title>
-</head>
-
 <body>
-    <div class="v97_62">
-        
-            <div class="v97_64"></div>
-            <span class="Menu">Menu</span>
-           
-            <div class="fotografia"></div><span class="textoVerPerfil">Ver o seu Perfil</span><span class="nomeAgente">Pedro Teixeira da Mota</span>
-            <button class="caixaAgentesProx"></button>
-            <button class="caixaAjudaeSuporte"></button>
-            </div><span class="textoAjudaeSuporte">Ajuda e Suporte</span>
-            </div><span class="textoVerAgentesProx">Ver Agentes das Proximidades</span>
+    <div class="screen">
+        <div class="circleone"></div> <!--circulo1-->
+        <div class="circletwo"></div> <!--circulo2-->
+        <div class="fotografia"></div>
+        <span class="nomeAgente">Nome</span>
+        <button class="caixaAjudaeSuporte">Ajuda e Suporte</button>
+        <span class="Menu">Menu</span>
+        <button class="caixaDefiePriv">Definições e Privacidade</button>
+        <button class="caixaTerminarSessao">Terminar Sessão</button>
             
+        <button class="caixaTextoIdioma">Idioma da App</button>
+        <button class="caixaDefinicoes">Definições</button>
+        <button class="caixaTextoTermos">Termos e Políticas</button>
+        <button class="caixaTextoComProb">Comunicar um Problema</button>
+        <button class="caixaTextoComAjuda">Comunidade de Ajuda</button>
+        
+        <i id="iconeDefinicoesMenu"class="fal fa-cog"></i>
+        <i id="iconeAjudaMenu"class="fal fa-question-circle"></i>
+        <i id="iconeCommentMenu"class="fal fa-comment-lines"></i>
+        <i id="iconeShieldMenu"class="far fa-shield-alt"></i>
+        <i id="iconeBookMenu"class="fal fa-book-alt"></i>
+        <i id="iconeUserMenu"class="fal fa-user"></i>
+        <i id="iconeGlobeMenu"class="fal fa-globe"></i>
+        <i id="iconeTerminarSessaoMenu"class="far fa-power-off"></i>
+        
         <div class="bottombar"></div> <!-- barra inferrior-->
         <div class="firstsquare"></div> <!--primeiro quadrado-->
         <div class="secondsquare"></div> <!--segundo quadrado-->
@@ -39,29 +47,10 @@
         <button id="iconfourthsquareMenu" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
         <button id="iconfifthsquareMenu" class="fas fa-star"></button> <!--icon quinto quadrado-->
 
-
-
-        
-        <button class="caixaDefiePriv"></button>
-        <div class="name"></div><span class="textoDefiePriv">Definições e Privacidade</span>
-        <div class="name"></div>
-        <button class="caixaTerminarSessao"></button>
-        <i id="iconeTerminarSessao"class="far fa-power-off"></i><span class="textoTerminarSessao">Terminar Sessão</span>
-      
-        <button class="caixaTextoIdioma"></button><span class="textoIdiomaApp">Idioma da App</span>
-        <div class="name"></div>
-        <button class="caixaDefinicoes"></button><span class="textoDefinicoes">Definições</span>
-        <button class="caixaTextoTermos"></button><span class="textoTermosPoliticas">Termos e Políticas</span>
-        <button class="caixaTextoComProb"></button><span class="textoComunicarProblema">Comunicar um Problema</span>
-        <button class="caixaTextoComAjuda"></button><span class="textoComunidadeAjuda">Comunidade de Ajuda</span>
-        <div class="name"></div>
-        <i id="iconedefinicoes"class="fal fa-cog"></i>
-        <i id="iconeAjuda"class="fal fa-question-circle"></i>
-        <i id="iconeUsers" class="fal fa-user-friends"></i>
-        <i id="iconeSeta" class="fal fa-arrow-left"></i>
-        <i id="iconeComment"class="fal fa-comment-lines"></i>
-        <i id="iconeShield"class="far fa-shield-alt"></i>
+        <button id="buttonbackMenu" class="fas fa-chevron-left" onclick="goBack()"></button>
     </div>
+    
+    <script type="text/javascript" src="Menu.js"></script>
 </body>
 
 </html>

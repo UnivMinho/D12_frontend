@@ -2,7 +2,7 @@
 //iterar tabela :linha e celula 
 //colocar dados que vem no sitio certo 
 
-fetch('http://18.234.79.11:8080/requests')
+fetch('http://18.212.200.1:8080/requests')
     .then(response => response.json())
     .then(requests => {
         console.log(requests);
@@ -27,7 +27,7 @@ fetch('http://18.234.79.11:8080/requests')
                                         <span class="icon text-white">
                                             <i class="fas fa-eye"></i>
                                         </span>
-                                        
+                                        '</a>'
                                         <a class="btn btn-primary btn-icon-split ">
                                             <span class="icon text-white">
                                                 <i class="fas fa-folder-open" data-toggle="modal" data-target="#archiveRequestsModal"></i>
@@ -43,30 +43,12 @@ fetch('http://18.234.79.11:8080/requests')
             actionsCell.innerHTML = actionsCellContent;
         })       
     })
-
-/*<a class="btn btn-primary btn-icon-split " href="anonymous.html" style="color:#091A44">
-                                                    <span class="icon text-white">
-                                                        <i class="fas fa-eye"></i>
-                                                    </span>
-                                                    
-                                                </a>
-                                                <a class="btn btn-primary btn-icon-split ">
-                                                    <span class="icon text-white">
-                                                       <i class="fas fa-check" data-toggle="modal" data-target="#successModal"></i>
-                                                    </span>
-                                                </a>
-                                                <a class="btn btn-primary btn-icon-split ">
-                                                    <span class="icon text-white">
-                                                        <i class="fas fa-folder-open" data-toggle="modal" data-target="#archiveRequestsModal"></i>
-                                                    </span>
-                                                </a>
-
 /*
-   if(table) {
-    Array.from(table.rows).forEach((tr, row_ind) => {
-        Array.from(tr.cells).forEach((i; tr.cell[i];i++) => {
-            cell[0].innerHTML= todo.title;
-            console.log('Value at row/col [' + row_ind + ',' + col_ind + '] = ' + cell.textContent);
-        });
-    });
-}*/
+function saveRequest(){
+    var data = {};
+    data.ano = document.getElementById("name").value;
+    data.email = document.getElementById("email").value;
+    data.pass = document.getElementById("pwd").value; 
+    
+}
+*/
