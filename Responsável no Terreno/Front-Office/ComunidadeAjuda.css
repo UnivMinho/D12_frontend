@@ -4,6 +4,28 @@
   margin: 0px !important;
 }
 
+.v101_0 {
+  width: 414px;
+  height: 736px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
+.v129_4 {
+  width: 414px;
+  height: 736px;
+  background: rgba(250, 249, 249, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+
 .screen {
   width: 414px;
   height: 736px;
@@ -19,7 +41,7 @@
   width: 225px;
   color: rgba(9, 26, 68, 1);
   position: absolute;
-  top: 51px;
+  top: 45px;
   left: 87px;
   font-family: Open Sans;
   font-weight: Bold;
@@ -154,6 +176,17 @@
   color: lightgray;
 }
 
+.v129_124 {
+  width: 375px;
+  height: 36px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  overflow: hidden;
+}
+
 .textoPergunta {
   width: 258px;
   color: rgba(73, 73, 77, 1);
@@ -183,4 +216,20 @@
   font-size: x-large;
   color: lightgray;
   background-color: rgba(250, 249, 249, 1);
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

@@ -76,31 +76,6 @@
     overflow: hidden;
 }
 
-.numbernotifications {
-    width: 17px;
-    color: rgba(255, 255, 255, 1);
-    position: absolute;
-    top: 666px;
-    left: 74px;
-    font-family: Poppins;
-    font-weight: Regular;
-    font-size: 14px;
-    opacity: 1;
-    text-align: center;
-}
-
-.circlenotification {
-    width: 25px;
-    height: 25px;
-    background: rgba(8, 25, 68, 0.6399999856948853);
-    opacity: 1;
-    position: absolute;
-    top: 664px;
-    left: 70px;
-    border-radius: 50%;
-}
-
-
 .secondsquare {
     width: 60px;
     height: 58px;
@@ -264,6 +239,7 @@
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
+    box-shadow: 3px 4px 2px rgb(162 162 162 / 50%);
 }
 
 #iconalertPaginaInicial {
@@ -299,4 +275,20 @@
     position: absolute;
     font-size: small;
     color: gray;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

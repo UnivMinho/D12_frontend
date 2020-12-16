@@ -7,42 +7,87 @@
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
     <link href="./Rank.css" rel="stylesheet" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-    <div class="screen"> <!--screen-->
-        <div class="circle"></div> <!--circle-->
-        <div class="rectangle"></div> <!--retangulo-->
-        <span class="textRank">RANK</span> <!--caixa de texto a dizer "Rank"-->
-        <div class="bigrectangle"></div> <!--retangulo enorme-->
-        <div class="smallrectangle1"></div> <!--retangulo-->
-        <div class="smallrectangle2"></div> <!--retangulo-->
-        <div class="smallrectangle3"></div> <!--retangulo-->
+    <div class="screen">
+        <!--screen-->
+        <div class="circle"></div>
+        <!--circle-->
+        <div class="rectangle"></div>
+        <!--retangulo-->
+        <span class="textRank">RANK</span>
+        <!--caixa de texto a dizer "Rank"-->
+
+        <section class="sectionRank">
+            <table id="tableRank" class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Pontos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Beatriz</td>
+                        <td>45</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Afonso</td>
+                        <td>16</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Penduro</td>
+                        <td>12</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
         <div class="smallrectangle4"></div> <!--retangulo-->
-        <span class="textCreditos">Créditos Por Ocorrência</span> <!--caixa de texto a dizer "Créditos Por Ocorrência"-->
-        <span class="textOne">1</span> <!--caixa de texto a dizer "1"-->
-        <span class="textTwo">2</span> <!--caixa de texto a dizer "2"-->
-        <span class="textThree">3</span> <!--caixa de texto a dizer "3"-->
+          
+        <span class="textCreditos">Créditos Por Ocorrência</span>
+        <!--caixa de texto a dizer "Créditos Por Ocorrência"-->
+
         <button id="CreditosPorOcorrencia" class="CreditosPorOcorrencia">Créditos Por Ocorrencia</button>
         <i id="arrowRank" class="fas fa-chevron-right"></i>
         <i id="iconRank" class="fas fa-star"></i>
-        
-        <div class="bottombar"></div> <!-- barra inferrior-->
-            <div class="firstsquare"></div> <!--primeiro quadrado-->
-            <div class="secondsquare"></div> <!--segundo quadrado-->
-            <div class="thirdsquare"></div> <!--terceiro quadrado-->
-            <div class="fourthsquare"></div> <!--quarto quadrado-->
-            <div class="fifthsquare"></div> <!--quinto quadrado-->
-            <button id="iconfirstsquareRank" class="far fa-bell"></button> <!--icon primeiro quadrado-->
-            <button id="iconsecondsquareRank" class="fas fa-paste"></button> <!--icon segundo quadrado-->
-            <button id="iconthirdsquareRank" class="fas fa-folder-open"></button> <!--icon terceiro quadrado-->
-            <button id="iconfourthsquareRank" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
-            <button id="iconfifthsquareRank" class="fas fa-star"></button> <!--icon quinto quadrado-->
-        </div>
+
+        <div class="bottombar"></div>
+        <!-- barra inferrior-->
+        <div class="firstsquare"></div>
+        <!--primeiro quadrado-->
+        <div class="secondsquare"></div>
+        <!--segundo quadrado-->
+        <div class="thirdsquare"></div>
+        <!--terceiro quadrado-->
+        <div class="fourthsquare"></div>
+        <!--quarto quadrado-->
+        <div class="fifthsquare"></div>
+        <!--quinto quadrado-->
+        <button id="iconfirstsquareRank" class="far fa-bell"></button>
+        <!--icon primeiro quadrado-->
+        <button id="iconsecondsquareRank" class="fas fa-paste"></button>
+        <!--icon segundo quadrado-->
+        <button id="iconthirdsquareRank" class="fas fa-folder-open"></button>
+        <!--icon terceiro quadrado-->
+        <button id="iconfourthsquareRank" class="fas fa-user-circle"></button>
+        <!--icon quarto quadrado-->
+        <button id="iconfifthsquareRank" class="fas fa-star"></button>
+        <!--icon quinto quadrado-->
+    
         <button id="buttonbackRank" class="fas fa-chevron-left" onclick="goBack()"></button>
-        <script type="text/javascript" src="Rank.js"></script>
+   
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="Rank.js"></script>
+    <script type="text/javascript" src="../Fetch/rank.controller.js"></script>
 </body>
 
 </html>

@@ -278,13 +278,32 @@
     font-size: 30px;
 }
 
-#iconBack {
-    position: absolute;
-    top: 22px;
-    left: 27px;
-    color: #ACA6A6;
-}
-
 .fa-long-arrow-left:before {
     font-size: 25px;
+}
+
+#buttonbackDadosComplementares {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

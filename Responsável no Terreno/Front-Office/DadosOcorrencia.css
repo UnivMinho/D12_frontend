@@ -3,10 +3,11 @@
   padding: 0px !important;
   margin: 0px !important;
 }
+
 .screen {
   width: 414px;
   height: 1023px;
-  background: rgba(255,255,255,1);
+  background: rgba(250, 249, 249, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -16,10 +17,10 @@
 
 .textoOcorrencia {
   width: 277px;
-  color: rgba(36,47,65,1);
+  color: rgba(36, 47, 65, 1);
   position: absolute;
   top: 38px;
-  left: 72px;
+  left: 48px;
   font-family: Mulish;
   font-weight: Light;
   font-size: 30px;
@@ -29,7 +30,7 @@
 
 .textoLevantamentoMaterial {
   width: 201px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 100px;
   left: 26px;
@@ -42,7 +43,7 @@
 
 .textoPresencaOperacionais {
   width: 194px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 313px;
   left: 26px;
@@ -55,7 +56,7 @@
 
 .textoPartida {
   width: 173px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 431px;
   left: 26px;
@@ -68,7 +69,7 @@
 
 .textoChegada {
   width: 132px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 464px;
   left: 26px;
@@ -81,7 +82,7 @@
 
 .textoDadosComplementares {
   width: 176px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 502px;
   left: 26px;
@@ -94,7 +95,7 @@
 
 .textoMaterial {
   width: 142px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 708px;
   left: 26px;
@@ -106,33 +107,70 @@
 }
 
 
-.buttonAddTestemunhasNotas {
+#buttonAddTestemunhasNotas {
   position: absolute;
   width: 273px;
-  left: 89px;
+  height: 39px;
+  left: 67px;
   right: 13px;
-  top: 868px;
+  top: 899px;
   bottom: 116px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
-  border-radius: 32px;
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: 414145;
-  background: #E5E5E8;
-  border: 1px solid #E5E5E8;
   box-sizing: border-box;
   border-radius: 16px;
+  border: none;
+  background: rgb(239 239 239);
+  box-shadow: 0px 4px 20px rgb(119 119 119 / 50%);
 }
 
-#buttonbackVisualizarDadosOcorrencia {
+#buttonEnviarCO {
+  position: absolute;
+  width: 179px;
+  height: 36px;
+  left: 110px;
+  right: 13px;
+  top: 962px;
+  bottom: 116px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  background: rgb(11 34 74);
+  box-shadow: 0px 4px 20px rgb(119 119 119 / 50%);
+}
+
+#buttonbackDadosOcorrencia {
   position: absolute;
   top: 46px;
   left: 28px;
   border: none;
   font-size: x-large;
   color: lightgray;
-  background-color: rgba(250, 249, 249, 1);
+  background-color: #FFFFFF;
+  background: rgba(250, 249, 249, 1);
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

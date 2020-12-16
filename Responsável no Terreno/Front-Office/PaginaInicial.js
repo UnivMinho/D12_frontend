@@ -18,11 +18,11 @@ variavelcinco.onclick=dadosfifthsquare;
 
 
 function dadosmenu(){
-window.location.href="PaginaInicial (Menu).html" //ao carregar no botão vai para a página "PaginaInicial (Menu).html"
+window.location.href="Menu.html" //ao carregar no botão vai para a página "PaginaInicial (Menu).html"
 }
 
 function dadosfirstsquare(){
-window.location.href="Notificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
+window.location.href="PaginaInicial.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }
 
 function dadossecondsquare(){

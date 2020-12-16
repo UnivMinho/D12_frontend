@@ -221,3 +221,19 @@
 .fa-check:before {
     font-size: 30px;
 }
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
+}

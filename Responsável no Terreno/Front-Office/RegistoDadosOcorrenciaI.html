@@ -8,78 +8,86 @@
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="./RegistoDadosOcorrenciaI.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>RegistoDadosOcorrencia</title>
 
 </head>
 
 <body>
     <div class="screen">
-        <div class="retangulo"></div> 
-        <div class="circulo"></div> 
+        <div class="retangulo"></div>
+        <div class="circulo"></div>
         <input id="checkboxLevantamentoMaterial" class="checkboxLevantamentoMaterial" type="checkbox">
         <input id="checkboxPresencaOperacionais" class="checkboxPresencaOperacionais" type="checkbox">
         <input id="checkboxDadosComplementares" class="checkboxDadosComplementares" type="checkbox">
         <input id="checkboxMaterialUtilizado" class="checkboxMaterialUtilizado" type="checkbox">
         <input id="checkboxAvaliacaoEquipa" class="checkboxAvaliacaoEquipa" type="checkbox">
 
+        <i id="arrowOneRegistoDadosOcorrenciaI" class="fas fa-chevron-right"></i>
+        <i id="arrowTwoRegistoDadosOcorrenciaI" class="fas fa-chevron-right"></i>
+        <i id="arrowThreeRegistoDadosOcorrenciaI" class="fas fa-chevron-right"></i>
+        <i id="arrowFourRegistoDadosOcorrenciaI" class="fas fa-chevron-right"></i>
+        <i id="arrowFiveRegistoDadosOcorrenciaI" class="fas fa-chevron-right"></i>
+
+        <b> <span class="textoRegisto">Registo</span> </b>
 
 
-
-    </div>
-      <b> <span class="textoRegisto">Registo</span> </b>
+        <span class="textoOcorrencia">OCORRÊNCIA 495</span>
 
 
-    <span class="textoOcorrencia">OCORRÊNCIA 495</span>
-    
-    
         <div class="boxLevantamentoMaterial">
             <span class="textoLevantamentoMaterial">Levantamento de Material</span></div>
-        
+
         <div class="boxPresencas">
             <span class="textoPresencas">Presença de Operacionais</span></div>
-       
+
         <div class="boxChegada">
-        <span class="textoChegada">Chegada ao Local</span></div>
-        
+            <span class="textoChegada">Chegada ao Local</span></div>
+
         <div class="boxDadosComplementares">
-           <span class="textoDadosComplementares">Dados Complementares</span></div>
-        
+            <span class="textoDadosComplementares">Dados Complementares</span></div>
+
         <div class="boxAvaliacao">
-          <span class="textoAvaliacao">Avaliação da Equipa</span></div>
-        
+            <span class="textoAvaliacao">Avaliação da Equipa</span></div>
+
         <div class="boxPartida">
             <span class="textoPartida">Partida para o Terreno</span></div>
-        
-        
+
+
         <div class="boxMaterialUtilizado">
             <span class="textoMaterialUtilizado">Material Utilizado</span></div>
 
-        <span class="textoDoisPontosPartida">:</span>
-        <span class="textoHorasPartida">h</span>
-        <span class="textoMinutosPartida">m</span>
+        <input id="horasChegada" class="textoHorasChegada" type="time"></input>
+        <input id="horasPartida" class="textoHorasPartida" type="time"></input>
 
-        <span class="textoDoisPontosChegada">:</span>
-        <span class="textoHorasChegada">h</span>
-        <span class="textoMinutosChegada">m</span>
-        
-        <div class="bottombar"></div> <!-- barra inferrior-->
-        <div class="firstsquare"></div> <!--primeiro quadrado-->
-        <div class="secondsquare"></div> <!--segundo quadrado-->
-        <div class="thirdsquare"></div> <!--terceiro quadrado-->
-        <div class="fourthsquare"></div> <!--quarto quadrado-->
-        <div class="fifthsquare"></div> <!--quinto quadrado-->
-        <button id="iconfirstsquareRegistoDadosOcorrenciaI" class="far fa-bell"></button> <!--icon primeiro quadrado-->
-        <button id="iconsecondsquareRegistoDadosOcorrenciaI" class="fas fa-paste"></button> <!--icon segundo quadrado-->
-        <button id="iconthirdsquareRegistoDadosOcorrenciaI" class="fas fa-folder-open"></button> <!--icon terceiro quadrado-->
-        <button id="iconfourthsquareRegistoDadosOcorrenciaI" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
-        <button id="iconfifthsquareRegistoDadosOcorrenciaI" class="fas fa-star"></button> <!--icon quinto quadrado-->
-	
-	    <i id="iconRegistoDadosOcorrenciaI" class="fas fa-folder-open"></i>
-	    <button id="buttonbackRegistoDadosOcorrenciaI" class="fas fa-chevron-left" onclick="goBack()"></button>
-	    <script type="text/javascript" src="RegistoDadosOcorrenciaI.js"></script>
+        <div class="bottombar"></div>
+        <!-- barra inferrior-->
+        <div class="firstsquare"></div>
+        <!--primeiro quadrado-->
+        <div class="secondsquare"></div>
+        <!--segundo quadrado-->
+        <div class="thirdsquare"></div>
+        <!--terceiro quadrado-->
+        <div class="fourthsquare"></div>
+        <!--quarto quadrado-->
+        <div class="fifthsquare"></div>
+        <!--quinto quadrado-->
+        <button id="iconfirstsquareRegistoDadosOcorrenciaI" class="far fa-bell"></button>
+        <!--icon primeiro quadrado-->
+        <button id="iconsecondsquareRegistoDadosOcorrenciaI" class="fas fa-paste"></button>
+        <!--icon segundo quadrado-->
+        <button id="iconthirdsquareRegistoDadosOcorrenciaI" class="fas fa-folder-open"></button>
+        <!--icon terceiro quadrado-->
+        <button id="iconfourthsquareRegistoDadosOcorrenciaI" class="fas fa-user-circle"></button>
+        <!--icon quarto quadrado-->
+        <button id="iconfifthsquareRegistoDadosOcorrenciaI" class="fas fa-star"></button>
+        <!--icon quinto quadrado-->
 
+        <i id="iconRegistoDadosOcorrenciaI" class="fas fa-folder-open"></i>
+        <button id="buttonbackRegistoDadosOcorrenciaI" class="fas fa-chevron-left" onclick="goBack()"></button>
     </div>
+    
+    <script type="text/javascript" src="RegistoDadosOcorrenciaI.js"></script>
 </body>
 
 </html>

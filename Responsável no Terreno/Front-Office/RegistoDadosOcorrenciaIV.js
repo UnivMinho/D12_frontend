@@ -16,13 +16,29 @@ variavelquatro.onclick=dadosfourthsqaure;
 const variavelcinco=document.getElementById("iconfifthsquareRegistoDadosOcorrenciaIV");
 variavelcinco.onclick=dadosfifthsquare;
 
+const variavelseis=document.getElementById("arrowOneRegistoDadosOcorrenciaIV");
+variavelseis.onclick=dadosArrowOne;
+
+const variavelsete=document.getElementById("arrowTwoRegistoDadosOcorrenciaIV");
+variavelsete.onclick=dadosArrowTwo;
+
+const variaveloito=document.getElementById("arrowThreeRegistoDadosOcorrenciaIV");
+variaveloito.onclick=dadosArrowThree;
+
+const variavelnove=document.getElementById("arrowFourRegistoDadosOcorrenciaIV");
+variavelnove.onclick=dadosArrowFour;
+
+const variaveldez=document.getElementById("arrowFiveRegistoDadosOcorrenciaIV");
+variaveldez.onclick=dadosArrowFive;
+
+
 
 function goBack() { //voltar para a página anterior
     window.history.back()
 }
 
 function dadosfirstsquare(){
-window.location.href="Notificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
+window.location.href="SemNotificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }
 
 function dadossecondsquare(){
@@ -39,4 +55,24 @@ window.location.href="DadosPessoais.html" //ao carregar no botão vai para a pá
 
 function dadosfifthsquare(){
 window.location.href="Rank.html" //ao carregar no botão vai para a página "Rank.html"
+}
+
+function dadosArrowOne(){
+window.location.href="LevantamentoMaterial.html" //ao carregar no botão vai para a página "Rank.html"
+}
+
+function dadosArrowTwo(){
+window.location.href="PresencasOperacionais.html" //ao carregar no botão vai para a página "Rank.html"
+}
+
+function dadosArrowThree(){
+window.location.href="DadosComplementares.html" //ao carregar no botão vai para a página "Rank.html"
+}
+
+function dadosArrowFour(){
+window.location.href="MaterialUtilizado.html" //ao carregar no botão vai para a página "Rank.html"
+}
+
+function dadosArrowFive(){
+window.location.href="AvaliacaoEquipa.html" //ao carregar no botão vai para a página "Rank.html"
 }

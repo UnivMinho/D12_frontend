@@ -18,7 +18,7 @@ variavelseis.onclick = goBack;
 
 
 function dadosfirstsquare(){
-window.location.href="Notificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
+window.location.href="PaginaInicial.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }
 
 function dadossecondsquare(){

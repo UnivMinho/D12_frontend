@@ -104,6 +104,8 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 
@@ -112,12 +114,14 @@
     width: 103px;
     position: absolute;
     top: 189px;
-    left: 187px;
+    left: 215px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 
@@ -131,18 +135,22 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 .textoNaoUtilizadoMascara {
     width: 103px;
     position: absolute;
     top: 433px;
-    left: 188px;
+    left: 215px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 
@@ -157,18 +165,22 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 .textoNaoUtilizadoArma {
     width: 103px;
     position: absolute;
     top: 269px;
-    left: 187px;
+    left: 215px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 
@@ -182,6 +194,8 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 
@@ -190,12 +204,14 @@
     width: 103px;
     position: absolute;
     top: 351px;
-    left: 187px;
+    left: 215px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 
@@ -209,18 +225,22 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 .textoNaoUtilizadoCassetete {
     width: 103px;
     position: absolute;
     top: 515px;
-    left: 187px;
+    left: 215px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    color: #A5A5AD;
+    align-items: center;
 }
 
 .checkboxUtilizadoVeiculo {
@@ -375,13 +395,6 @@
 
 .fa-check:before {
     font-size: 30px;
-}
-
-#iconBack {
-    position: absolute;
-    top: 22px;
-    left: 27px;
-    color: #ACA6A6;
 }
 
 .fa-long-arrow-left:before {
@@ -544,4 +557,30 @@
     font-size: xx-large;
     background: none;
     color: lightgray;
+}
+
+#buttonbackMaterialUtilizado {
+  position: absolute;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color: rgba(250, 249, 249, 1);
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

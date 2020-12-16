@@ -1,3 +1,6 @@
+const variavel = document.getElementById("buttonbackPresencaOperacionais");
+variavel.onclick = goBack;
+
 const variavelum=document.getElementById("iconfirstsquarePresencaOperacionais");
 variavelum.onclick=dadosfirstsquare;
 
@@ -14,8 +17,12 @@ const variavelcinco=document.getElementById("iconfifthsquarePresencaOperacionais
 variavelcinco.onclick=dadosfifthsquare;
 
 
+function goBack() { //voltar para a página anterior
+    window.history.back()
+}
+
 function dadosfirstsquare(){
-window.location.href="Notificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
+window.location.href="PaginaInicial.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }
 
 function dadossecondsquare(){

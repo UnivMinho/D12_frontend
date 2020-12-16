@@ -333,3 +333,19 @@
   color: lightgray;
   background-color: rgb(232 231 231);
 }
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
+}

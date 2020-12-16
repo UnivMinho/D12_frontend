@@ -10,54 +10,164 @@
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
     <link href="./Registo.css" rel="stylesheet" />
     <title>Registo</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
-        <div class="screen">
-             <span class="Registo">Registo</span>
-        </div>
-        <span class="termos">Ao se registar, concorda com os Termos de Serviço e Política de Privacidade.</span>
-        <input id="inputDataNascimento" class="inputDataNascimento"></input>
-            </div>
-            <span class="dataNascimento">Data de Nascimento</span></div>
-        <input id="inputCedulaProfissional" class="inputCedulaProfissional"></input>
-            </div>
-            <span class="cedulaProfissional">Cedula Profissional</span></div>
-        <input id="inputEmail" class="inputEmail"></input>
-            </div>
-            <span class="email">Email</span>
-        </div>
-        <input id="inputPassword" class="inputPassword" type="password">
-           <i id="iconPasswordRegisto" class="far fa-eye-slash"></i> <!--icon para visualizar a password-->
-           <span class="password">Password</span>
-        </input>
-        <input id="inputConfirmarPassword" class="inputConfirmarPassword" type="password">
-          <i id="iconPasswordConfRegisto" class="far fa-eye-slash"></i> <!--icon para visualizar a confirmação da password-->
-          <span class="confirmarPassword">Confirme Password</span>
-        </input>
-        <input id="inputTelemovel" class="inputTelemovel">
-            <span class="telemovel">Numero telemovel</span>
-        </div>
+    <div class="screen">
+        <span class="Registo">Registo</span>
+
         <input id="inputNome" class="inputNome"></input>
-            <span class="nome">Nome</span>
-            </div>
+        <span class="nome">Nome</span>
+
+        <span class="textoDataNascimento">Data Nascimento</span>
+
+        <div class="comboboxs">
+
+            <label for="diaDataNascimento">Dia</label>
+            <select name="dia" id="dia">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+
+            <label for="mesDataNascimento">Mês</label>
+
+            <select name="mes" id="mes">
+          <option value="Janeiro">Janeiro</option>
+          <option value="Fevereiro">Fevereiro</option>
+          <option value="Março">Março</option>
+          <option value="Abril">Abril</option>
+          <option value="Maio">Maio</option>
+          <option value="Junho">Junho</option>
+          <option value="Julho">Julho</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Setembro">Setembro</option>
+          <option value="Outubro">Outubro</option>
+          <option value="Novembro">Novembro</option>
+          <option value="Dezembro">Dezembro</option>
+            </select>
+
+            <label for="anoDataNascimento">Ano</label>
+
+            <select name="ano" id="ano">
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+          <option value="1999">1999</option>
+          <option value="1998">1998</option>
+          <option value="1997">1997</option>
+          <option value="1996">1996</option>
+          <option value="1995">1995</option>
+          <option value="1994">1994</option>
+          <option value="1993">1993</option>
+          <option value="1992">1992</option>
+          <option value="1991">1991</option>
+          <option value="1990">1990</option>
+          <option value="1989">1989</option>
+          <option value="1988">1988</option>
+          <option value="1987">1987</option>
+          <option value="1986">1986</option>
+          <option value="1985">1985</option>
+          <option value="1084">1084</option>
+          <option value="1083">1083</option>
+          <option value="1082">1082</option>
+          <option value="1081">1081</option>
+          <option value="1080">1080</option>
+          <option value="1079">1079</option>
+          <option value="1078">1078</option>
+          <option value="1077">1077</option>
+          <option value="1076">1076</option>
+          <option value="1075">1075</option>
+          <option value="1074">1074</option>
+          <option value="1073">1073</option>
+          <option value="1072">1072</option>
+          <option value="1071">1071</option>
+          <option value="1070">1070</option>
+          <option value="1069">1069</option>
+          <option value="1068">1068</option>
+          <option value="1067">1067</option>
+          <option value="1066">1066</option>
+          <option value="1065">1065</option>
+          <option value="1064">1064</option>
+          <option value="1063">1063</option>
+          <option value="1062">1062</option>
+          <option value="1061">1061</option>
+          <option value="1060">1060</option>
+          <option value="1059">1059</option>
+          <option value="1058">1058</option>
+          <option value="1057">1057</option>
+          <option value="1056">1056</option>
+          <option value="1055">1055</option>
+            </select>
         </div>
+
+        <input id="inputCedulaProfissional" class="inputCedulaProfissional"></input>
+        <span class="cedulaProfissional">Cedula Profissional</span>
+
+        <input id="inputEmail" class="inputEmail"></input>
+        <span class="email">Email</span>
+
+        <input id="inputPassword" class="inputPassword" type="password">
+        <i id="iconPasswordRegisto" class="far fa-eye-slash"></i>
+        <!--icon para visualizar a password-->
+        <span class="password">Password</span>
+        </input>
+
+        <input id="inputConfirmarPassword" class="inputConfirmarPassword" type="password">
+        <i id="iconPasswordConfRegisto" class="far fa-eye-slash"></i>
+        <!--icon para visualizar a confirmação da password-->
+        <span class="confirmarPassword">Confirme Password</span>
+        </input>
+
+        <input id="inputTelemovel" class="inputTelemovel">
+        <span class="telemovel">Numero telemovel</span>
+
+        <span class="termos">Ao se registar, concorda com os Termos de Serviço e Política de Privacidade.</span>
+
         <button id="buttonRegistar" class="buttonRegistar" onclick="buttonRegistar">
             <span class="Registar">REGISTAR</span></button>
-    </div>
-    
-    <!-- Modal Section-->
-    <div id="bgmodalRegisto" class="hidden">
-        
-        <span class="welcome"><!--caixa de texto a dizer bem-vindo por se ter registado-->Bem vindo, inicie já a sua sessão!</span>
-        <button id="buttonClose" class="close" onclick="close">X</button>
-        <button id="buttonLoginRegisto" class="buttonLoginRegisto">Iniciar Sessão</button>
-        <button id="buttonInicioRegisto" class="buttonInicioRegisto">Mais tarde</button>
-    </div>
 
-        <button id="buttonbackRegisto" class="fas fa-chevron-left" onclick="goBack()"></button> <!--botão e icon para voltar para a página anterior-->
+        <!-- Modal Section-->
+        <div id="bgmodalRegisto" class="hidden">
+            <span class="welcome"><!--caixa de texto a dizer bem-vindo por se ter registado-->Bem vindo, inicie já a sua sessão!</span>
+            <button id="buttonClose" class="close" onclick="close">X</button>
+            <button id="buttonLoginRegisto" class="buttonLoginRegisto">Iniciar Sessão</button>
+            <button id="buttonInicioRegisto" class="buttonInicioRegisto">Mais tarde</button>
+        </div>
+
+        <button id="buttonbackRegisto" class="fas fa-chevron-left" onclick="goBack()"></button>
+        <!--botão e icon para voltar para a página anterior-->
         <script type="text/javascript" src="Registo.js"></script>
+    </div>
 </body>
 
 </html>

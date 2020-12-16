@@ -9,48 +9,72 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-<body>
-    <div class="screen">
-        <div class="circleone"></div> <!--circulo1-->
-        <div class="circletwo"></div> <!--circulo2-->
-        <div class="fotografia"></div>
-        <span class="nomeAgente">Nome</span>
-        <button class="caixaAjudaeSuporte">Ajuda e Suporte</button>
-        <span class="Menu">Menu</span>
-        <button class="caixaDefiePriv">Definições e Privacidade</button>
-        <button class="caixaTerminarSessao">Terminar Sessão</button>
-            
-        <button class="caixaTextoIdioma">Idioma da App</button>
-        <button class="caixaDefinicoes">Definições</button>
-        <button class="caixaTextoTermos">Termos e Políticas</button>
-        <button class="caixaTextoComProb">Comunicar um Problema</button>
-        <button class="caixaTextoComAjuda">Comunidade de Ajuda</button>
-        
-        <i id="iconeDefinicoesMenu"class="fal fa-cog"></i>
-        <i id="iconeAjudaMenu"class="fal fa-question-circle"></i>
-        <i id="iconeCommentMenu"class="fal fa-comment-lines"></i>
-        <i id="iconeShieldMenu"class="far fa-shield-alt"></i>
-        <i id="iconeBookMenu"class="fal fa-book-alt"></i>
-        <i id="iconeUserMenu"class="fal fa-user"></i>
-        <i id="iconeGlobeMenu"class="fal fa-globe"></i>
-        <i id="iconeTerminarSessaoMenu"class="far fa-power-off"></i>
-        
-        <div class="bottombar"></div> <!-- barra inferrior-->
-        <div class="firstsquare"></div> <!--primeiro quadrado-->
-        <div class="secondsquare"></div> <!--segundo quadrado-->
-        <div class="thirdsquare"></div> <!--terceiro quadrado-->
-        <div class="fourthsquare"></div> <!--quarto quadrado-->
-        <div class="fifthsquare"></div> <!--quinto quadrado-->
-        <button id="iconfirstsquareMenu" class="far fa-bell"></button> <!--icon primeiro quadrado-->
-        <button id="iconsecondsquareMenu" class="fas fa-paste"></button> <!--icon segundo quadrado-->
-        <button id="iconthirdsquareMenu" class="fas fa-folder-open"></button> <!--icon terceiro quadrado-->
-        <button id="iconfourthsquareMenu" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
-        <button id="iconfifthsquareMenu" class="fas fa-star"></button> <!--icon quinto quadrado-->
+    <body>
+        <div class="screen">
+            <div class="circleone"></div>
+            <!--circulo1-->
+            <div class="circletwo"></div>
+            <!--circulo2-->
+            <div class="fotografia"></div>
+            <span class="nomeAgente">Nome</span>
+            <button class="caixaAjudaeSuporte">Ajuda e Suporte</button>
+            <span class="Menu">Menu</span>
+            <button class="caixaDefiePriv">Definições e Privacidade</button>
+            <button id="caixaTerminarSessaoMenu" class="caixaTerminarSessaoMenu" onclick="caixaTerminarSessaoMenu">Terminar Sessão</button>
 
-        <button id="buttonbackMenu" class="fas fa-chevron-left" onclick="goBack()"></button>
-    </div>
-    
-    <script type="text/javascript" src="Menu.js"></script>
-</body>
+            <button class="caixaTextoIdioma">Idioma da App</button>
+            <button class="caixaDefinicoes">Definições</button>
+            <button class="caixaTextoTermos">Termos e Políticas</button>
+            <button class="caixaTextoComProb">Comunicar um Problema</button>
+            <button class="caixaTextoComAjuda">Comunidade de Ajuda</button>
+
+            <i id="iconeDefinicoesMenu" class="fal fa-cog"></i>
+            <i id="iconeAjudaMenu" class="fal fa-question-circle"></i>
+            <i id="iconeCommentMenu" class="fal fa-comment-lines"></i>
+            <i id="iconeShieldMenu" class="far fa-shield-alt"></i>
+            <i id="iconeBookMenu" class="fal fa-book-alt"></i>
+            <i id="iconeUserMenu" class="fal fa-user"></i>
+            <i id="iconeGlobeMenu" class="fal fa-globe"></i>
+            <i id="iconeTerminarSessaoMenu" class="far fa-power-off"></i>
+
+            <div class="bottombar"></div>
+            <!-- barra inferrior-->
+            <div class="firstsquare"></div>
+            <!--primeiro quadrado-->
+            <div class="secondsquare"></div>
+            <!--segundo quadrado-->
+            <div class="thirdsquare"></div>
+            <!--terceiro quadrado-->
+            <div class="fourthsquare"></div>
+            <!--quarto quadrado-->
+            <div class="fifthsquare"></div>
+            <!--quinto quadrado-->
+            <button id="iconfirstsquareMenu" class="far fa-bell"></button>
+            <!--icon primeiro quadrado-->
+            <button id="iconsecondsquareMenu" class="fas fa-paste"></button>
+            <!--icon segundo quadrado-->
+            <button id="iconthirdsquareMenu" class="fas fa-folder-open"></button>
+            <!--icon terceiro quadrado-->
+            <button id="iconfourthsquareMenu" class="fas fa-user-circle"></button>
+            <!--icon quarto quadrado-->
+            <button id="iconfifthsquareMenu" class="fas fa-star"></button>
+            <!--icon quinto quadrado-->
+
+            <i id="iconeSetaBaixoMenu" class="far fa-chevron-down"></i>
+            <i id="iconeSetaBaixo1Menu" class="far fa-chevron-down"></i>
+
+            <!-- Modal Section-->
+            <div id="bgmodalMenu" class="hidden">
+                <span class="terminarSessaoMenu"><!--caixa de texto a dizer se tem a certeza que quer terminar sessão-->Tem a certeza que quer terminar sessão?</span>
+                <button id="buttonCloseMenu" class="close" onclick="close">X</button>
+                <button id="buttonSimMenu" class="buttonLoginRegisto">Sim</button>
+                <button id="buttonNaoMenu" class="buttonInicioRegisto">Não</button>
+            </div>
+
+            <button id="buttonbackMenu" class="fas fa-chevron-left" onclick="goBack()"></button>
+        </div>
+
+        <script type="text/javascript" src="Menu.js"></script>
+    </body>
 
 </html>

@@ -49,62 +49,6 @@
     text-align: center;
 }
 
-.bigrectangle {
-    width: 335px;
-    height: 260px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 207px;
-    left: 42px;
-    overflow: hidden;
-}
-
-.smallrectangle1 {
-    width: 30px;
-    height: 32px;
-    background: gray;
-    opacity: 1;
-    position: absolute;
-    top: 233px;
-    left: 324px;
-    overflow: hidden;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.smallrectangle2 {
-    width: 30px;
-    height: 32px;
-    background: gray;
-    opacity: 1;
-    position: absolute;
-    top: 318px;
-    left: 324px;
-    overflow: hidden;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-.smallrectangle3 {
-    width: 30px;
-    height: 32px;
-    background: gray;
-    opacity: 1;
-    position: absolute;
-    top: 405px;
-    left: 324px;
-    overflow: hidden;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
 .smallrectangle4 {
     width: 30px;
     height: 32px;
@@ -367,4 +311,34 @@
     font-size: xxx-large;
     background: none;
     color: black;
+}
+
+.table {
+    width: 395px;
+    height: 215px;
+    background: rgb(179 179 179 / 0%);
+    opacity: 1;
+    position: absolute;
+    top: 238px;
+    left: 37px;
+    font-size: 16px;
+    font-family: 'Mulish';
+    overflow: hidden;
+    text-align: center;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

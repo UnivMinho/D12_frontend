@@ -75,6 +75,7 @@
   font-size: 22px;
   font-family: 'Comfortaa';
   color: rgba(9, 26, 68, 1);
+  border: 1px solid white;
 }
 
 .registo {
@@ -94,4 +95,21 @@
   font-size: 22px;
   font-family: 'Comfortaa';
   color: rgba(250, 249, 249, 1);
+  border: 1px solid white;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

@@ -16,9 +16,12 @@ variavelcinco.onclick=dadosfifthsquare;
 const variavelseis = document.getElementById("buttonbackRank");
 variavelseis.onclick = goBack;
 
+const variavelsete = document.getElementById("CreditosPorOcorrencia");
+variavelsete.onclick = dadosRankOcorrencia;
+
 
 function dadosfirstsquare(){
-window.location.href="Notificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
+window.location.href="PaginaInicial.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }
 
 function dadossecondsquare(){
@@ -39,4 +42,8 @@ window.location.href="Rank.html" //ao carregar no botão vai para a página "Ran
 
 function goBack() { //voltar para a página anterior
     window.history.back()
+}
+
+function dadosRankOcorrencia(){
+window.location.href="RankOcorrencias.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }

@@ -6,7 +6,7 @@
 
 .screen {
   width: 414px;
-  height: 736px;
+  height: 792px;
   background: rgba(250, 249, 249, 1);
   opacity: 1;
   position: absolute;
@@ -79,14 +79,12 @@
   overflow: hidden;
 }
 
-
-
 .textoLevantamentoMaterial {
   width: 204px;
   color: rgba(65, 65, 69, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 31%;
+  left: 18%;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 14px;
@@ -114,8 +112,8 @@
   width: 203px;
   color: rgba(65, 65, 69, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 38.5%;
+  left: 74.5px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 14px;
@@ -126,7 +124,7 @@
 .boxChegada {
   width: 210px;
   height: 42px;
-  background: rgba(239, 240, 246, 1);
+  background: rgba(223, 224, 231, 1);
   opacity: 1;
   position: absolute;
   top: 406px;
@@ -141,10 +139,10 @@
 
 .textoChegada {
   width: 141px;
-  color: rgba(65, 65, 69, 1);
+  color: rgba(141, 142, 150, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 52.5%;
+  left: 74.5px;
   font-family: Poppins;
   font-weight: Medium;
   font-size: 14px;
@@ -155,7 +153,7 @@
 .boxDadosComplementares {
   width: 265px;
   height: 42px;
-  background: rgba(239, 240, 246, 1);
+  background: rgba(223, 224, 231, 1);
   opacity: 1;
   position: absolute;
   top: 462px;
@@ -170,12 +168,11 @@
 
 .textoDadosComplementares {
   width: 188px;
-  color: rgba(65, 65, 69, 1);
+  color: rgba(141, 142, 150, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 59.5%;
+  left: 74.5px;
   font-family: Poppins;
-  font-weight: Medium;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -184,7 +181,7 @@
 .boxAvaliacao {
   width: 265px;
   height: 42px;
-  background: rgba(239, 240, 246, 1);
+  background: rgba(223, 224, 231, 1);
   opacity: 1;
   position: absolute;
   top: 574px;
@@ -198,12 +195,11 @@
 
 .textoAvaliacao {
   width: 160px;
-  color: rgba(65, 65, 69, 1);
+  color: rgba(141, 142, 150, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 73.5%;
+  left: 72.5px;
   font-family: Poppins;
-  font-weight: Medium;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -212,7 +208,7 @@
 .boxPartida {
   width: 210px;
   height: 42px;
-  background: rgba(239, 240, 246, 1);
+  background: rgba(223, 224, 231, 1);
   opacity: 1;
   position: absolute;
   top: 350px;
@@ -226,12 +222,11 @@
 
 .textoPartida {
   width: 175px;
-  color: rgba(65, 65, 69, 1);
+  color: rgba(141, 142, 150, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 45.5%;
+  left: 72.5px;
   font-family: Poppins;
-  font-weight: Medium;
   font-size: 14px;
   opacity: 1;
   text-align: left;
@@ -241,7 +236,7 @@
 .boxMaterialUtilizado {
   width: 265px;
   height: 42px;
-  background: rgba(239, 240, 246, 1);
+  background: rgba(223, 224, 231, 1);
   opacity: 1;
   position: absolute;
   top: 518px;
@@ -253,83 +248,57 @@
   overflow: hidden;
 }
 
-
 .textoMaterialUtilizado {
   width: 135px;
-  color: rgba(65, 65, 69, 1);
+  color: rgba(141, 142, 150, 1);
   position: absolute;
-  top: 9px;
-  left: 18px;
+  top: 66.5%;
+  left: 72.5px;
   font-family: Poppins;
-  font-weight: Medium;
   font-size: 14px;
   opacity: 1;
   text-align: left;
 }
 
-.textoDoisPontosPartida {
-    width: 10px;
-    color: rgba(102, 102, 105, 1);
-    position: absolute;
-    top: 407px;
-    left: 311px;
-    font-family: Poppins;
-    font-weight: Medium;
-    font-size: 24px;
-    opacity: 1;
-    text-align: center;
-}
-
-.textoHorasPartida {
-  width: 15px;
-  color: rgba(65, 65, 69, 1);
-  position: absolute;
-  top: 414px;
-  left: 279px;
-  font-family: Roboto;
-  font-weight: Black;
-  font-size: 18px;
-  opacity: 1;
-  text-align: center;
-}
-
-.textoMinutosPartida {
-  width: 20px;
-  color: rgba(65, 65, 69, 1);
-  position: absolute;
-  top: 413px;
-  left: 344px;
-  font-family: Roboto;
-  font-weight: Black;
-  font-size: 18px;
-  opacity: 1;
-  text-align: center;
-}
-
 .textoDoisPontosChegada {
-width: 10px;
-    color: rgba(102, 102, 105, 1);
-    position: absolute;
-    top: 353px;
-    left: 312px;
-    font-family: Poppins;
-    font-weight: Medium;
-    font-size: 24px;
-    opacity: 1;
-    text-align: center;
+  width: 10px;
+  color: rgba(102, 102, 105, 1);
+  position: absolute;
+  top: 353px;
+  left: 312px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
 }
 
-.textoHorasChegada {
-  width: 15px;
-  color: rgba(65, 65, 69, 1);
+#horasChegada {
+  width: 99px;
+  color: rgb(172 172 177);
   position: absolute;
   top: 358px;
   left: 278px;
   font-family: Roboto;
-  font-weight: Black;
   font-size: 18px;
   opacity: 1;
   text-align: center;
+  border: none;
+  background: rgba(250, 249, 249, 1);
+}
+
+#horasPartida {
+  width: 99px;
+  color: rgb(172 172 177);
+  position: absolute;
+  top: 411px;
+  left: 278px;
+  font-family: Roboto;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  border: none;
+  background: rgba(250, 249, 249, 1);
 }
 
 .textoMinutosChegada {
@@ -416,7 +385,7 @@ width: 10px;
   background: rgba(250, 249, 249, 1);
   opacity: 1;
   position: absolute;
-  top: 658px;
+  top: 720px;
   left: 1px;
   box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
   overflow: hidden;
@@ -428,7 +397,7 @@ width: 10px;
   background: rgba(244, 244, 244, 1);
   opacity: 1;
   position: absolute;
-  top: 667px;
+  top: 728px;
   left: 33px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -444,7 +413,7 @@ width: 10px;
   background: rgba(244, 244, 244, 1);
   opacity: 1;
   position: absolute;
-  top: 666px;
+  top: 728px;
   left: 105px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -460,7 +429,7 @@ width: 10px;
   background: rgba(244, 244, 244, 1);
   opacity: 1;
   position: absolute;
-  top: 668px;
+  top: 728px;
   left: 252px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -476,7 +445,7 @@ width: 10px;
   background: rgba(244, 244, 244, 1);
   opacity: 1;
   position: absolute;
-  top: 668px;
+  top: 728px;
   left: 324px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -492,23 +461,7 @@ width: 10px;
   background: rgba(244, 244, 244, 1);
   opacity: 1;
   position: absolute;
-  top: 666px;
-  left: 178px;
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-  overflow: hidden;
-}
-
-.thirdsquare {
-  width: 60px;
-  height: 58px;
-  background: rgba(244, 244, 244, 1);
-  opacity: 1;
-  position: absolute;
-  top: 666px;
+  top: 728px;
   left: 177px;
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
@@ -519,7 +472,7 @@ width: 10px;
 }
 
 #iconfirstsquareRegistoDadosOcorrenciaVI {
-  top: 92.5%;
+  top: 93.5%;
   left: 12%;
   border: none;
   position: absolute;
@@ -529,7 +482,7 @@ width: 10px;
 }
 
 #iconsecondsquareRegistoDadosOcorrenciaVI {
-  top: 92.5%;
+  top: 93.5%;
   left: 29%;
   border: none;
   position: absolute;
@@ -539,7 +492,7 @@ width: 10px;
 }
 
 #iconthirdsquareRegistoDadosOcorrenciaVI {
-  top: 92.5%;
+  top: 93.5%;
   left: 46%;
   border: none;
   position: absolute;
@@ -549,7 +502,7 @@ width: 10px;
 }
 
 #iconfourthsquareRegistoDadosOcorrenciaVI {
-  top: 92.5%;
+  top: 93.5%;
   left: 64%;
   border: none;
   position: absolute;
@@ -559,7 +512,7 @@ width: 10px;
 }
 
 #iconfifthsquareRegistoDadosOcorrenciaVI {
-  top: 92.5%;
+  top: 93.5%;
   left: 81%;
   border: none;
   position: absolute;
@@ -586,4 +539,150 @@ width: 10px;
   font-size: x-large;
   color: lightgray;
   background-color: rgba(250, 249, 249, 1);
+}
+
+#arrowOneRegistoDadosOcorrenciaVI {
+  position: absolute;
+  top: 31.5%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowTwoRegistoDadosOcorrenciaVI {
+  position: absolute;
+  top: 38.5%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowThreeRegistoDadosOcorrenciaVI {
+  position: absolute;
+  top: 60%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowFourRegistoDadosOcorrenciaVI {
+  position: absolute;
+  top: 67%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowFiveRegistoDadosOcorrenciaVI {
+  position: absolute;
+  top: 74%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#buttonEnviarCORegistoDadosOcorrencia {
+  position: absolute;
+  width: 179px;
+  height: 36px;
+  left: 211px;
+  right: 13px;
+  top: 83%;
+  bottom: 116px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: none;
+  color: white;
+  background: rgb(11 34 74);
+  box-shadow: 0px 4px 20px rgb(119 119 119 / 50%);
+}
+
+#bgmodalRegistoDadosOcorrenciaVI {
+  width: 86%;
+  height: 25%;
+  background-color: rgba(235, 235, 235, 94);
+  position: absolute;
+  top: 273px;
+  left: 30px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+#buttonNaoRegistoDadosOcorrenciaVI {
+  width: 149px;
+  height: 46px;
+  background: rgb(225, 225, 225, 88);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 8%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 18px;
+  border: none;
+  font-family: 'Poppins';
+}
+
+#buttonSimRegistoDadosOcorrenciaVI {
+  width: 149px;
+  height: 45px;
+  background: rgb(225, 225, 225, 88);
+  opacity: 1;
+  position: absolute;
+  top: 118px;
+  left: 52%;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 18px;
+  font-family: 'Poppins';
+  border: none;
+}
+
+.sendRegistoCo {
+  width: 191px;
+  height: 103px;
+  color: rgba(110, 113, 145, 1);
+  position: absolute;
+  top: 19%;
+  left: 25%;
+  font-family: Poppins;
+  font-size: 17px;
+  opacity: 1;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.close {
+  width: 61px;
+  height: 53px;
+  position: absolute;
+  left: 294px;
+  border: none;
+  color: black;
+  background: rgba(235, 235, 235, 94);
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

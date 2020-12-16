@@ -8,77 +8,87 @@
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="./RegistoDadosOcorrenciaVI.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>RegistoDadosOcorrencia</title>
 
 </head>
 
 <body>
     <div class="screen">
-        <div class="retangulo"></div> 
-        <div class="circulo"></div> 
+        <div class="retangulo"></div>
+        <div class="circulo"></div>
         <input id="checkboxLevantamentoMaterialRegistoDadosOcorrenciaVI" class="checkboxLevantamentoMaterialRegistoDadosOcorrenciaVI" type="checkbox">
         <input id="checkboxPresencaOperacionaisRegistoDadosOcorrenciaVI" class="checkboxPresencaOperacionaisRegistoDadosOcorrenciaVI" type="checkbox">
         <input id="checkboxDadosComplementaresRegistoDadosOcorrenciaVI" class="checkboxDadosComplementaresRegistoDadosOcorrenciaVI" type="checkbox">
         <input id="checkboxMaterialUtilizadoRegistoDadosOcorrenciaVI" class="checkboxMaterialUtilizadoRegistoDadosOcorrenciaVI" type="checkbox">
         <input id="checkboxAvaliacaoEquipaRegistoDadosOcorrenciaVI" class="checkboxAvaliacaoEquipaRegistoDadosOcorrenciaVI" type="checkbox">
 
+        <i id="arrowOneRegistoDadosOcorrenciaVI" class="fas fa-chevron-right"></i>
+        <i id="arrowTwoRegistoDadosOcorrenciaVI" class="fas fa-chevron-right"></i>
+        <i id="arrowThreeRegistoDadosOcorrenciaVI" class="fas fa-chevron-right"></i>
+        <i id="arrowFourRegistoDadosOcorrenciaVI" class="fas fa-chevron-right"></i>
+        <i id="arrowFiveRegistoDadosOcorrenciaVI" class="fas fa-chevron-right"></i>
 
+        <span class="textoRegisto">Registo</span>
+        <span class="textoOcorrencia">OCORRÊNCIA 495</span>
+        <div class="boxLevantamentoMaterial"></div>
+        <span class="textoLevantamentoMaterial">Levantamento de Material</span>
+        <div class="boxPresencas"></div>
+        <span class="textoPresencas">Presença de Operacionais</span>
+        <div id="boxChegada" class="boxChegada"></div>
+        <span id="textoChegada" class="textoChegada">Chegada ao Local</span>
 
+        <div id="boxDadosComplementares" class="boxDadosComplementares"></div>
+        <span id="textoDadosComplementares" class="textoDadosComplementares">Dados Complementares</span>
 
+        <div id="boxAvaliacao" class="boxAvaliacao"></div>
+        <span id="textoAvaliacao" class="textoAvaliacao">Avaliação da Equipa</span>
+
+        <div id="boxPartida" class="boxPartida" ></div>
+        <span id="textoPartida" class="textoPartida">Partida para o Terreno</span>
+
+        <div id="boxMaterialUtilizado" class="boxMaterialUtilizado"></div>
+        <span id="textoMaterialUtilizado" class="textoMaterialUtilizado">Material Utilizado</span>
+
+        <input id="horasChegada" class="textoHorasChegada" type="time" onclick="dadosDesativarUm()"></input>
+        <input id="horasPartida" class="textoHorasPartida" type="time" onclick="dadosDesativarDois()"></input>
+
+        <div class="bottombar"></div>
+        <!-- barra inferrior-->
+        <div class="firstsquare"></div>
+        <!--primeiro quadrado-->
+        <div class="secondsquare"></div>
+        <!--segundo quadrado-->
+        <div class="thirdsquare"></div>
+        <!--terceiro quadrado-->
+        <div class="fourthsquare"></div>
+        <!--quarto quadrado-->
+        <div class="fifthsquare"></div>
+        <!--quinto quadrado-->
+        <button id="iconfirstsquareRegistoDadosOcorrenciaVI" class="far fa-bell"></button>
+        <!--icon primeiro quadrado-->
+        <button id="iconsecondsquareRegistoDadosOcorrenciaVI" class="fas fa-paste"></button>
+        <!--icon segundo quadrado-->
+        <button id="iconthirdsquareRegistoDadosOcorrenciaVI" class="fas fa-folder-open"></button>
+        <!--icon terceiro quadrado-->
+        <button id="iconfourthsquareRegistoDadosOcorrenciaVI" class="fas fa-user-circle"></button>
+        <!--icon quarto quadrado-->
+        <button id="iconfifthsquareRegistoDadosOcorrenciaVI" class="fas fa-star"></button>
+        <!--icon quinto quadrado-->
+
+        <!-- Modal Section-->
+        <div id="bgmodalRegistoDadosOcorrenciaVI" class="hidden">
+            <span class="sendRegistoCo"><!--caixa de texto a dizer se deseja guardar a password-->Deseja enviar o resgisto para o CO?</span>
+            <button id="buttonCloseRegistoDadosOcorrenciaVI" class="close" onclick="close()">X</button>
+            <button id="buttonNaoRegistoDadosOcorrenciaVI" class="buttonNaoRegistoDadosOcorrenciaVI">Não</button>
+            <button id="buttonSimRegistoDadosOcorrenciaVI" class="buttonSimRegistoDadosOcorrenciaVI">Sim</button>
+        </div>
+
+        <button id="buttonEnviarCORegistoDadosOcorrencia" class="buttonEnviarCO" onclik="buttonEnviarCO">Enviar para CO</button>
+        <i id="iconRegistoDadosOcorrenciaVI" class="fas fa-folder-open"></i>
+        <button id="buttonbackRegistoDadosOcorrenciaVI" class="fas fa-chevron-left" onclick="goBack()"></button>
     </div>
-      <b> <span class="textoRegisto">Registo</span> </b>
-
-
-    <span class="textoOcorrencia">OCORRÊNCIA 495</span>
-    
-    
-        <div class="boxLevantamentoMaterial">
-            <span class="textoLevantamentoMaterial">Levantamento de Material</span></div>
-        
-        <div class="boxPresencas">
-            <span class="textoPresencas">Presença de Operacionais</span></div>
-       
-        <div class="boxChegada">
-        <span class="textoChegada">Chegada ao Local</span></div>
-        
-        <div class="boxDadosComplementares">
-           <span class="textoDadosComplementares">Dados Complementares</span></div>
-        
-        <div class="boxAvaliacao">
-          <span class="textoAvaliacao">Avaliação da Equipa</span></div>
-        
-        <div class="boxPartida">
-            <span class="textoPartida">Partida para o Terreno</span></div>
-        
-        
-        <div class="boxMaterialUtilizado">
-            <span class="textoMaterialUtilizado">Material Utilizado</span></div>
-
-        <span class="textoDoisPontosPartida">:</span>
-        <span class="textoHorasPartida">h</span>
-        <span class="textoMinutosPartida">m</span>
-
-        <span class="textoDoisPontosChegada">:</span>
-        <span class="textoHorasChegada">h</span>
-        <span class="textoMinutosChegada">m</span>
-        
-        <div class="bottombar"></div> <!-- barra inferrior-->
-        <div class="firstsquare"></div> <!--primeiro quadrado-->
-        <div class="secondsquare"></div> <!--segundo quadrado-->
-        <div class="thirdsquare"></div> <!--terceiro quadrado-->
-        <div class="fourthsquare"></div> <!--quarto quadrado-->
-        <div class="fifthsquare"></div> <!--quinto quadrado-->
-        <button id="iconfirstsquareRegistoDadosOcorrenciaVI" class="far fa-bell"></button> <!--icon primeiro quadrado-->
-        <button id="iconsecondsquareRegistoDadosOcorrenciaVI" class="fas fa-paste"></button> <!--icon segundo quadrado-->
-        <button id="iconthirdsquareRegistoDadosOcorrenciaVI" class="fas fa-folder-open"></button> <!--icon terceiro quadrado-->
-        <button id="iconfourthsquareRegistoDadosOcorrenciaVI" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
-        <button id="iconfifthsquareRegistoDadosOcorrenciaVI" class="fas fa-star"></button> <!--icon quinto quadrado-->
-	
-	    <i id="iconRegistoDadosOcorrenciaVI" class="fas fa-folder-open"></i>
-	    <button id="buttonbackRegistoDadosOcorrenciaVI" class="fas fa-chevron-left" onclick="goBack()"></button>
-
-    </div>
+    <script type="text/javascript" src="RegistoDadosOcorrenciaVI.js"></script>
 </body>
 
 </html>

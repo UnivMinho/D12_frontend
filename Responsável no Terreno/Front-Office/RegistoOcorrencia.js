@@ -19,13 +19,16 @@ variavelcinco.onclick=dadosfifthsquare;
 const variavelseis = document.getElementById("buttonbackRegistoOcorrencia");
 variavelseis.onclick = goBack;
 
+const variavelsete = document.getElementById("botaoEntrarRegistoOcorrencia");
+variavelsete.onclick = dadosBotaoEntrar;
+
 
 function goBack() { //voltar para a página anterior
     window.history.back()
 }
 
 function dadosfirstsquare(){
-window.location.href="Notificacoes.html" //ao carregar no botão vai para a página "Notificacoes.html"
+window.location.href="PaginaInicial.html" //ao carregar no botão vai para a página "Notificacoes.html"
 }
 
 function dadossecondsquare(){
@@ -46,4 +49,8 @@ window.location.href="Rank.html" //ao carregar no botão vai para a página "Ran
 
 function goBack() { //voltar para a página anterior
     window.history.back()
+}
+
+function dadosBotaoEntrar(){
+window.location.href="RegistoDadosOcorrenciaI.html" //ao carregar no botão vai para a página "RegistoDadosOcorrenciaI.html"
 }

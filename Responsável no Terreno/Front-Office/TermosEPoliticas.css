@@ -20,7 +20,7 @@
     color: rgba(9, 26, 68, 1);
     position: absolute;
     top: 51px;
-    left: 114px;
+    left: 115px;
     font-family: Open Sans;
     font-weight: Bold;
     font-size: 21px;
@@ -28,170 +28,43 @@
     text-align: center;
 }
 
-.bottombar {
-    width: 423px;
-    height: 92px;
-    background: rgba(250, 249, 249, 1);
-    opacity: 1;
-    position: absolute;
-    top: 658px;
-    left: 1px;
-    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
-    overflow: hidden;
-}
-
-.firstsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 667px;
-    left: 33px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
-}
-
-.secondsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 666px;
-    left: 105px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
-}
-
-.fourthsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 668px;
-    left: 252px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
-}
-
-.fifthsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 668px;
-    left: 324px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
-}
-
-.thirdsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 666px;
-    left: 178px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
-}
-
-.thirdsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 666px;
-    left: 177px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
-}
-
-#iconfirstsquarePaginaInicial {
-    top: 92.5%;
-    left: 12%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
-}
-
-#iconsecondsquarePaginaInicial {
-    top: 92.5%;
-    left: 29%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
-}
-
-#iconthirdsquarePaginaInicial {
-    top: 92.5%;
-    left: 46%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
-}
-
-#iconfourthsquarePaginaInicial {
-    top: 92.5%;
-    left: 64%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
-}
-
-#iconfifthsquarePaginaInicial {
-    top: 92.5%;
-    left: 81%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
-}
 
 #buttonbackTermos {
   position: absolute;
-  top: 55px;
+  top: 46px;
   left: 28px;
   border: none;
   font-size: x-large;
   color: lightgray;
   background-color: rgba(250, 249, 249, 1);
+}
+
+#iconTermosEPoliticas {
+    top: 16.5%;
+    left: 38%;
+    border: none;
+    position: absolute;
+    font-size: xxx-large;
+    background: none;
+    color: gray;
+}
+
+.fa-book-open:before {
+    font-size: 82px;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

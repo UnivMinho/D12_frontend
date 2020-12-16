@@ -16,32 +16,29 @@
         <span class="Login">Login</span>
         <span class="esquecerpassword">Esqueceu-se da password?</span>
         
-        <input id="inputemail" class="inputemail">
-        <i id="iconEmailLogin" class="far fa-envelope"></i> 
+        <input id="inputemail" class="inputemail"></input>
+
         <span class="emailtext">Email</span> <!--caixa de texto a dizer email-->
         
-        </div>
-        </input>
-        <input id="inputpassword" class="inputpassword" type="password">
-        <i id="iconPasswordLogin" class="far fa-eye-slash"></i>
+        <input id="inputpassword" class="inputpassword" type="password"></input>
+        <button id="iconPasswordLogin" class="far fa-eye-slash" onclick="showPswd()" aria-hidden="true"></button>
         
+        <span class="passwordtext"><!--caixa de texto a dizer password-->Password</span>
 
-    </div>
-    </input>
-    <span class="passwordtext"><!--caixa de texto a dizer password-->Password</span>
-    </div>
-    <button id="buttonlogin" class="buttonlogin" onclick="buttonlogin">INICIAR SESSÃO</button>
+        <button id="buttonlogin" class="buttonlogin" onclick="buttonlogin">INICIAR SESSÃO</button>
     
     <!-- Modal Section-->
-    <div id="bgmodalLogin" class="hidden">
+        <div id="bgmodalLogin" class="hidden">
         <span class="savePassword"><!--caixa de texto a dizer se deseja guardar a password-->Deseja guardar a sua password?</span>
         <button id="buttonNaoLogin" class="buttonNaoLogin">Não</button>
         <button id="buttonSimLogin" class="buttonSimLogin">Sim</button>
-    </div>
+        </div>
 
     <button id="buttonbackLogin" class="fas fa-chevron-left" onclick="goBack()"></button> <!--botão e icon para voltar para a página anterior-->
     
     <script type="text/javascript" src="Login.js"></script>
+
+    </div>
 
 </body>
 

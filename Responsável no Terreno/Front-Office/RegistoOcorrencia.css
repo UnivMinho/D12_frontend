@@ -45,7 +45,7 @@
     text-align: left;
 }
 
-.botaoentrar {
+#botaoEntrarRegistoOcorrencia {
     position: absolute;
     width: 60px;
     height: 60px;
@@ -291,4 +291,20 @@
     font-size: xx-large;
     background: none;
     color: lightgray;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

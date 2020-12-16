@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Mulish&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet" />
@@ -12,26 +12,37 @@
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
     <link href="./DadosPessoais.css" rel="stylesheet" />
     <title>Dados Pessoais</title>
- 
+
 </head>
 
 <body>
     <div class="screen">
-        
-         <div class="bottombar"></div> <!-- barra inferrior-->
-        <div class="firstsquare"></div> <!--primeiro quadrado-->
-        <div class="secondsquare"></div> <!--segundo quadrado-->
-        <div class="thirdsquare"></div> <!--terceiro quadrado-->
-        <div class="fourthsquare"></div> <!--quarto quadrado-->
-        <div class="fifthsquare"></div> <!--quinto quadrado-->
-        <button id="iconfirstsquareDadosPessoais" class="far fa-bell"></button> <!--icon primeiro quadrado-->
-        <button id="iconsecondsquareDadosPessoais" class="fas fa-paste"></button> <!--icon segundo quadrado-->
-        <button id="iconthirdsquareDadosPessoais" class="fas fa-folder-open"></button> <!--icon terceiro quadrado-->
-        <button id="iconfourthsquareDadosPessoais" class="fas fa-user-circle"></button> <!--icon quarto quadrado-->
-        <button id="iconfifthsquareDadosPessoais" class="fas fa-star"></button> <!--icon quinto quadrado-->
-	</div>
 
-        <input id="checkboxDadosPessoais" class="checkboxLevantamentoMaterial" type="checkbox">
+        <div class="bottombar"></div>
+        <!-- barra inferrior-->
+        <div class="firstsquare"></div>
+        <!--primeiro quadrado-->
+        <div class="secondsquare"></div>
+        <!--segundo quadrado-->
+        <div class="thirdsquare"></div>
+        <!--terceiro quadrado-->
+        <div class="fourthsquare"></div>
+        <!--quarto quadrado-->
+        <div class="fifthsquare"></div>
+        <!--quinto quadrado-->
+        <button id="iconfirstsquareDadosPessoais" class="far fa-bell"></button>
+        <!--icon primeiro quadrado-->
+        <button id="iconsecondsquareDadosPessoais" class="fas fa-paste"></button>
+        <!--icon segundo quadrado-->
+        <button id="iconthirdsquareDadosPessoais" class="fas fa-folder-open"></button>
+        <!--icon terceiro quadrado-->
+        <button id="iconfourthsquareDadosPessoais" class="fas fa-user-circle"></button>
+        <!--icon quarto quadrado-->
+        <button id="iconfifthsquareDadosPessoais" class="fas fa-star"></button>
+        <!--icon quinto quadrado-->
+
+
+        <input id="checkboxDadosPessoais" class="checkboxDadosPessoais" type="checkbox" onclick="checkboxDadosPessoais()">
 
         <span class="textoMudarPassword">Mudar a Password</span>
         <div class="retangulo"></div>
@@ -39,48 +50,154 @@
         <span class="textoDadosPessoais">DADOS PESSOAIS</span>
         <div class="bolinhaAdd"></div>
         <span class="sinalAdd">+</span>
-        
+
         <div class="boxNome">
             <input id="inputNome" class="inputNome"></input>
             <span class="textoNome">Nome</span></div>
+
+        <span class="textoDataNascimento">Data Nascimento</span>
+
+        <div class="comboboxs">
+
+            <label for="diaDataNascimento">Dia</label>
+            <select name="dia" id="dia">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+
+            <label for="mesDataNascimento">Mês</label>
+
+            <select name="mes" id="mes">
+          <option value="Janeiro">Janeiro</option>
+          <option value="Fevereiro">Fevereiro</option>
+          <option value="Março">Março</option>
+          <option value="Abril">Abril</option>
+          <option value="Maio">Maio</option>
+          <option value="Junho">Junho</option>
+          <option value="Julho">Julho</option>
+          <option value="Agosto">Agosto</option>
+          <option value="Setembro">Setembro</option>
+          <option value="Outubro">Outubro</option>
+          <option value="Novembro">Novembro</option>
+          <option value="Dezembro">Dezembro</option>
+            </select>
             
-        <div class="boxDataNascimento">
-            <input id="inputDataNascimento" class="inputDataNascimento"></input>
-            <span class="textoDataNascimento">Data de Nascimento</span></div>
-        
+            <label for="anoDataNascimento">Ano</label>
+
+            <select name="ano" id="ano">
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+          <option value="1999">1999</option>
+          <option value="1998">1998</option>
+          <option value="1997">1997</option>
+          <option value="1996">1996</option>
+          <option value="1995">1995</option>
+          <option value="1994">1994</option>
+          <option value="1993">1993</option>
+          <option value="1992">1992</option>
+          <option value="1991">1991</option>
+          <option value="1990">1990</option>
+          <option value="1989">1989</option>
+          <option value="1988">1988</option>
+          <option value="1987">1987</option>
+          <option value="1986">1986</option>
+          <option value="1985">1985</option>
+          <option value="1084">1084</option>
+          <option value="1083">1083</option>
+          <option value="1082">1082</option>
+          <option value="1081">1081</option>
+          <option value="1080">1080</option>
+          <option value="1079">1079</option>
+          <option value="1078">1078</option>
+          <option value="1077">1077</option>
+          <option value="1076">1076</option>
+          <option value="1075">1075</option>
+          <option value="1074">1074</option>
+          <option value="1073">1073</option>
+          <option value="1072">1072</option>
+          <option value="1071">1071</option>
+          <option value="1070">1070</option>
+          <option value="1069">1069</option>
+          <option value="1068">1068</option>
+          <option value="1067">1067</option>
+          <option value="1066">1066</option>
+          <option value="1065">1065</option>
+          <option value="1064">1064</option>
+          <option value="1063">1063</option>
+          <option value="1062">1062</option>
+          <option value="1061">1061</option>
+          <option value="1060">1060</option>
+          <option value="1059">1059</option>
+          <option value="1058">1058</option>
+          <option value="1057">1057</option>
+          <option value="1056">1056</option>
+          <option value="1055">1055</option>
+            </select>
+        </div>
+
         <div class="boxCedulaProfissional">
             <input id="inputCedulaProfissional" class="inputCedulaProfissional"></input>
             <span class="textoCedulaProfissional">Cédula Profissional</span></div>
-        
+
         <div class="boxEmail">
             <input id="inputEmail" class="inputEmail"></input>
             <span class="textoEmail">Email</span></div>
-            
-        <div class="boxPassword">
-            <span class="textoPassword">Password</span> 
-            <input id="inputPassword" class="inputPassword" type="password"></div>
-            
+
+        <input id="boxPassword1" class="boxPassword">
+        <span id="textoPassword" class="textoPassword">Password</span></input>
+
         <button class="buttonGravarAlteracoes">GRAVAR ALTERAÇÕES</button>
-        
+
         <div class="boxTelemovel">
             <span class="inputTelemovel">+351 (· · · ) · · · · · · ·</span>
             <span class="textoTelemovel">Número telemóvel</span></div>
-            
-        <input class="boxConfirmarPassword">
-            <span class="textoConfirmarPassword">Confirmar Password</span></input>
-            
-        <input class="boxNovaPassword">
-            <span class="textoNovaPassword">Nova Password</span></input>
-            
-        <input class="boxConfirmarNovaPassword">
-            <span class="textoConfirmarNovaPassword">Confirmar Nova Password</span></input>
-    
-        <button id="buttonbackDadosPessoais" class="fas fa-chevron-left" onclick="goBack()"></button> <!--botão e icon para voltar para a página anterior-->
+
+        <input id="boxConfirmarPassword" class="boxConfirmarPassword">
+        <span id="textoConfirmarPassword" class="textoConfirmarPassword">Confirmar Password</span></input>
+
+        <input id="boxNovaPassword" class="boxNovaPassword">
+        <span id="textoNovaPassword" class="textoNovaPassword">Nova Password</span></input>
+
+        <input id="boxConfirmarNovaPassword" class="boxConfirmarNovaPassword">
+        <span id="textoConfirmarNovaPassword" class="textoConfirmarNovaPassword">Confirmar Nova Password</span></input>
+
+        <button id="buttonbackDadosPessoais" class="fas fa-chevron-left" onclick="goBack()"></button>
+        <!--botão e icon para voltar para a página anterior-->
         <i id="iconDadosPessoais" class="fas fa-user"></i>
     </div>
-    
+
     <script type="text/javascript" src="DadosPessoais.js"></script>
-    
+
 </body>
 
 </html>

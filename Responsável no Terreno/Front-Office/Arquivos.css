@@ -141,20 +141,20 @@
     text-align: right;
 }
 
-.primeiroQuadradoOcorrencias {
+#primeiroQuadradoOcorrencias {
     width: 311px;
     height: 43px;
-    background: rgba(226, 226, 236, 1);
     opacity: 1;
     position: absolute;
     top: 237px;
     left: 41px;
-    border: 1px solid rgba(212, 214, 220, 1);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     overflow: hidden;
+    border:none;
+    background: rgb(239 239 239);
 }
 
 .textoOcorrencia2 {
@@ -183,52 +183,52 @@
     text-align: right;
 }
 
-.segundoQuadradoOcorrencias {
+#segundoQuadradoOcorrencias {
     width: 311px;
     height: 43px;
-    background: rgba(226, 226, 236, 1);
     opacity: 1;
     position: absolute;
     top: 292px;
     left: 41px;
-    border: 1px solid rgba(212, 214, 220, 1);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     overflow: hidden;
+    border:none;
+    background: rgb(239 239 239);
 }
 
-.terceiroQuadradoOcorrencias {
+#terceiroQuadradoOcorrencias {
     width: 311px;
     height: 43px;
-    background: rgba(226, 226, 236, 1);
     opacity: 1;
     position: absolute;
     top: 347px;
     left: 41px;
-    border: 1px solid rgba(212, 214, 220, 1);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     overflow: hidden;
+    border:none;
+    background: rgb(239 239 239);
 }
 
-.quartoQuadradoOcorrencias {
+#quartoQuadradoOcorrencias {
     width: 311px;
     height: 43px;
-    background: rgba(226, 226, 236, 1);
     opacity: 1;
     position: absolute;
     top: 402px;
     left: 41px;
-    border: 1px solid rgba(212, 214, 220, 1);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     overflow: hidden;
+    border:none;
+    background: rgb(239 239 239);
 }
 
 .bottombar {
@@ -409,3 +409,19 @@
     color: black;
 }
 
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
+}

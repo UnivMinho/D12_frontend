@@ -3,9 +3,9 @@
   padding: 0px !important;
   margin: 0px !important;
 }
-.v150_18 {
-  width: 375px;
-  height: 812px;
+.screen {
+  width: 414px;
+  height: 736px;
   background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
@@ -13,67 +13,12 @@
   left: 0px;
   overflow: hidden;
 }
-.v150_19 {
-  width: 375px;
-  height: 812px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v150_20 {
-  width: 375px;
-  height: 812px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v150_21 {
-  width: 375px;
-  height: 812px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v150_22 {
-  width: 375px;
-  height: 812px;
-  background: rgba(250,249,249,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v150_23 {
-  width: 375px;
-  height: 812px;
-  background: rgba(250,249,249,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.name {
-  color: #fff;
-}
-.name {
-  color: #fff;
-}
-.v150_26 {
+
+.textoDefinicoes {
   width: 249px;
   color: rgba(9,26,68,1);
   position: absolute;
-  top: 51px;
+  top: 43px;
   left: 68px;
   font-family: Open Sans;
   font-weight: Bold;
@@ -81,66 +26,9 @@
   opacity: 1;
   text-align: center;
 }
-.v158_1 {
-  width: 132px;
-  height: 132px;
-  background: url("../images/v158_1.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 162px;
-  left: 122px;
-  overflow: hidden;
-}
-.v158_2 {
-  width: 375px;
-  height: 36px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  overflow: hidden;
-}
-.v158_3 {
-  width: 343px;
-  height: 36px;
-  background: rgba(118,118,128,0.11999999731779099);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 16px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  overflow: hidden;
-}
-.v158_4 {
-  width: 20px;
-  height: 21px;
-  background: rgba(14,13,13,1);
-  opacity: 1;
-  position: absolute;
-  top: 7px;
-  left: 27px;
-  border: 0.20000000298023224px solid rgba(235,228,228,1);
-}
-.v158_5 {
-  width: 253px;
-  color: rgba(150,147,147,1);
-  position: absolute;
-  top: 7px;
-  left: 69px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 18px;
-  opacity: 1;
-  text-align: left;
-}
-.v160_0 {
+
+
+.textoSeguranca {
   width: 264px;
   color: rgba(73,72,76,1);
   position: absolute;
@@ -152,7 +40,7 @@
   opacity: 1;
   text-align: center;
 }
-.v160_2 {
+.textoPrivacidade {
   width: 140px;
   color: rgba(73,72,76,1);
   position: absolute;
@@ -164,7 +52,7 @@
   opacity: 1;
   text-align: center;
 }
-.v160_4 {
+.textoNotificacoes {
   width: 130px;
   color: rgba(73,72,76,1);
   position: absolute;
@@ -176,7 +64,7 @@
   opacity: 1;
   text-align: center;
 }
-.v160_1 {
+.textoAltera {
   width: 255px;
   color: rgba(125,125,130,1);
   position: absolute;
@@ -188,7 +76,7 @@
   opacity: 1;
   text-align: left;
 }
-.v160_3 {
+.textoGere {
   width: 259px;
   color: rgba(125,125,130,1);
   position: absolute;
@@ -200,7 +88,8 @@
   opacity: 1;
   text-align: left;
 }
-.v160_5 {
+
+.textoPretende {
   width: 265px;
   color: rgba(125,125,130,1);
   position: absolute;
@@ -212,35 +101,54 @@
   opacity: 1;
   text-align: left;
 }
-.name {
-  color: #fff;
-}
-.v165_2461 {
-  width: 51px;
-  height: 31px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
+
+#buttonbackDefinicoesEPrivacidade {
   position: absolute;
-  top: 656px;
-  left: 284px;
-  overflow: hidden;
+  top: 46px;
+  left: 28px;
+  border: none;
+  font-size: x-large;
+  color: lightgray;
+  background-color:#FFFFFF;
 }
-.v165_2462 {
-  width: 51px;
-  height: 31px;
-  background: rgba(52,199,89,1);
-  opacity: 1;
+
+#iconDefinicoesPrivacidade {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 114px;
+  left: 112px;
+  font-size: 97px;
+  color: lightblue;
 }
-.v165_2463 {
-  width: 27px;
-  height: 27px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 2px;
-  left: 22px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.05999999865889549);
+
+.fa-cogs:before {
+    font-size: 145px;
+}
+
+.checkboxDefinicoesPrivacidade {
+    height: 28px;
+    width: 88px;
+    color: rgba(20, 19, 42, 1);
+    position: absolute;
+    top: 640px;
+    left: 305px;
+    font-family: Poppins;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

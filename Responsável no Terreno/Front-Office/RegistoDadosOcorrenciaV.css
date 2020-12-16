@@ -267,45 +267,6 @@
   text-align: left;
 }
 
-.textoDoisPontosPartida {
-    width: 10px;
-    color: rgba(102, 102, 105, 1);
-    position: absolute;
-    top: 407px;
-    left: 311px;
-    font-family: Poppins;
-    font-weight: Medium;
-    font-size: 24px;
-    opacity: 1;
-    text-align: center;
-}
-
-.textoHorasPartida {
-  width: 15px;
-  color: rgba(65, 65, 69, 1);
-  position: absolute;
-  top: 414px;
-  left: 279px;
-  font-family: Roboto;
-  font-weight: Black;
-  font-size: 18px;
-  opacity: 1;
-  text-align: center;
-}
-
-.textoMinutosPartida {
-  width: 20px;
-  color: rgba(65, 65, 69, 1);
-  position: absolute;
-  top: 413px;
-  left: 344px;
-  font-family: Roboto;
-  font-weight: Black;
-  font-size: 18px;
-  opacity: 1;
-  text-align: center;
-}
-
 .textoDoisPontosChegada {
 width: 10px;
     color: rgba(102, 102, 105, 1);
@@ -319,17 +280,32 @@ width: 10px;
     text-align: center;
 }
 
-.textoHorasChegada {
-  width: 15px;
-  color: rgba(65, 65, 69, 1);
+#horasChegada {
+  width: 99px;
+  color: rgb(172 172 177);
   position: absolute;
   top: 358px;
   left: 278px;
   font-family: Roboto;
-  font-weight: Black;
   font-size: 18px;
   opacity: 1;
   text-align: center;
+  border: none;
+  background: rgba(250, 249, 249, 1);
+}
+
+#horasPartida {
+  width: 99px;
+  color: rgb(172 172 177);
+  position: absolute;
+  top: 411px;
+  left: 278px;
+  font-family: Roboto;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+  border: none;
+  background: rgba(250, 249, 249, 1);
 }
 
 .textoMinutosChegada {
@@ -586,4 +562,55 @@ width: 10px;
   font-size: x-large;
   color: lightgray;
   background-color: rgba(250, 249, 249, 1);
+}
+
+#arrowOneRegistoDadosOcorrenciaV {
+  position: absolute;
+  top: 34%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowTwoRegistoDadosOcorrenciaV {
+  position: absolute;
+  top: 41%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowThreeRegistoDadosOcorrenciaV {
+  position: absolute;
+  top: 64%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowFourRegistoDadosOcorrenciaV {
+  position: absolute;
+  top: 72%;
+  left: 92%;
+  color: #aba9a9;
+}
+
+#arrowFiveRegistoDadosOcorrenciaV {
+  position: absolute;
+  top: 80%;
+  left: 92%;
+  color: #aba9a9;
+}
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
 }

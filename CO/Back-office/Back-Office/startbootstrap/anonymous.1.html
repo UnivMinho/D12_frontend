@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    
+
     <!-- Favicons -->
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,7 +34,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                 <img src="favicon-32x32.png"></img>
+                 <img src="apple-icon-60x60.png"></img>
                 <div class="sidebar-brand-text mx-3">Policia Municipal</div>
             </a>
 
@@ -233,18 +234,25 @@
                                         <form>
                                             <h5>1. Anonimato</h5>
                                             <div id="anonymity">
-                                                <input type="radio" id="anonimo" name="anonimato" value="anonimo"> 
+                                                <input type="radio" id="anonimo" name="anonimato" value="anonimo">
                                                 <label for="anonimo">Anonimo</label><br>
-                                                <input type="radio" id="naoAnonimo" name="anonimato" value="naoAnonimo" >
+                                                <input type="radio" id="naoAnonimo" name="anonimato" value="naoAnonimo">
                                                 <label for="naoAnonimo">Não Anonimo</label><br>
                                             </div>
                                             <h5>2. Data e Hora</h5>
-                                            <div class="form group ">
-                                                <div id="date">
-                                                    <input type="date" id="dateOcurrence" class="form-control" name="dateOcurrence" >
-                                                <label></label>
+                                            <div id="date"></div>
+                                            <div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="dateOcurrence">Data</label>
+                                                    <input type="date" id="dateOcurrence" class="form-control" name="dateOcurrence">
                                                 </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="timeOcurrence">Hora</label>
+                                                    <input type="time" id="timeOcurrence" class="form-control" name="dateOcurrence">
+                                                </div>
+
                                             </div>
+
                                             <h5>3. Identificaçao do Queixoso</h5>
                                             <div id="complainer"></div>
                                             <div class="form-group">
@@ -335,8 +343,8 @@
                 </div>
 
             </div>
-    </div>
-    <!-- /.container-fluid -->
+        </div>
+        <!-- /.container-fluid -->
     </div>
     <!-- End of Main Content -->
 

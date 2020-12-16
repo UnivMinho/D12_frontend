@@ -41,7 +41,7 @@
   text-align: left;
 }
 
-.inputemail {
+#inputemail {
   width: 325px;
   height: 64px;
   background: rgba(239, 240, 246, 1);
@@ -178,7 +178,7 @@
   border: 2px solid rgba(160, 163, 189, 1);
 }
 
-.inputpassword {
+#inputpassword {
   width: 325px;
   height: 64px;
   background: rgba(239, 240, 246, 1);
@@ -192,82 +192,6 @@
   border-bottom-right-radius: 16px;
   overflow: hidden;
   border: none;
-}
-
-.v34_593 {
-  width: 77px;
-  height: 112px;
-  background: url("../images/v34_593.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 22px 24px;
-  margin: 10px;
-  opacity: 1;
-  position: absolute;
-  top: 24px;
-  left: 248px;
-  overflow: hidden;
-}
-
-.v34_600 {
-  width: 79px;
-  height: 68px;
-  background: url("../images/v34_600.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 22px 24px;
-  margin: 10px;
-  opacity: 1;
-  position: absolute;
-  top: 22px;
-  left: 1px;
-  overflow: hidden;
-}
-
-.v34_604 {
-  width: 24px;
-  height: 24px;
-  background: url("../images/v34_604.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 35px;
-  left: 85px;
-  overflow: hidden;
-}
-
-.v34_606 {
-  width: 6px;
-  height: 6px;
-  background: url("../images/v34_606.png");
-  opacity: 1;
-  position: absolute;
-  top: 35%;
-  left: 85%;
-  border-radius: 50%;
-}
-
-.v34_597 {
-  width: 88px;
-  height: 64px;
-  background: url("../images/v34_597.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 6px 0px;
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 23px;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  overflow: hidden;
 }
 
 .passwordtext {
@@ -300,6 +224,7 @@
   font-size: 18px;
   font-family: 'Roboto';
   color: rgba(250, 249, 249, 1);
+  box-shadow: -4px 4px 2px rgb(171 171 171 / 50%);
 }
 
 .guardarpassword {
@@ -327,6 +252,7 @@
   border-top-right-radius: 25px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  box-shadow: -15px 15px 10px lightgrey
 }
 
 .buttonNaoLogin {
@@ -344,6 +270,7 @@
   font-size: 18px;
   border: none;
   font-family: 'Poppins';
+  box-shadow: -3px 3px 2px rgb(162 162 162 / 50%);
 }
 
 .buttonSimLogin {
@@ -361,6 +288,7 @@
   font-size: 18px;
   font-family: 'Poppins';
   border: none;
+  box-shadow: -3px 3px 2px rgb(162 162 162 / 50%);
 }
 
 .savePassword {
@@ -376,20 +304,13 @@
   text-align: center;
 }
 
-#iconEmailLogin {
-  position: absolute;
-  top: 168px;
-  left: 324px;
-  color: lightgray;
-  font-size: large;
-}
-
 #iconPasswordLogin {
   position: absolute;
   top: 243px;
   left: 324px;
   color: lightgray;
   font-size: large;
+  border: none;
 }
 
 #buttonbackLogin {
@@ -403,5 +324,28 @@
 }
 
 .hidden {
-  display:none;
+  display: none;
 }
+
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+
+:inputpassword {
+  text-align: center;
+}
+
+:inputemail {
+  text-align: center;
+}
+

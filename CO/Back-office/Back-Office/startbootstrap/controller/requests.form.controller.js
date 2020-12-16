@@ -1,7 +1,7 @@
 var urlParams = new URLSearchParams(window.location.search)
 console.log(urlParams.get('id'))
 
-fetch(`http://18.212.200.1:8080/requests/${urlParams.get('id')}`)
+fetch(`http://107.20.66.66:8080/requests/${urlParams.get('id')}`)
     .then(response => response.json())
     .then(requests => {
         console.log(requests[0])
@@ -21,8 +21,17 @@ fetch(`http://18.212.200.1:8080/requests/${urlParams.get('id')}`)
                                         '</div>'
 
                 anonymity.innerHTML = anonymityContent;
-                var dateContent = `<input type="text" id="dateOcurrence" class="form-control" name="dateOcurrence" value=${request.date} readonly>
-                                                <label></label>`
+                var dateContent = `<div class="form-row">
+                                                <div class="form-group col-md-6">
+                                                    <label for="dateOcurrence">Data</label>
+                                                    <input type="date" id="dateOcurrence" class="form-control" name="dateOcurrence" value=${request.date}>
+                                                </div>
+                                                <div class="form-group col-md-6">
+                                                    <label for="timeOcurrence">Hora</label>
+                                                    <input type="text" id="timeOcurrence" class="form-control" name="dateOcurrence" value=${request.time}>
+                                                </div>
+
+                                            </div>`
                 date.innerHTML = dateContent;
 
                 var localContent = `<div class="form-row">
@@ -153,46 +162,4 @@ fetch(`http://18.212.200.1:8080/requests/${urlParams.get('id')}`)
 
         })
     })
-/*
-<div class="form-group ">
-                                                    <label for="inputName">Nome</label>
-                                                    <input type="text" class="form-control" id="inputName" value=${request.name} readonly>
-                                                </div>                                                    
-                                                <div class="form-row">
-                                                    <div class="form-group col-md-6">
-                                                        <label for="inputContact">Contacto</label>
-                                                        <input type="text" class="form-control" id="inputContact" value=${request.contact} readonly>
-                                                    </div>
-                                                <div class="form-group col-md-4">
-                                                        <label for="inputState">Data de Nascimento</label>
-                                                        <input type="text" class="form-control" id="dateOcurrence" name="dateOcurrence" value=${request.???} readonly>
-                                                    </div>
-                                                    <div class="form-group col-md-2">
-                                                        <label for="inputZip">Código Postal</label>
-                                                        <input type="text" class="form-control" id="inputZip" value=${request.???} readonly>
-                                                    </div>
-                                                </div>
-                                                
-                                                if (request.??? == "Masculino") {
-                var genderContent = '<label for="genero">Género<p>' +
-                                        '<input type="radio" id="male" name="gender" value="male" checked>' +
-                                            '<label for="male">Masculino</label><br>' +
-                                            '<input type="radio" id="female" name="gender" value="female" disabled>' +
-                                            '<label for="female">Feminino</label><br>' +
-                                        '</div>'+
-                                        '</div>'
-                complainer.innerHTML += genderContent;
-                else {
-                    var genderContent = '<label for="genero">Género<p>' +
-                                        '<input type="radio" id="male" name="gender" value="male" disabled>' +
-                                            '<label for="male">Masculino</label><br>' +
-                                            '<input type="radio" id="female" name="gender" value="female" checked>' +
-                                            '<label for="female">Feminino</label><br>' +
-                                        '</div>'+
-                                        '</div>'
-                    complainer.innerHTML += genderContent;
-                }                    
-        
-                
-                
-            }*/
+

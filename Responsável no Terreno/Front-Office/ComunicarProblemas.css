@@ -94,3 +94,19 @@
   color: lightgray;
   background-color: rgba(250, 249, 249, 1);
 }
+/* Outline */
+
+:focus {
+  outline: 0;
+}
+
+:active {
+  outline: 0;
+}
+
+:selected {
+  outline: 0;
+}
+:input {
+text-align: center;
+}
