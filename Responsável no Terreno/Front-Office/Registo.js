@@ -91,3 +91,31 @@ function buttonInicioRegisto() {
 function buttonClose() {
     document.getElementById("bgmodalRegisto").className = "hidden" //carregar no X e fechar o aviso
 }
+
+
+let pswd = false;
+
+function showPswd() {
+    if (pswd) {
+        document.getElementById("inputPasswordRegisto").setAttribute("type", "password");
+        pswd = false;
+    }
+    else {
+        document.getElementById("inputPasswordRegisto").setAttribute("type", "text");
+        pswd = true;
+    }
+}
+
+
+let password = false;
+
+function showPassword() {
+    if (pswd) {
+        document.getElementById("inputConfirmarPasswordRegisto").setAttribute("type", "password");
+        pswd = false;
+    }
+    else {
+        document.getElementById("inputConfirmarPasswordRegisto").setAttribute("type", "text");
+        pswd = true;
+    }
+}
