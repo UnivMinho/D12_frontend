@@ -3,10 +3,11 @@
   padding: 0px !important;
   margin: 0px !important;
 }
+
 .screen {
   width: 414px;
   height: 736px;
-  background: rgba(250,249,249,1);
+  background: rgba(250, 249, 249, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -16,7 +17,7 @@
 
 .textoPresencaOperacionais {
   width: 316px;
-  color: rgba(36,47,65,1);
+  color: rgba(36, 47, 65, 1);
   position: absolute;
   top: 86px;
   left: 50px;
@@ -24,18 +25,18 @@
   font-weight: Light;
   font-size: 30px;
   opacity: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .operacional1 {
   width: 218px;
   height: 65px;
-  background: rgba(226,226,236,1);
+  background: rgba(226, 226, 236, 1);
   opacity: 1;
   position: absolute;
   top: 194px;
   left: 84px;
-  border: 1px solid rgba(212,214,220,1);
+  border: 1px solid rgba(212, 214, 220, 1);
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
@@ -47,12 +48,12 @@
 .operacional2 {
   width: 218px;
   height: 65px;
-  background: rgba(226,226,236,1);
+  background: rgba(226, 226, 236, 1);
   opacity: 1;
   position: absolute;
   top: 288px;
   left: 84px;
-  border: 1px solid rgba(212,214,220,1);
+  border: 1px solid rgba(212, 214, 220, 1);
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
@@ -64,12 +65,12 @@
 .operacional3 {
   width: 218px;
   height: 65px;
-  background: rgba(226,226,236,1);
+  background: rgba(226, 226, 236, 1);
   opacity: 1;
   position: absolute;
   top: 382px;
   left: 84px;
-  border: 1px solid rgba(212,214,220,1);
+  border: 1px solid rgba(212, 214, 220, 1);
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
@@ -89,184 +90,184 @@
 }
 
 .botaoCheck {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 302px;
-    top: 490px;
-    background: #EBEBEB;
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
-    border-radius: 32px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 302px;
+  top: 490px;
+  background: #EBEBEB;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+  border-radius: 32px;
 }
 
 #iconCheck {
-    position: absolute;
-    top: 505px;
-    left: 316px;
-    color: #28A820;
+  position: absolute;
+  top: 505px;
+  left: 316px;
+  color: #28A820;
 }
 
 .fa-check:before {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .bottombar {
-    width: 423px;
-    height: 92px;
-    background: rgba(250, 249, 249, 1);
-    opacity: 1;
-    position: absolute;
-    top: 658px;
-    left: 1px;
-    box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
-    overflow: hidden;
+  width: 423px;
+  height: 92px;
+  background: rgba(250, 249, 249, 1);
+  opacity: 1;
+  position: absolute;
+  top: 658px;
+  left: 1px;
+  box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
 }
 
 .firstsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 667px;
-    left: 33px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 667px;
+  left: 33px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
 }
 
 .secondsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 666px;
-    left: 105px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 666px;
+  left: 105px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
 }
 
 .fourthsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 668px;
-    left: 252px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 668px;
+  left: 252px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
 }
 
 .fifthsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 668px;
-    left: 324px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 668px;
+  left: 324px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
 }
 
 .thirdsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 666px;
-    left: 178px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 666px;
+  left: 178px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
 }
 
 .thirdsquare {
-    width: 60px;
-    height: 58px;
-    background: rgba(244, 244, 244, 1);
-    opacity: 1;
-    position: absolute;
-    top: 666px;
-    left: 177px;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
-    overflow: hidden;
+  width: 60px;
+  height: 58px;
+  background: rgba(244, 244, 244, 1);
+  opacity: 1;
+  position: absolute;
+  top: 666px;
+  left: 177px;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.03999999910593033);
+  overflow: hidden;
 }
 
 #iconfirstsquarePresencaOperacionais {
-    top: 92.5%;
-    left: 12%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
+  top: 92.5%;
+  left: 12%;
+  border: none;
+  position: absolute;
+  font-size: xx-large;
+  background: none;
+  color: lightgray;
 }
 
 #iconsecondsquarePresencaOperacionais {
-    top: 92.5%;
-    left: 29%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
+  top: 92.5%;
+  left: 29%;
+  border: none;
+  position: absolute;
+  font-size: xx-large;
+  background: none;
+  color: lightgray;
 }
 
 #iconthirdsquarePresencaOperacionais {
-    top: 92.5%;
-    left: 46%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
+  top: 92.5%;
+  left: 46%;
+  border: none;
+  position: absolute;
+  font-size: xx-large;
+  background: none;
+  color: lightgray;
 }
 
 #iconfourthsquarePresencaOperacionais {
-    top: 92.5%;
-    left: 64%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
+  top: 92.5%;
+  left: 64%;
+  border: none;
+  position: absolute;
+  font-size: xx-large;
+  background: none;
+  color: lightgray;
 }
 
 #iconfifthsquarePresencaOperacionais {
-    top: 92.5%;
-    left: 81%;
-    border: none;
-    position: absolute;
-    font-size: xx-large;
-    background: none;
-    color: lightgray;
+  top: 92.5%;
+  left: 81%;
+  border: none;
+  position: absolute;
+  font-size: xx-large;
+  background: none;
+  color: lightgray;
 }
 
 .firstcheckbox {
@@ -307,6 +308,7 @@
   opacity: 1;
   text-align: left;
 }
+
 /* Outline */
 
 :focus {
@@ -320,6 +322,40 @@
 :selected {
   outline: 0;
 }
+
 :input {
-text-align: center;
+  text-align: center;
+}
+
+.circle1 {
+  width: 73px;
+  height: 71px;
+  opacity: 1;
+  position: absolute;
+  top: 193px;
+  left: 64px;
+  border-radius: 50%;
+  background: gray;
+}
+
+.circle2 {
+  width: 73px;
+  height: 71px;
+  opacity: 1;
+  position: absolute;
+  top: 287px;
+  left: 64px;
+  border-radius: 50%;
+  background: gray;
+}
+
+.circle3 {
+  width: 73px;
+  height: 71px;
+  opacity: 1;
+  position: absolute;
+  top: 379px;
+  left: 64px;
+  border-radius: 50%;
+  background: gray;
 }

@@ -52,5 +52,5 @@ function goBack() { //voltar para a página anterior
 }
 
 function dadosBotaoEntrar(){
-window.location.href="RegistoDadosOcorrenciaI.html" //ao carregar no botão vai para a página "RegistoDadosOcorrenciaI.html"
+window.location.href="RegistoDadosOcorrenciaVI.html" //ao carregar no botão vai para a página "RegistoDadosOcorrenciaI.html"
 }

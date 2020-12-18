@@ -95,15 +95,15 @@ function dadosArrowTwo() {
 }
 
 function dadosArrowThree() {
-    window.location.href = "DadosComplementares.html" //ao carregar no botão vai para a página "Rank.html"
+    //ao carregar no botão vai para a página "Rank.html"
 }
 
 function dadosArrowFour() {
-    window.location.href = "MaterialUtilizado.html" //ao carregar no botão vai para a página "Rank.html"
+    //ao carregar no botão vai para a página "Rank.html"
 }
 
 function dadosArrowFive() {
-    window.location.href = "AvaliacaoEquipa.html" //ao carregar no botão vai para a página "Rank.html"
+    //ao carregar no botão vai para a página "Rank.html"
 }
 
 function buttonNao() {
@@ -135,14 +135,17 @@ function dadosDesativarDois() {
 function dadosDesativarTres() {
         document.getElementById("boxDadosComplementares").style.background = "#eff0f6";
         document.getElementById("textoDadosComplementares").style.color = "#414145";
+        window.location.href = "DadosComplementares.html"
 }
 
 function dadosDesativarQuatro() {
         document.getElementById("boxMaterialUtilizado").style.background = "#eff0f6";
         document.getElementById("textoMaterialUtilizado").style.color = "#414145";
+        window.location.href = "MaterialUtilizado.html" 
 }
 
 function dadosDesativarCinco() {
         document.getElementById("boxAvaliacao").style.background = "#eff0f6";
         document.getElementById("textoAvaliacao").style.color = "#414145";
+        window.location.href = "AvaliacaoEquipa.html"
 }

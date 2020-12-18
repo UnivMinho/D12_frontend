@@ -338,17 +338,18 @@
     overflow: hidden;
 }
 
-.inputTelemovel {
+#inputTelemovel {
     width: 148px;
     color: rgba(38, 50, 56, 1);
     position: absolute;
     top: 26px;
     left: 22px;
     font-family: Inter;
-    font-weight: Regular;
     font-size: 16px;
     opacity: 1;
     text-align: left;
+    border: none;
+    background: rgba(239, 240, 246, 1);
 }
 
 .textoTelemovel {
@@ -563,6 +564,7 @@
     border-bottom-right-radius: 16px;
     overflow: hidden;
     border: none;
+    visibility:hidden;
 }
 
 #textoConfirmarPassword {
@@ -575,6 +577,7 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    visibility:hidden;
 }
 
 #boxNovaPassword {
@@ -591,6 +594,7 @@
     border-bottom-right-radius: 16px;
     overflow: hidden;
     border: none;
+    visibility:hidden;
 }
 
 #textoNovaPassword {
@@ -603,6 +607,7 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    visibility:hidden;
 }
 
 #boxConfirmarNovaPassword {
@@ -619,6 +624,7 @@
     border-bottom-right-radius: 16px;
     overflow: hidden;
     border: none;
+    visibility:hidden;
 }
 
 #textoConfirmarNovaPassword {
@@ -631,6 +637,7 @@
     font-size: 14px;
     opacity: 1;
     text-align: left;
+    visibility:hidden;
 }
 
 /* Outline */
@@ -657,7 +664,7 @@
     left: 15%;
     font-family: 'Mulish';
     font-size: 17px;
-    background-color: rgba(239, 240, 246, 1);
+    background-color: rgba(223, 224, 231, 1);
     z-index: 99;
     color: #585a65;
     padding: 8px 16px;

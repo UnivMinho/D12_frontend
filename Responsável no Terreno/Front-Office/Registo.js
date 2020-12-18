@@ -47,16 +47,16 @@ function enviardados() {
                 else {
 
                     //preenchimento da Password, não pode estar vazia (campo obrigatório)
-                    if (document.getElementById("inputPassword").value == "") {
+                    if (document.getElementById("inputPasswordRegisto").value == "") {
                         alert("Preencha o campo Password!");
-                        document.getElementById("inputPassword").focus();
+                        document.getElementById("inputPasswordRegisto").focus();
                     }
                     else {
 
                         //caso as passwords não coincidirem (preenchimento de ambas obrigatórias)
-                        if (document.getElementById("inputPassword").value != document.getElementById("inputConfirmarPassword").value) {
+                        if (document.getElementById("inputPasswordRegisto").value != document.getElementById("inputConfirmarPasswordRegisto").value) {
                             alert("As passwords não coincidem!");
-                            document.getElementById("inputPassword").focus();
+                            document.getElementById("inputPasswordRegisto").focus();
                         }
                         else {
 

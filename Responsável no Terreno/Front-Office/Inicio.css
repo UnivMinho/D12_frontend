@@ -3,6 +3,18 @@
   padding: 0px !important;
   margin: 0px !important;
 }
+.imagemclass{
+  position: absolute;
+  width: 171px;
+  height: 157px;
+  left: 122px;
+  top: 167px;
+  
+}
+  #imagem{
+    width:150px;
+    height:150px;
+  }
 
 .screen {
   width: 414px;

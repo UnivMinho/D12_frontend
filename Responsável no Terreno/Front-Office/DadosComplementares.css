@@ -20,12 +20,11 @@
     color: rgba(36, 47, 65, 1);
     position: absolute;
     top: 20px;
-    left: 72px;
+    left: 56px;
     font-family: Mulish;
-    font-weight: Light;
     font-size: 30px;
     opacity: 1;
-    text-align: left;
+    text-align: center;
 }
 
 .inputNotas {
@@ -35,7 +34,7 @@
     opacity: 1;
     position: absolute;
     top: 130px;
-    left: 27px;
+    left: 44px;
     border: 1px solid rgba(229, 229, 234, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -47,14 +46,16 @@
 
 .botaoAdicionar {
     position: absolute;
-    width: 129px;
-    height: 26px;
+    width: 136px;
+    height: 32px;
     left: 220px;
     top: 585px;
     background: #EBEBEB;
     border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+    box-shadow: 5px 7px 3px rgb(199 197 197 / 50%);
     border-radius: 32px;
+    font-size: 16px;
+    font-family: 'Mulish';
 }
 
 .textoAdicionar {
@@ -71,53 +72,37 @@
 }
 
 .textoNotas {
-    width: 45px;
+    width: 169px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
-    top: 114px;
-    left: 27px;
+    top: 106px;
+    left: 47px;
     font-family: Roboto;
-    font-weight: Black;
-    font-size: 13px;
+    font-size: 16px;
     opacity: 1;
     text-align: left;
 }
 
 .textoRegistarTestemunhas {
-       width: 169px;
+    width: 169px;
     color: rgba(0, 0, 0, 1);
     position: absolute;
     top: 321px;
-    left: 27px;
+    left: 47px;
     font-family: Roboto;
-    font-weight: Black;
-    font-size: 13px;
+    font-size: 16px;
     opacity: 1;
     text-align: left;
 
-}
-
-.textoEscreva {
-     width: 295px;
-    color: rgba(150, 147, 147, 1);
-    position: absolute;
-    top: 142px;
-    left: 42px;
-    font-family: Roboto;
-    font-weight: Regular;
-    font-size: 11px;
-    opacity: 1;
-    text-align: left;
 }
 
 .textoNome {
     width: 49px;
     color: rgba(65, 65, 69, 1);
     position: absolute;
-    top: 347px;
-    left: 27px;
+    top: 352px;
+    left: 47px;
     font-family: Poppins;
-    font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
@@ -129,8 +114,8 @@
     background: rgba(255, 255, 255, 1);
     opacity: 1;
     position: absolute;
-    top: 341px;
-    left: 88px;
+    top: 346px;
+    left: 100px;
     border: 1px solid rgba(229, 229, 234, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -144,9 +129,8 @@
     color: rgba(65, 65, 69, 1);
     position: absolute;
     top: 393px;
-    left: 27px;
+    left: 47px;
     font-family: Poppins;
-    font-weight: Medium;
     font-size: 14px;
     opacity: 1;
     text-align: left;
@@ -158,8 +142,8 @@
     background: rgba(255, 255, 255, 1);
     opacity: 1;
     position: absolute;
-    top: 387px;
-    left: 88px;
+    top: 389px;
+    left: 100px;
     border: 1px solid rgba(229, 229, 234, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -173,7 +157,7 @@
     color: rgba(65, 65, 69, 1);
     position: absolute;
     top: 439px;
-    left: 27px;
+    left: 47px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
@@ -188,7 +172,7 @@
     opacity: 1;
     position: absolute;
     top: 433px;
-    left: 128px;
+    left: 138px;
     border: 1px solid rgba(229, 229, 234, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -202,7 +186,7 @@
     color: rgba(65, 65, 69, 1);
     position: absolute;
     top: 485px;
-    left: 27px;
+    left: 47px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
@@ -215,7 +199,7 @@
     color: rgba(65, 65, 69, 1);
     position: absolute;
     top: 532px;
-    left: 26px;
+    left: 47px;
     font-family: Poppins;
     font-weight: Medium;
     font-size: 14px;
@@ -230,7 +214,7 @@
     opacity: 1;
     position: absolute;
     top: 479px;
-    left: 116px;
+    left: 125px;
     border: 1px solid rgba(229, 229, 234, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -246,7 +230,7 @@
     opacity: 1;
     position: absolute;
     top: 524px;
-    left: 142px;
+    left: 150px;
     border: 1px solid rgba(229, 229, 234, 1);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -283,27 +267,29 @@
 }
 
 #buttonbackDadosComplementares {
-  position: absolute;
-  top: 46px;
-  left: 28px;
-  border: none;
-  font-size: x-large;
-  color: lightgray;
-  background-color: rgba(250, 249, 249, 1);
+    position: absolute;
+    top: 46px;
+    left: 28px;
+    border: none;
+    font-size: x-large;
+    color: lightgray;
+    background-color: rgba(250, 249, 249, 1);
 }
+
 /* Outline */
 
 :focus {
-  outline: 0;
+    outline: 0;
 }
 
 :active {
-  outline: 0;
+    outline: 0;
 }
 
 :selected {
-  outline: 0;
+    outline: 0;
 }
+
 :input {
-text-align: center;
+    text-align: center;
 }

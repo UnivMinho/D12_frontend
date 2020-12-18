@@ -32,7 +32,73 @@
     letter-spacing: -0.015em;
     color: #242F41;
 }
+.retangulo1 {
+position: absolute;
+width: 41px;
+height: 41px;
+left: 216px;
+top: 263px;
 
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+background: linear-gradient(0deg, #B0B0B0, #B0B0B0);
+z-index:2;
+color: #FFFFFF;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+
+}
+.retangulo2 {
+position: absolute;
+width: 41px;
+height: 41px;
+left: 217px;
+top: 392px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+display: flex;
+align-items: center;
+text-align: center;
+background: linear-gradient(0deg, #B0B0B0, #B0B0B0);
+z-index:2;
+color: #FFFFFF;
+border-top-right-radius: 8px;
+border-top-left-radius: 8px;
+border-bottom-right-radius: 8px;
+border-bottom-left-radius: 8px;
+}
+.profilepicture {
+    width: 108px;
+    height: 104px;
+    opacity: 1;
+    position: absolute;
+    top: 231px;
+    left: 51px;
+    border-radius: 50%;
+    background: gray;
+}
+.profilepicture1 {
+    width: 108px;
+    height: 104px;
+    opacity: 1;
+    position: absolute;
+    top: 357px;
+    left: 51px;
+    border-radius: 50%;
+    background: gray;
+}
 .bottombar {
     width: 423px;
     height: 92px;

@@ -3,10 +3,11 @@
   padding: 0px !important;
   margin: 0px !important;
 }
+
 .screen {
   width: 414px;
   height: 736px;
-  background: rgba(250,249,249,1);
+  background: rgba(250, 249, 249, 1);
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -15,27 +16,26 @@
 }
 
 .textoSerieNumero {
-  width: 47px;
-  color: rgba(168,168,170,1);
+  width: 109px;
+  color: rgba(168, 168, 170, 1);
   position: absolute;
-  top: 265px;
-  left: 37px;
+  top: 285px;
+  left: 64px;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 10px;
+  font-size: 16px;
   opacity: 1;
   text-align: left;
 }
 
 .inputMatricula {
-  width: 60px;
-  height: 19px;
-  background: rgba(255,255,255,1);
+  width: 115px;
+  height: 23px;
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 207px;
-  left: 109px;
-  border: 1px solid rgba(230,230,233,1);
+  top: 217px;
+  left: 174px;
+  border: 1px solid rgba(230, 230, 233, 1);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -44,14 +44,14 @@
 }
 
 .inputSerie {
-  width: 60px;
-  height: 19px;
-  background: rgba(255,255,255,1);
+  width: 90px;
+  height: 23px;
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 268px;
-  left: 92px;
-  border: 1px solid rgba(230,230,233,1);
+  top: 286px;
+  left: 139px;
+  border: 1px solid rgba(230, 230, 233, 1);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -61,90 +61,86 @@
 
 .textoLevantamentoMaterial {
   width: 316px;
-  color: rgba(36,47,65,1);
+  color: rgba(36, 47, 65, 1);
   position: absolute;
   top: 86px;
   left: 50px;
   font-family: Mulish;
-  font-weight: Light;
   font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
+.textoVeiculo {
+  width: 90px;
+  color: rgba(65, 65, 69, 1);
+  position: absolute;
+  top: 189px;
+  left: 64px;
+  font-family: Poppins;
+  font-size: 20px;
   opacity: 1;
   text-align: left;
 }
 
-.textoVeiculo {
-  width: 57px;
-  color: rgba(65,65,69,1);
-  position: absolute;
-  top: 191px;
-  left: 36px;
-  font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
-  opacity: 1;
-  text-align: left;
-}
 .textoMatricula {
-  width: 73px;
-  color: rgba(168,168,170,1);
+  width: 124px;
+  color: rgba(168, 168, 170, 1);
   position: absolute;
-  top: 210px;
-  left: 36px;
+  top: 217px;
+  left: 65px;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 10px;
+  font-size: 16px;
   opacity: 1;
   text-align: left;
 }
+
 .textoAlgemas {
-  width: 68px;
-  color: rgba(65,65,69,1);
+  width: 103px;
+  color: rgba(65, 65, 69, 1);
   position: absolute;
-  top: 306px;
-  left: 35px;
+  top: 327px;
+  left: 64px;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
+  font-size: 17px;
   opacity: 1;
   text-align: left;
 }
+
 .textoArma {
-  width: 42px;
-  color: rgba(65,65,69,1);
+  width: 91px;
+  color: rgba(65, 65, 69, 1);
   position: absolute;
-  top: 248px;
-  left: 35px;
+  top: 259px;
+  left: 64px;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
+  font-size: 18px;
   opacity: 1;
   text-align: left;
 }
 
 
 .textoMascara {
-  width: 67px;
-  color: rgba(65,65,69,1);
+  width: 98px;
+  color: rgba(65, 65, 69, 1);
   position: absolute;
-  top: 350px;
-  left: 36px;
+  top: 377px;
+  left: 64px;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
+  font-size: 17px;
   opacity: 1;
   text-align: left;
 }
 
 
 .textoCassetete {
-  width: 80px;
-  color: rgba(65,65,69,1);
+  width: 117px;
+  color: rgba(65, 65, 69, 1);
   position: absolute;
-  top: 394px;
-  left: 36px;
+  top: 429px;
+  left: 64px;
   font-family: Poppins;
-  font-weight: Medium;
-  font-size: 14px;
+  font-size: 17px;
   opacity: 1;
   text-align: left;
 }
@@ -155,7 +151,7 @@
   width: 88px;
   color: rgba(20, 19, 42, 1);
   position: absolute;
-  top: 296px;
+  top: 327px;
   left: 302px;
   font-family: Poppins;
   font-size: 16px;
@@ -168,7 +164,7 @@
   width: 88px;
   color: rgba(20, 19, 42, 1);
   position: absolute;
-  top: 343px;
+  top: 377px;
   left: 302px;
   font-family: Poppins;
   font-size: 16px;
@@ -181,7 +177,7 @@
   width: 88px;
   color: rgba(20, 19, 42, 1);
   position: absolute;
-  top: 394px;
+  top: 429px;
   left: 302px;
   font-family: Poppins;
   font-size: 16px;
@@ -200,27 +196,28 @@
 }
 
 .botaoCheck {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 302px;
-    top: 457px;
-    background: #EBEBEB;
-    border: none;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
-    border-radius: 32px;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 302px;
+  top: 503px;
+  background: #EBEBEB;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), -10px -10px 20px #FFFFFF;
+  border-radius: 32px;
 }
 
 #iconCheck {
-    position: absolute;
-    top: 473px;
-    left: 316px;
-    color: #28A820;
+  position: absolute;
+  top: 518px;
+  left: 316px;
+  color: #28A820;
 }
 
 .fa-check:before {
-    font-size: 30px;
+  font-size: 30px;
 }
+
 /* Outline */
 
 :focus {
@@ -234,6 +231,7 @@
 :selected {
   outline: 0;
 }
+
 :input {
-text-align: center;
+  text-align: center;
 }

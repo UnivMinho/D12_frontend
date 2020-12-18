@@ -28,6 +28,18 @@ variaveloito.onclick = buttonSimMenu;
 const variavelnove = document.getElementById("buttonCloseMenu");
 variavelnove.onclick = buttonCloseMenu;
 
+const variaveldez = document.getElementById("caixaTextoComAjuda");
+variaveldez.onclick = buttonComAjuda;
+
+const variavelonze = document.getElementById("caixaTextoComProb");
+variavelonze.onclick = buttonComProb;
+
+const variaveldoze = document.getElementById("caixaTextoTermos");
+variaveldoze.onclick = buttonTermos;
+
+const variaveltreze = document.getElementById("caixaDefinicoes");
+variaveltreze.onclick = buttonDefinicoes;
+
 
 function dadosTerminarSessao(){
 document.getElementById("bgmodalMenu").className = "bgmodal"; //Apaarecer o aviso //ao carregar no botão vai para a página "Rank.html"
@@ -67,4 +79,20 @@ function buttonSimMenu() {
 
 function buttonCloseMenu() {
     document.getElementById("bgmodalRegisto").className = "hidden" //carregar no X e fechar o aviso
+}
+
+function buttonComAjuda() {
+    window.location.href = "ComunidadeAjuda.html" //ao carregar no botão vai para a página "Página Inicial.html"
+}
+
+function buttonComProb() {
+    window.location.href = "ComunicarProblemas.html" //ao carregar no botão vai para a página "Página Inicial.html"
+}
+
+function buttonTermos() {
+    window.location.href = "TermosEPoliticas.html" //ao carregar no botão vai para a página "Página Inicial.html"
+}
+
+function buttonDefinicoes() {
+    window.location.href = "DefinicoesEPrivacidade.html" //ao carregar no botão vai para a página "Página Inicial.html"
 }
